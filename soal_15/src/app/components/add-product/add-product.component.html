@@ -1,0 +1,23 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>Add Product</mat-card-title>
+    <mat-card-subtitle>add product to vending machine</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <form [formGroup]="productForm" (ngSubmit)="addProduct()">
+      <mat-form-field class="add-form-full-width">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Product Name" formControlName="name">
+      </mat-form-field>
+    <mat-form-field class="add-form-full-width">
+      <mat-label>Price</mat-label>
+      <input matInput placeholder="price" formControlName="price">
+    </mat-form-field>
+    <mat-form-field class="add-form-full-width">
+      <mat-label>Quantity</mat-label>
+      <input matInput placeholder="quantity" formControlName="quantity">
+    </mat-form-field>
+      <button type="submit">Submit</button>
+    </form>
+  </mat-card-content>
+</mat-card>

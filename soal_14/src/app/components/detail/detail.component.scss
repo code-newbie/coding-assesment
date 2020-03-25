@@ -1,0 +1,28 @@
+.card-detail {
+  background: darkslategrey;
+  padding: 0 0;
+  height: 100%;
+}
+.card-pause {
+  display: inline;
+  background: teal;
+  color: white;
+  position: absolute;
+  margin-top: -50px;
+  right: 40px;
+}
+.card-header {
+  color: white;
+}
+
+.card-sound {
+  color: teal;
+}
+
+.card-footer {
+  color: black;
+  background: white;
+  margin-left: 0;
+  padding-top: 20px;
+}
+
