@@ -1,0 +1,33 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer-content>
+<div *ngIf="item">
+  <mat-card class="card-detail">
+    <mat-card-content>
+      <img mat-card-image src="{{ item.image }}" alt="" style="height: 500px;">
+    </mat-card-content>
+    <mat-card-header>
+      <mat-card-title class="card-header">{{ item.title }}</mat-card-title>
+      <mat-card-subtitle class="card-header">{{ item.subtitle }}</mat-card-subtitle>
+      <button mat-fab class="card-pause">
+        <mat-icon>pause</mat-icon>
+      </button>
+    </mat-card-header>
+    <mat-card-content class="card-footer">
+      <mat-grid-list cols="3" rowHeight="3:1">
+        <mat-grid-tile>
+          <button mat-icon-button class="card-sound">
+            <mat-icon>volume_up</mat-icon>
+          </button>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          {{item.text_1}}
+        </mat-grid-tile>
+        <mat-grid-tile>
+          {{item.text_2}}
+        </mat-grid-tile>
+      </mat-grid-list>
+    </mat-card-content>
+  </mat-card>
+</div>
+  </mat-drawer-content>
+</mat-drawer-container>

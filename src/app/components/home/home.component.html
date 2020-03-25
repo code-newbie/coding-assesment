@@ -1,0 +1,27 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="list-fill-remaining-space"></span>
+    <button mat-icon-button>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">search</mat-icon>
+    </button>
+    <button mat-icon-button>
+      <mat-icon aria-hidden="false" aria-label="Example home icon">more_vert</mat-icon>
+    </button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<div class="cardList">
+  <div fxLayout="row wrap" fxLayoutGap="0" fxLayoutAlign="center">
+    <mat-card fxFlex=" 1 calc(50% - 32px)" *ngFor="let item of items" (click)="onSelect(item)"
+              style="background: darkslategrey; border-radius: 0; border: 1px solid">
+      <img mat-card-image [src]="item.image" alt="">
+      <mat-card-title style="height: 30px">
+        <mat-card-title class="list-title">{{ item.title }}</mat-card-title>
+        <mat-card-subtitle class="list-subtitle">{{ item.subtitle }}</mat-card-subtitle>
+        <button class="list-fav" mat-icon-button>
+          <mat-icon *ngIf="item.favourite" style="color: gold">star</mat-icon>
+          <mat-icon *ngIf="!item.favourite">star_outline</mat-icon>
+        </button>
+      </mat-card-title>
+    </mat-card>
+  </div>
+</div>
