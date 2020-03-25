@@ -1,0 +1,13 @@
+table {
+  width: 100%;
+}
+
+mat-grid-tile {
+  background: whitesmoke;
+}
+
+mat-card {
+  width: 400px;
+}
+
+/*# sourceMappingURL=app.component.css.map */
