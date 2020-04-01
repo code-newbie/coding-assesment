@@ -1,0 +1,34 @@
+{
+  "album": [
+    {
+      "coverImage": "Christina Aguilera",
+      "songTitle": "Bionic",
+      "artist": "Christina Aguilera"
+    },
+    {
+      "coverImage": "Ellie Goulding",
+      "songTitle": "Halcyon Days",
+      "artist": "Ellie Goulding"
+    },
+    {
+      "coverImage": "Foster The People",
+      "songTitle": "Supermodel",
+      "artist": "Foster The People"
+    },
+    {
+      "coverImage": "Keane",
+      "songTitle": "Under the Iron Sea",
+      "artist": "Keane"
+    },
+    {
+      "coverImage": "Kodaline",
+      "songTitle": "In a Perfect World",
+      "artist": "Kodaline"
+    },
+    {
+      "coverImage": "Flaming Lips",
+      "songTitle": "Yoshimi Battles The Pink Robots",
+      "artist": "The Flaming Lips"
+    }
+  ]
+}
