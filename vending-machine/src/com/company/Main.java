@@ -3,10 +3,10 @@ package com.company;
 import java.util.Scanner;
 
 public class Main {
-    private static int price=0;
-    private static int aquaStock = 0;
-    private static int tehBotolStock = 0;
-    private static int pocariSweatStock = 0;
+    private static int price = 0;
+    private static int aquaStock = 10;
+    private static int tehBotolStock = 15;
+    private static int pocariSweatStock = 5;
 
     private static int aquaPrice = 5000;
     private static int tehBotolPrice = 7000;
@@ -14,7 +14,7 @@ public class Main {
 
 
     public static void main(String[] args) {
-        while(aquaStock != 0 || tehBotolStock != 0 || pocariSweatStock != 0) {
+        while (aquaStock != 0 || tehBotolStock != 0 || pocariSweatStock != 0) {
             Scanner input = new Scanner(System.in);
 
             System.out.println("Masukkan minuman yang anda inginkan : ");
@@ -66,8 +66,7 @@ public class Main {
             }
         }
 
-        System.out.println();
+        System.out.println("Semua product habis");
     }
-
 
 }
