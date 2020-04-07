@@ -1,0 +1,44 @@
+<h1>{{ name }}</h1>
+<p>
+  Untuk Soal B dan C tinggal tekan tombolnya
+</p>
+<table>
+    <tr>
+        <input [(ngModel)]="jumlah" placeholder="isi jumlah robot" required>
+        <button (click)="buttonA()">Soal 17 A</button>
+        <button (click)="buttonB()">Soal 17 B</button>
+        <button (click)="buttonC()">Soal 17 C</button>
+        <button (click)="buttonD()">Soal 17 D</button>
+    </tr>
+    <tr>*{{error}}</tr>
+    <tr>casus ketika = {{cases}}</tr>
+    <tr *ngFor="let item of robotRelease; let i = index">
+        <td>
+            {{item.nama}}
+        </td>
+        <td>
+            <button (click)="resetID(i)" [disabled]="!item.activate">Reset ID </button>
+        </td>     
+    </tr>
+</table>
+
+<div *ngIf="tombolC">
+    <h1>
+        DATA ID ROBOT BEFORE THIS PRODUCTION
+        </h1>
+        
+        <tr class="test" *ngFor="let item of robotExisting; let i = index">
+            <!-- // In your case this line should be within ngFor loop -->
+            <td>
+                -
+            </td>
+            <td>
+                {{item}}
+            </td>
+        </tr>
+        
+</div>
+
+
+
+
