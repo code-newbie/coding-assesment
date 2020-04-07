@@ -5,4 +5,5 @@ fun main(args: Array<String>) {
     val stringInput = readLine()!!
 
     println("phone number: "+checkPhoneNumber(stringInput))
+
 }
