@@ -18,15 +18,3 @@
   clear: both;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "  ";
-  display: table;
-  clear: both;
-}
-
-.row{
-  background-color: black;
-  color: aliceblue;
-}
-
