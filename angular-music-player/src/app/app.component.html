@@ -1,0 +1,16 @@
+  <div *ngIf="!select" class="row" [formGroup]="dataForm">
+    <div class="column" *ngFor="let image of imgName1">
+      <img src="assets/showcase/images/{{image.name}}" style="width:100%" (click)=onClick(image)>
+      <div class="row"> {{image.singer}} &#9734;</div>
+      <div class="row">{{image.title}}</div>
+    </div>
+    <div class="column" *ngFor="let image of imgName2">
+      <img src="assets/showcase/images/{{image.name}}" style="width:100%" (click)=onClick(image)>
+      <div class="row"> {{image.singer}} &#9734;</div>
+      <div class="row">{{image.title}}</div>
+    </div>
+  </div>
+
+  <div *ngIf="select">
+      <app-detail [name]="name" [singer]="singer" [title]="title"></app-detail>
+    </div>

@@ -1,0 +1,27 @@
+.column {
+  float: left;
+  width: 50%;
+  background-color: black;
+  border-color: aqua;
+  color: aliceblue;
+}
+
+.column::after {
+  content: "";
+  display: table;
+  border-spacing: 5pt;
+  clear: both;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "  ";
+  display: table;
+  clear: both;
+}
+
+.row{
+  background-color: black;
+  color: aliceblue;
+}
+
