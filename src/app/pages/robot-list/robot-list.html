@@ -1,0 +1,30 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title>Robot List</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+	<ion-grid fixed>
+		<ion-row>
+			<ion-col size="6" *ngFor="let item of robots let i=index;" class="ion-no-margin ion-no-padding">
+				<ion-card>
+					<ion-card-header class="ion-text-center ion-align-self-center">
+						<ion-label>
+							<p>Nama : {{item.name}}</p>
+						</ion-label>
+						<ion-icon color="danger" (click)="markRobotError(i)"  size="large" name="close-circle-outline"></ion-icon>
+					</ion-card-header>
+				</ion-card>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+	<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+		<ion-fab-button (click)="produceRobot()">
+			<ion-icon name="add"></ion-icon>
+		</ion-fab-button>
+	</ion-fab>
+</ion-content>

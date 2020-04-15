@@ -1,0 +1,28 @@
+<ion-header>
+	<ion-toolbar>
+		<ion-buttons slot="start">
+			<ion-menu-button></ion-menu-button>
+		</ion-buttons>
+		<ion-title>Image List</ion-title>
+	</ion-toolbar>
+</ion-header>
+
+<ion-content fullscreen="true">
+	<ion-grid fixed>
+		<ion-row>
+			<ion-col size="6" *ngFor="let speaker of speakers let i=index;" class="ion-no-margin ion-no-padding">
+				<ion-card class="image-card" detail="false" routerLink="/image-detail/{{speaker.id}}" class="ion-no-margin ion-no-padding">
+					<img [src]="speaker.profilePic" [alt]="speaker.name + ' profile picture'">
+					<ion-card-header>
+						<ion-item lines="none">
+							<ion-label>
+								<h2>{{speaker.name}}</h2>
+								<p>{{speaker.title}}</p>
+							</ion-label>
+						</ion-item>
+					</ion-card-header>
+				</ion-card>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+</ion-content>
