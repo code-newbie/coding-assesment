@@ -1,0 +1,8 @@
+.image-card {
+	display: flex;
+	flex-direction: column;
+}
+
+ion-col:not(:last-of-type) .image-card {
+	margin-bottom: 0;
+}

@@ -1,0 +1,16 @@
+<ion-content class="speaker-detail">
+	<ion-header class="ion-no-border">
+		<ion-toolbar>
+			<ion-buttons slot="start">
+				<ion-back-button defaultHref="/image-list"></ion-back-button>
+			</ion-buttons>
+		</ion-toolbar>
+	</ion-header>
+	
+	<img [src]="speaker?.profilePic" [alt]="speaker?.name">
+	
+	<div class="ion-padding speaker-detail">
+		<h2>{{speaker?.name}}</h2>
+		<p>{{speaker?.about}} Say hello on social media!</p>
+	</div>
+</ion-content>
