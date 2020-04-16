@@ -7,20 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CCC248202448A29600F7560F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2481F2448A29600F7560F /* RootViewController.swift */; };
 		CCF8969324489665009B507A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8969224489665009B507A /* AppDelegate.swift */; };
 		CCF8969524489665009B507A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8969424489665009B507A /* SceneDelegate.swift */; };
-		CCF8969724489665009B507A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8969624489665009B507A /* ViewController.swift */; };
-		CCF8969A24489665009B507A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF8969824489665009B507A /* Main.storyboard */; };
 		CCF8969C24489666009B507A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF8969B24489666009B507A /* Assets.xcassets */; };
 		CCF8969F24489666009B507A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF8969D24489666009B507A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CCC2481F2448A29600F7560F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		CCF8968F24489665009B507A /* IGLO-AIA Coding Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGLO-AIA Coding Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF8969224489665009B507A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF8969424489665009B507A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CCF8969624489665009B507A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CCF8969924489665009B507A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCF8969B24489666009B507A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCF8969E24489666009B507A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCF896A024489666009B507A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,10 +54,9 @@
 		CCF8969124489665009B507A /* IGLO-AIA Coding Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				CCC2481F2448A29600F7560F /* RootViewController.swift */,
 				CCF8969224489665009B507A /* AppDelegate.swift */,
 				CCF8969424489665009B507A /* SceneDelegate.swift */,
-				CCF8969624489665009B507A /* ViewController.swift */,
-				CCF8969824489665009B507A /* Main.storyboard */,
 				CCF8969B24489666009B507A /* Assets.xcassets */,
 				CCF8969D24489666009B507A /* LaunchScreen.storyboard */,
 				CCF896A024489666009B507A /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				CCF8969F24489666009B507A /* LaunchScreen.storyboard in Resources */,
 				CCF8969C24489666009B507A /* Assets.xcassets in Resources */,
-				CCF8969A24489665009B507A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +134,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF8969724489665009B507A /* ViewController.swift in Sources */,
 				CCF8969324489665009B507A /* AppDelegate.swift in Sources */,
 				CCF8969524489665009B507A /* SceneDelegate.swift in Sources */,
+				CCC248202448A29600F7560F /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CCF8969824489665009B507A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCF8969924489665009B507A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CCF8969D24489666009B507A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5K4FW28Q2;
 				INFOPLIST_FILE = "IGLO-AIA Coding Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +294,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C5K4FW28Q2;
 				INFOPLIST_FILE = "IGLO-AIA Coding Assessment/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
