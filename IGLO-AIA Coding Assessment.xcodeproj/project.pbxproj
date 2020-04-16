@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC1F39F62448D95400F00CA1 /* RobotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F39F52448D95400F00CA1 /* RobotViewController.swift */; };
+		CC1F39F82448DBD800F00CA1 /* ModelRobot.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F39F72448DBD800F00CA1 /* ModelRobot.swift */; };
+		CC1F39FB2448DC8700F00CA1 /* String+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1F39FA2448DC8700F00CA1 /* String+Random.swift */; };
 		CCC248202448A29600F7560F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC2481F2448A29600F7560F /* RootViewController.swift */; };
 		CCF8969324489665009B507A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8969224489665009B507A /* AppDelegate.swift */; };
 		CCF8969524489665009B507A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF8969424489665009B507A /* SceneDelegate.swift */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC1F39F52448D95400F00CA1 /* RobotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotViewController.swift; sourceTree = "<group>"; };
+		CC1F39F72448DBD800F00CA1 /* ModelRobot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelRobot.swift; sourceTree = "<group>"; };
+		CC1F39FA2448DC8700F00CA1 /* String+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Random.swift"; sourceTree = "<group>"; };
 		CCC2481F2448A29600F7560F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		CCF8968F24489665009B507A /* IGLO-AIA Coding Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IGLO-AIA Coding Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF8969224489665009B507A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC1F39F42448D93900F00CA1 /* RobotNameGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				CC1F39F52448D95400F00CA1 /* RobotViewController.swift */,
+				CC1F39F72448DBD800F00CA1 /* ModelRobot.swift */,
+			);
+			path = RobotNameGenerator;
+			sourceTree = "<group>";
+		};
+		CC1F39F92448DC7B00F00CA1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CC1F39FA2448DC8700F00CA1 /* String+Random.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CCC248212448D07000F7560F /* Root View */ = {
+			isa = PBXGroup;
+			children = (
+				CCC2481F2448A29600F7560F /* RootViewController.swift */,
+			);
+			path = "Root View";
+			sourceTree = "<group>";
+		};
 		CCF8968624489665009B507A = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +85,9 @@
 		CCF8969124489665009B507A /* IGLO-AIA Coding Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				CCC2481F2448A29600F7560F /* RootViewController.swift */,
+				CC1F39F92448DC7B00F00CA1 /* Utilities */,
+				CCC248212448D07000F7560F /* Root View */,
+				CC1F39F42448D93900F00CA1 /* RobotNameGenerator */,
 				CCF8969224489665009B507A /* AppDelegate.swift */,
 				CCF8969424489665009B507A /* SceneDelegate.swift */,
 				CCF8969B24489666009B507A /* Assets.xcassets */,
@@ -134,7 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1F39F82448DBD800F00CA1 /* ModelRobot.swift in Sources */,
 				CCF8969324489665009B507A /* AppDelegate.swift in Sources */,
+				CC1F39F62448D95400F00CA1 /* RobotViewController.swift in Sources */,
+				CC1F39FB2448DC8700F00CA1 /* String+Random.swift in Sources */,
 				CCF8969524489665009B507A /* SceneDelegate.swift in Sources */,
 				CCC248202448A29600F7560F /* RootViewController.swift in Sources */,
 			);
