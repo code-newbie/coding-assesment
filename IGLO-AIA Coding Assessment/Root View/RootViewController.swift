@@ -14,7 +14,7 @@ class RootViewController: UIViewController {
         let btn = UIButton()
         btn.translatesAutoresizingMaskIntoConstraints = false
         btn.backgroundColor = #colorLiteral(red: 0.8321695924, green: 0.985483706, blue: 0.4733308554, alpha: 1)
-        btn.setTitle("Robot Name generator", for: .normal)
+        btn.setTitle("Robot Name Generator", for: .normal)
         btn.setTitleColor(.black, for: .normal)
         btn.titleLabel?.lineBreakMode = .byWordWrapping
         btn.titleLabel?.textAlignment = .center
@@ -51,7 +51,7 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.title = "Menu"
-        view.backgroundColor = .white
+        view.backgroundColor = #colorLiteral(red: 0.8039215803, green: 0.8039215803, blue: 0.8039215803, alpha: 1)
         initView()
         // Do any additional setup after loading the view.
     }

@@ -25,6 +25,7 @@ class RobotViewController: UIViewController {
         tableView.dataSource = self
         tableView.tableFooterView = UIView()
         tableView.refreshControl = self.refreshControl
+        tableView.allowsSelection = false
         return tableView
     }()
     

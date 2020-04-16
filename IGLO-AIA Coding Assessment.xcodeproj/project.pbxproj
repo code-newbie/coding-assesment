@@ -58,6 +58,13 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		CC275FE52448F067002B2294 /* Image Viewer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Image Viewer";
+			sourceTree = "<group>";
+		};
 		CCC248212448D07000F7560F /* Root View */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +95,7 @@
 				CC1F39F92448DC7B00F00CA1 /* Utilities */,
 				CCC248212448D07000F7560F /* Root View */,
 				CC1F39F42448D93900F00CA1 /* RobotNameGenerator */,
+				CC275FE52448F067002B2294 /* Image Viewer */,
 				CCF8969224489665009B507A /* AppDelegate.swift */,
 				CCF8969424489665009B507A /* SceneDelegate.swift */,
 				CCF8969B24489666009B507A /* Assets.xcassets */,
