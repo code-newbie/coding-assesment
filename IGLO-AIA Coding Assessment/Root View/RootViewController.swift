@@ -19,6 +19,7 @@ class RootViewController: UIViewController {
         btn.titleLabel?.lineBreakMode = .byWordWrapping
         btn.titleLabel?.textAlignment = .center
         btn.titleLabel?.font = .systemFont(ofSize: 24, weight: .light)
+        btn.layer.cornerRadius = 20
         btn.addTarget(nil, action: #selector(btnRobotPressed), for: .touchUpInside)
         return btn
     }()
@@ -32,6 +33,7 @@ class RootViewController: UIViewController {
         btn.titleLabel?.lineBreakMode = .byWordWrapping
         btn.titleLabel?.textAlignment = .center
         btn.titleLabel?.font = .systemFont(ofSize: 24, weight: .light)
+        btn.layer.cornerRadius = 20
         return btn
     }()
     

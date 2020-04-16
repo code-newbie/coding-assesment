@@ -9,13 +9,12 @@
 import Foundation
 
 struct Robot {
-    static var names : [String] = []
-    var name: String
+    var name: String = ""
     init() {
         rename()
-        while Robot.names.contains(name) {
-            rename()
-        }
+    }
+    init(_ name:String) {
+        self.name = name
     }
     mutating func rename() {
         let number = Int.random(in: 100...999)
