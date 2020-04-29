@@ -7,27 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		574339452459CADB00F5AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339442459CADB00F5AABE /* AppDelegate.swift */; };
-		574339472459CADB00F5AABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339462459CADB00F5AABE /* SceneDelegate.swift */; };
-		574339492459CADB00F5AABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339482459CADB00F5AABE /* ViewController.swift */; };
-		5743394C2459CADB00F5AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5743394A2459CADB00F5AABE /* Main.storyboard */; };
-		5743394E2459CAE000F5AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5743394D2459CAE000F5AABE /* Assets.xcassets */; };
-		574339512459CAE000F5AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5743394F2459CAE000F5AABE /* LaunchScreen.storyboard */; };
+		574339652459CB6400F5AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339642459CB6400F5AABE /* AppDelegate.swift */; };
+		574339672459CB6400F5AABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339662459CB6400F5AABE /* SceneDelegate.swift */; };
+		574339692459CB6400F5AABE /* DestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339682459CB6400F5AABE /* DestinationVC.swift */; };
+		5743396B2459CB6400F5AABE /* VendingMachineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743396A2459CB6400F5AABE /* VendingMachineVC.swift */; };
+		5743396E2459CB6400F5AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5743396C2459CB6400F5AABE /* Main.storyboard */; };
+		574339702459CB6600F5AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5743396F2459CB6600F5AABE /* Assets.xcassets */; };
+		574339732459CB6600F5AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 574339712459CB6600F5AABE /* LaunchScreen.storyboard */; };
+		5743397C2459CD8C00F5AABE /* DestinationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743397B2459CD8C00F5AABE /* DestinationModel.swift */; };
+		5743397E2459CE2E00F5AABE /* DestinationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */; };
+		574339862459D21500F5AABE /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339852459D21500F5AABE /* DestinationCell.swift */; };
+		574339882459DB9A00F5AABE /* DetailDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339872459DB9A00F5AABE /* DetailDestinationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		574339412459CADB00F5AABE /* aia-ios-assesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aia-ios-assesment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		574339442459CADB00F5AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		574339462459CADB00F5AABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		574339482459CADB00F5AABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5743394B2459CADB00F5AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5743394D2459CAE000F5AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		574339502459CAE000F5AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		574339522459CAE000F5AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		574339612459CB6400F5AABE /* aia-ios-assesment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aia-ios-assesment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		574339642459CB6400F5AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		574339662459CB6400F5AABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		574339682459CB6400F5AABE /* DestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationVC.swift; sourceTree = "<group>"; };
+		5743396A2459CB6400F5AABE /* VendingMachineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineVC.swift; sourceTree = "<group>"; };
+		5743396D2459CB6400F5AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5743396F2459CB6600F5AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		574339722459CB6600F5AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		574339742459CB6600F5AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5743397B2459CD8C00F5AABE /* DestinationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationModel.swift; sourceTree = "<group>"; };
+		5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewModel.swift; sourceTree = "<group>"; };
+		574339852459D21500F5AABE /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
+		574339872459DB9A00F5AABE /* DetailDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDestinationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5743393E2459CADB00F5AABE /* Frameworks */ = {
+		5743395E2459CB6400F5AABE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +47,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		574339382459CADB00F5AABE = {
+		574339582459CB6400F5AABE = {
 			isa = PBXGroup;
 			children = (
-				574339432459CADB00F5AABE /* aia-ios-assesment */,
-				574339422459CADB00F5AABE /* Products */,
+				574339632459CB6400F5AABE /* aia-ios-assesment */,
+				574339622459CB6400F5AABE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		574339422459CADB00F5AABE /* Products */ = {
+		574339622459CB6400F5AABE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				574339412459CADB00F5AABE /* aia-ios-assesment.app */,
+				574339612459CB6400F5AABE /* aia-ios-assesment.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		574339432459CADB00F5AABE /* aia-ios-assesment */ = {
+		574339632459CB6400F5AABE /* aia-ios-assesment */ = {
 			isa = PBXGroup;
 			children = (
-				574339442459CADB00F5AABE /* AppDelegate.swift */,
-				574339462459CADB00F5AABE /* SceneDelegate.swift */,
-				574339482459CADB00F5AABE /* ViewController.swift */,
-				5743394A2459CADB00F5AABE /* Main.storyboard */,
-				5743394D2459CAE000F5AABE /* Assets.xcassets */,
-				5743394F2459CAE000F5AABE /* LaunchScreen.storyboard */,
-				574339522459CAE000F5AABE /* Info.plist */,
+				5743397A2459CD0A00F5AABE /* Model */,
+				5743397F2459CE3300F5AABE /* ViewModel */,
+				574339802459D09700F5AABE /* View */,
+				574339662459CB6400F5AABE /* SceneDelegate.swift */,
+				574339642459CB6400F5AABE /* AppDelegate.swift */,
+				5743396C2459CB6400F5AABE /* Main.storyboard */,
+				5743396F2459CB6600F5AABE /* Assets.xcassets */,
+				574339712459CB6600F5AABE /* LaunchScreen.storyboard */,
+				574339742459CB6600F5AABE /* Info.plist */,
 			);
 			path = "aia-ios-assesment";
+			sourceTree = "<group>";
+		};
+		5743397A2459CD0A00F5AABE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5743397B2459CD8C00F5AABE /* DestinationModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5743397F2459CE3300F5AABE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		574339802459D09700F5AABE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				574339812459D0AD00F5AABE /* Controller */,
+				574339822459D0B500F5AABE /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		574339812459D0AD00F5AABE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				574339682459CB6400F5AABE /* DestinationVC.swift */,
+				574339872459DB9A00F5AABE /* DetailDestinationVC.swift */,
+				5743396A2459CB6400F5AABE /* VendingMachineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		574339822459D0B500F5AABE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				574339852459D21500F5AABE /* DestinationCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		574339402459CADB00F5AABE /* aia-ios-assesment */ = {
+		574339602459CB6400F5AABE /* aia-ios-assesment */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 574339552459CAE000F5AABE /* Build configuration list for PBXNativeTarget "aia-ios-assesment" */;
+			buildConfigurationList = 574339772459CB6600F5AABE /* Build configuration list for PBXNativeTarget "aia-ios-assesment" */;
 			buildPhases = (
-				5743393D2459CADB00F5AABE /* Sources */,
-				5743393E2459CADB00F5AABE /* Frameworks */,
-				5743393F2459CADB00F5AABE /* Resources */,
+				5743395D2459CB6400F5AABE /* Sources */,
+				5743395E2459CB6400F5AABE /* Frameworks */,
+				5743395F2459CB6400F5AABE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +139,25 @@
 			);
 			name = "aia-ios-assesment";
 			productName = "aia-ios-assesment";
-			productReference = 574339412459CADB00F5AABE /* aia-ios-assesment.app */;
+			productReference = 574339612459CB6400F5AABE /* aia-ios-assesment.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		574339392459CADB00F5AABE /* Project object */ = {
+		574339592459CB6400F5AABE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Imanuel Pardosi";
 				TargetAttributes = {
-					574339402459CADB00F5AABE = {
+					574339602459CB6400F5AABE = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 5743393C2459CADB00F5AABE /* Build configuration list for PBXProject "aia-ios-assesment" */;
+			buildConfigurationList = 5743395C2459CB6400F5AABE /* Build configuration list for PBXProject "aia-ios-assesment" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +165,60 @@
 				en,
 				Base,
 			);
-			mainGroup = 574339382459CADB00F5AABE;
-			productRefGroup = 574339422459CADB00F5AABE /* Products */;
+			mainGroup = 574339582459CB6400F5AABE;
+			productRefGroup = 574339622459CB6400F5AABE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				574339402459CADB00F5AABE /* aia-ios-assesment */,
+				574339602459CB6400F5AABE /* aia-ios-assesment */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5743393F2459CADB00F5AABE /* Resources */ = {
+		5743395F2459CB6400F5AABE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574339512459CAE000F5AABE /* LaunchScreen.storyboard in Resources */,
-				5743394E2459CAE000F5AABE /* Assets.xcassets in Resources */,
-				5743394C2459CADB00F5AABE /* Main.storyboard in Resources */,
+				574339732459CB6600F5AABE /* LaunchScreen.storyboard in Resources */,
+				574339702459CB6600F5AABE /* Assets.xcassets in Resources */,
+				5743396E2459CB6400F5AABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5743393D2459CADB00F5AABE /* Sources */ = {
+		5743395D2459CB6400F5AABE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				574339492459CADB00F5AABE /* ViewController.swift in Sources */,
-				574339452459CADB00F5AABE /* AppDelegate.swift in Sources */,
-				574339472459CADB00F5AABE /* SceneDelegate.swift in Sources */,
+				5743397C2459CD8C00F5AABE /* DestinationModel.swift in Sources */,
+				5743397E2459CE2E00F5AABE /* DestinationViewModel.swift in Sources */,
+				574339882459DB9A00F5AABE /* DetailDestinationVC.swift in Sources */,
+				5743396B2459CB6400F5AABE /* VendingMachineVC.swift in Sources */,
+				574339862459D21500F5AABE /* DestinationCell.swift in Sources */,
+				574339692459CB6400F5AABE /* DestinationVC.swift in Sources */,
+				574339652459CB6400F5AABE /* AppDelegate.swift in Sources */,
+				574339672459CB6400F5AABE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5743394A2459CADB00F5AABE /* Main.storyboard */ = {
+		5743396C2459CB6400F5AABE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5743394B2459CADB00F5AABE /* Base */,
+				5743396D2459CB6400F5AABE /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		5743394F2459CAE000F5AABE /* LaunchScreen.storyboard */ = {
+		574339712459CB6600F5AABE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				574339502459CAE000F5AABE /* Base */,
+				574339722459CB6600F5AABE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +226,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		574339532459CAE000F5AABE /* Debug */ = {
+		574339752459CB6600F5AABE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +286,7 @@
 			};
 			name = Debug;
 		};
-		574339542459CAE000F5AABE /* Release */ = {
+		574339762459CB6600F5AABE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +340,7 @@
 			};
 			name = Release;
 		};
-		574339562459CAE000F5AABE /* Debug */ = {
+		574339782459CB6600F5AABE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -298,7 +358,7 @@
 			};
 			name = Debug;
 		};
-		574339572459CAE000F5AABE /* Release */ = {
+		574339792459CB6600F5AABE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,25 +379,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5743393C2459CADB00F5AABE /* Build configuration list for PBXProject "aia-ios-assesment" */ = {
+		5743395C2459CB6400F5AABE /* Build configuration list for PBXProject "aia-ios-assesment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574339532459CAE000F5AABE /* Debug */,
-				574339542459CAE000F5AABE /* Release */,
+				574339752459CB6600F5AABE /* Debug */,
+				574339762459CB6600F5AABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		574339552459CAE000F5AABE /* Build configuration list for PBXNativeTarget "aia-ios-assesment" */ = {
+		574339772459CB6600F5AABE /* Build configuration list for PBXNativeTarget "aia-ios-assesment" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				574339562459CAE000F5AABE /* Debug */,
-				574339572459CAE000F5AABE /* Release */,
+				574339782459CB6600F5AABE /* Debug */,
+				574339792459CB6600F5AABE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 574339392459CADB00F5AABE /* Project object */;
+	rootObject = 574339592459CB6400F5AABE /* Project object */;
 }
