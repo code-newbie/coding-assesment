@@ -27,6 +27,11 @@ class ProductVC: UIViewController {
         productViewModel.totalMoney = totalMoney
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
+    
     @IBAction func btnChooseProcessOnClick() {
         if productViewModel.totalPurchased > 0 {
             let successVC = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: "successVC") as? SuccessVC

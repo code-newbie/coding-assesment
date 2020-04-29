@@ -20,6 +20,11 @@ class VendingMachineVC: UIViewController {
         self.navigationController!.navigationBar.isTranslucent = false
         
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: animated)
+    }
 
     @IBAction func btnChooseDrinkOnClick() {
         if vendingMachineViewModel.currentMoney > 0 {

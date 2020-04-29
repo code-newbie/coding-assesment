@@ -16,6 +16,11 @@ class SuccessVC: UIViewController {
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: animated)
+    }
+    
     @IBAction func btnBackToHomeOnClick() {
         self.navigationController?.popToRootViewController(animated: true)
     }
