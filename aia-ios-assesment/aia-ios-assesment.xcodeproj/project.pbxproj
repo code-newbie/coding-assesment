@@ -18,6 +18,18 @@
 		5743397E2459CE2E00F5AABE /* DestinationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */; };
 		574339862459D21500F5AABE /* DestinationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339852459D21500F5AABE /* DestinationCell.swift */; };
 		574339882459DB9A00F5AABE /* DetailDestinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339872459DB9A00F5AABE /* DetailDestinationVC.swift */; };
+		5743398A2459E96600F5AABE /* MoneyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339892459E96600F5AABE /* MoneyCell.swift */; };
+		5743398C2459F47200F5AABE /* VendingMachineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743398B2459F47200F5AABE /* VendingMachineViewModel.swift */; };
+		5743398E2459F4B100F5AABE /* NominalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743398D2459F4B100F5AABE /* NominalModel.swift */; };
+		574339922459F7F000F5AABE /* Formatter + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339912459F7F000F5AABE /* Formatter + Extensions.swift */; };
+		574339952459F90000F5AABE /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339942459F90000F5AABE /* Utility.swift */; };
+		574339972459FAC900F5AABE /* ProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339962459FAC900F5AABE /* ProductVC.swift */; };
+		574339992459FEBD00F5AABE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339982459FEBD00F5AABE /* ProductCell.swift */; };
+		5743399B245A017900F5AABE /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743399A245A017900F5AABE /* Product.swift */; };
+		5743399D245A01A000F5AABE /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5743399C245A01A000F5AABE /* ProductViewModel.swift */; };
+		574339A1245A065600F5AABE /* CommonProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339A0245A065600F5AABE /* CommonProtocols.swift */; };
+		574339A4245A0B5200F5AABE /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339A3245A0B5200F5AABE /* Enums.swift */; };
+		574339A6245A1C1600F5AABE /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 574339A5245A1C1600F5AABE /* SuccessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +46,18 @@
 		5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewModel.swift; sourceTree = "<group>"; };
 		574339852459D21500F5AABE /* DestinationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationCell.swift; sourceTree = "<group>"; };
 		574339872459DB9A00F5AABE /* DetailDestinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDestinationVC.swift; sourceTree = "<group>"; };
+		574339892459E96600F5AABE /* MoneyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyCell.swift; sourceTree = "<group>"; };
+		5743398B2459F47200F5AABE /* VendingMachineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineViewModel.swift; sourceTree = "<group>"; };
+		5743398D2459F4B100F5AABE /* NominalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NominalModel.swift; sourceTree = "<group>"; };
+		574339912459F7F000F5AABE /* Formatter + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Formatter + Extensions.swift"; sourceTree = "<group>"; };
+		574339942459F90000F5AABE /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		574339962459FAC900F5AABE /* ProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductVC.swift; sourceTree = "<group>"; };
+		574339982459FEBD00F5AABE /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		5743399A245A017900F5AABE /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		5743399C245A01A000F5AABE /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		574339A0245A065600F5AABE /* CommonProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonProtocols.swift; sourceTree = "<group>"; };
+		574339A3245A0B5200F5AABE /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		574339A5245A1C1600F5AABE /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +90,7 @@
 		574339632459CB6400F5AABE /* aia-ios-assesment */ = {
 			isa = PBXGroup;
 			children = (
+				5743398F2459F7C600F5AABE /* Common */,
 				5743397A2459CD0A00F5AABE /* Model */,
 				5743397F2459CE3300F5AABE /* ViewModel */,
 				574339802459D09700F5AABE /* View */,
@@ -83,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				5743397B2459CD8C00F5AABE /* DestinationModel.swift */,
+				5743398D2459F4B100F5AABE /* NominalModel.swift */,
+				5743399A245A017900F5AABE /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				5743397D2459CE2E00F5AABE /* DestinationViewModel.swift */,
+				5743398B2459F47200F5AABE /* VendingMachineViewModel.swift */,
+				5743399C245A01A000F5AABE /* ProductViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -110,6 +139,8 @@
 				574339682459CB6400F5AABE /* DestinationVC.swift */,
 				574339872459DB9A00F5AABE /* DetailDestinationVC.swift */,
 				5743396A2459CB6400F5AABE /* VendingMachineVC.swift */,
+				574339962459FAC900F5AABE /* ProductVC.swift */,
+				574339A5245A1C1600F5AABE /* SuccessVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -118,8 +149,53 @@
 			isa = PBXGroup;
 			children = (
 				574339852459D21500F5AABE /* DestinationCell.swift */,
+				574339892459E96600F5AABE /* MoneyCell.swift */,
+				574339982459FEBD00F5AABE /* ProductCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		5743398F2459F7C600F5AABE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				574339A2245A0B3900F5AABE /* Enums */,
+				574339902459F7D000F5AABE /* Extensions */,
+				5743399E245A063000F5AABE /* Protocol */,
+				574339932459F8E900F5AABE /* Utility */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		574339902459F7D000F5AABE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				574339912459F7F000F5AABE /* Formatter + Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		574339932459F8E900F5AABE /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				574339942459F90000F5AABE /* Utility.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		5743399E245A063000F5AABE /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				574339A0245A065600F5AABE /* CommonProtocols.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		574339A2245A0B3900F5AABE /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				574339A3245A0B5200F5AABE /* Enums.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,14 +269,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574339A6245A1C1600F5AABE /* SuccessVC.swift in Sources */,
+				5743399D245A01A000F5AABE /* ProductViewModel.swift in Sources */,
 				5743397C2459CD8C00F5AABE /* DestinationModel.swift in Sources */,
 				5743397E2459CE2E00F5AABE /* DestinationViewModel.swift in Sources */,
+				574339922459F7F000F5AABE /* Formatter + Extensions.swift in Sources */,
 				574339882459DB9A00F5AABE /* DetailDestinationVC.swift in Sources */,
 				5743396B2459CB6400F5AABE /* VendingMachineVC.swift in Sources */,
 				574339862459D21500F5AABE /* DestinationCell.swift in Sources */,
+				5743398E2459F4B100F5AABE /* NominalModel.swift in Sources */,
+				574339952459F90000F5AABE /* Utility.swift in Sources */,
+				574339972459FAC900F5AABE /* ProductVC.swift in Sources */,
+				574339A1245A065600F5AABE /* CommonProtocols.swift in Sources */,
+				5743399B245A017900F5AABE /* Product.swift in Sources */,
 				574339692459CB6400F5AABE /* DestinationVC.swift in Sources */,
+				5743398C2459F47200F5AABE /* VendingMachineViewModel.swift in Sources */,
 				574339652459CB6400F5AABE /* AppDelegate.swift in Sources */,
+				574339992459FEBD00F5AABE /* ProductCell.swift in Sources */,
 				574339672459CB6400F5AABE /* SceneDelegate.swift in Sources */,
+				5743398A2459E96600F5AABE /* MoneyCell.swift in Sources */,
+				574339A4245A0B5200F5AABE /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FNX75RVB29;
+				DEVELOPMENT_TEAM = 977P386PMQ;
 				INFOPLIST_FILE = "aia-ios-assesment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,7 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = FNX75RVB29;
+				DEVELOPMENT_TEAM = 977P386PMQ;
 				INFOPLIST_FILE = "aia-ios-assesment/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

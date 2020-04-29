@@ -12,7 +12,6 @@ class DetailDestinationVC: UIViewController {
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var lblName: UILabel!
     @IBOutlet weak var lblDescription: UILabel!
-    @IBOutlet weak var lblCountry: UILabel!
     
     internal var destination: Destination!
     

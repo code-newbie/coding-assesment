@@ -12,14 +12,13 @@ class DestinationCell: UICollectionViewCell {
     
     @IBOutlet weak var imgIcon: UIImageView!
     @IBOutlet weak var lblName: UILabel!
-    @IBOutlet weak var lblDescription: UILabel!
     @IBOutlet weak var lblCountry: UILabel!
     
     
     func configureCell(destination: Destination) {
         imgIcon.image = UIImage(named: destination.image)
         lblName.text = destination.name
-        lblDescription.text = destination.description
+        lblCountry.text = destination.country
     }
     
     
