@@ -14,6 +14,10 @@
 		FB96C550248B835900F1DEC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB96C54F248B835900F1DEC0 /* Assets.xcassets */; };
 		FB96C553248B835900F1DEC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB96C551248B835900F1DEC0 /* LaunchScreen.storyboard */; };
 		FB96C556248B835900F1DEC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96C555248B835900F1DEC0 /* main.m */; };
+		FB96C560248BBD7800F1DEC0 /* ImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96C55E248BBD7800F1DEC0 /* ImageCollectionViewCell.m */; };
+		FB96C561248BBD7800F1DEC0 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB96C55F248BBD7800F1DEC0 /* ImageCollectionViewCell.xib */; };
+		FB96C564248BD3C900F1DEC0 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96C563248BD3C900F1DEC0 /* DetailViewController.m */; };
+		FB96C568248BEEC100F1DEC0 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB96C567248BEEC100F1DEC0 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,13 @@
 		FB96C552248B835900F1DEC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB96C554248B835900F1DEC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB96C555248B835900F1DEC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB96C55D248BBD7800F1DEC0 /* ImageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCollectionViewCell.h; sourceTree = "<group>"; };
+		FB96C55E248BBD7800F1DEC0 /* ImageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCollectionViewCell.m; sourceTree = "<group>"; };
+		FB96C55F248BBD7800F1DEC0 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		FB96C562248BD3C900F1DEC0 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FB96C563248BD3C900F1DEC0 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FB96C566248BEEC100F1DEC0 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		FB96C567248BEEC100F1DEC0 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +72,12 @@
 		FB96C542248B835200F1DEC0 /* test_daniel */ = {
 			isa = PBXGroup;
 			children = (
+				FB96C565248BECB600F1DEC0 /* controller */,
+				FB96C55C248BBD2300F1DEC0 /* customView */,
 				FB96C543248B835200F1DEC0 /* AppDelegate.h */,
 				FB96C544248B835200F1DEC0 /* AppDelegate.m */,
 				FB96C546248B835200F1DEC0 /* SceneDelegate.h */,
 				FB96C547248B835200F1DEC0 /* SceneDelegate.m */,
-				FB96C549248B835200F1DEC0 /* ViewController.h */,
-				FB96C54A248B835200F1DEC0 /* ViewController.m */,
 				FB96C54C248B835200F1DEC0 /* Main.storyboard */,
 				FB96C54F248B835900F1DEC0 /* Assets.xcassets */,
 				FB96C551248B835900F1DEC0 /* LaunchScreen.storyboard */,
@@ -74,6 +85,29 @@
 				FB96C555248B835900F1DEC0 /* main.m */,
 			);
 			path = test_daniel;
+			sourceTree = "<group>";
+		};
+		FB96C55C248BBD2300F1DEC0 /* customView */ = {
+			isa = PBXGroup;
+			children = (
+				FB96C55D248BBD7800F1DEC0 /* ImageCollectionViewCell.h */,
+				FB96C55E248BBD7800F1DEC0 /* ImageCollectionViewCell.m */,
+				FB96C55F248BBD7800F1DEC0 /* ImageCollectionViewCell.xib */,
+			);
+			path = customView;
+			sourceTree = "<group>";
+		};
+		FB96C565248BECB600F1DEC0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB96C549248B835200F1DEC0 /* ViewController.h */,
+				FB96C54A248B835200F1DEC0 /* ViewController.m */,
+				FB96C562248BD3C900F1DEC0 /* DetailViewController.h */,
+				FB96C563248BD3C900F1DEC0 /* DetailViewController.m */,
+				FB96C566248BEEC100F1DEC0 /* TestViewController.h */,
+				FB96C567248BEEC100F1DEC0 /* TestViewController.m */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +169,7 @@
 			files = (
 				FB96C553248B835900F1DEC0 /* LaunchScreen.storyboard in Resources */,
 				FB96C550248B835900F1DEC0 /* Assets.xcassets in Resources */,
+				FB96C561248BBD7800F1DEC0 /* ImageCollectionViewCell.xib in Resources */,
 				FB96C54E248B835200F1DEC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,8 +183,11 @@
 			files = (
 				FB96C54B248B835200F1DEC0 /* ViewController.m in Sources */,
 				FB96C545248B835200F1DEC0 /* AppDelegate.m in Sources */,
+				FB96C568248BEEC100F1DEC0 /* TestViewController.m in Sources */,
+				FB96C560248BBD7800F1DEC0 /* ImageCollectionViewCell.m in Sources */,
 				FB96C556248B835900F1DEC0 /* main.m in Sources */,
 				FB96C548248B835200F1DEC0 /* SceneDelegate.m in Sources */,
+				FB96C564248BD3C900F1DEC0 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

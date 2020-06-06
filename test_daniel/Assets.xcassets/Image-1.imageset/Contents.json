@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Black-hole-picture-please-time-date-first-image-black-hole-event-horizon-telescope-1112295.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
