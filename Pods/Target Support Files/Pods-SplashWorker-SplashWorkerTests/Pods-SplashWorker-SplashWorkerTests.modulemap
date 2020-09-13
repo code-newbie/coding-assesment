@@ -1,6 +1,0 @@
-framework module Pods_SplashWorker_SplashWorkerTests {
-  umbrella header "Pods-SplashWorker-SplashWorkerTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
