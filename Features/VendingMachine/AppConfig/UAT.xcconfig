@@ -1,0 +1,8 @@
+// Defines all variables
+APP_ENVIRONMENT = uat
+APP_BUNDLE_NAME = Project - UAT
+APP_BUNDLE_VERSION = 1.0
+
+BASE_URL = https:\/\/10.243.137.100:5501\/
+BASE_PATH = everest\/1.0
+API_GATEWAY_PATH = apigateway

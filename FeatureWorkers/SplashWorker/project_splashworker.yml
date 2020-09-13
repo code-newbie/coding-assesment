@@ -1,0 +1,61 @@
+name: SplashWorker
+
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+  generateEmptyDirectories: true
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).SplashWorker.worker
+  ENABLE_BITCODE: NO
+configs:
+  Debug: debug
+  Release: release
+  Pre-Release: release
+  SIT: debug
+  UAT: debug
+# Configurations Files
+configFiles:
+  # Main/AppConfig/dev.xcconfig
+  Debug: ../../Main/AppConfig/dev.xcconfig
+  Release: ../../Main/AppConfig/Production.xcconfig
+  Pre-Release: ../../Main/AppConfig/Pre-Production.xcconfig
+  SIT: ../../Main/AppConfig/SIT.xcconfig
+  UAT: ../../Main/AppConfig/UAT.xcconfig
+targets:
+  SplashWorker:
+    type: framework
+    platform: iOS
+    sources:
+      - SplashWorker
+    dependencies:
+      - framework: '${BUILT_PRODUCTS_DIR}/NetworkService.framework'
+        embed: false
+        codeSign: false
+  SplashWorkerTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: SplashWorker
+    sources:
+      - SplashWorkerTests
+schemes:
+  SplashWorker:
+    build:
+      targets:
+        SplashWorker: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+      - SplashWorker
+      targets:
+      - name: SplashWorkerTests
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug

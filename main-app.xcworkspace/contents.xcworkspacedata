@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Podfile">
+   </FileRef>
+   <FileRef
+      location = "group:README.md">
+   </FileRef>
+   <Group
+      location = "group:Main"
+      name = "Main">
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+      <FileRef
+         location = "group:Main.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Assembly"
+      name = "Assembly">
+      <FileRef
+         location = "group:MainAssembly/MainAssembly.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Navigation"
+      name = "Navigation">
+      <FileRef
+         location = "group:AppNavigation/AppNavigation.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Commons"
+      name = "Commons">
+      <FileRef
+         location = "group:Common/Common.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:CommonUIKit/CommonUIKit.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Domains"
+      name = "Domains">
+      <FileRef
+         location = "group:Domains/Domains.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Features"
+      name = "Features">
+      <FileRef
+         location = "group:Splash/Splash.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:VendingMachine/VendingMachine.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Payment/Payment.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:Music/Music.xcodeproj">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:FeatureWorkers"
+      name = "FeatureWorkers">
+      <FileRef
+         location = "group:SplashWorker/SplashWorker.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:NetworkService"
+      name = "NetworkService">
+      <FileRef
+         location = "group:NetworkService/NetworkService.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:README.md">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

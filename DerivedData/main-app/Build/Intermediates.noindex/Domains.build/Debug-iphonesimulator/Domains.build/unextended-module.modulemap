@@ -1,0 +1,10 @@
+framework module Domains {
+  umbrella header "Domains.h"
+
+  export *
+  module * { export * }
+}
+
+module Domains.__Swift {
+    exclude header "Domains-Swift.h"
+}

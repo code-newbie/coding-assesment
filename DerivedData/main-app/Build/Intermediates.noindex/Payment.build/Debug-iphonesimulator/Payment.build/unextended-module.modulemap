@@ -1,0 +1,10 @@
+framework module Payment {
+  umbrella header "Payment.h"
+
+  export *
+  module * { export * }
+}
+
+module Payment.__Swift {
+    exclude header "Payment-Swift.h"
+}

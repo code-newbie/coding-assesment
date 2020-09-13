@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "b9a3a775bb497ab4aeacb2837f79f7ff"
+build_time: [1600011508, 808263000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/AppContext/AppContext.swift": [1599292431, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Library/Misc/Debugger.swift": [1590603950, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/Encodable.swift": [1599284493, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/AppContext/Constant/Environment.swift": [1590598974, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Library/Misc/HttpStatusCode.swift": [1599291838, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/Int.swift": [1599292498, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Library/Language/Language.swift": [1599284111, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Library/Language/LanguageManager.swift": [1599284334, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/AppContext/SettingContext.swift": [1599374998, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/AppContext/SettingContextProtocol.swift": [1599284381, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/String.swift": [1599911020, 304094672]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/UIApplication.swift": [1599284602, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/UIButton.swift": [1599898601, 532774806]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/UIColor.swift": [1590598281, 0]
+  "/Users/ilham/Desktop/coding-assesment/Commons/Common/Common/Extension/UIView.swift": [1599789322, 583938360]

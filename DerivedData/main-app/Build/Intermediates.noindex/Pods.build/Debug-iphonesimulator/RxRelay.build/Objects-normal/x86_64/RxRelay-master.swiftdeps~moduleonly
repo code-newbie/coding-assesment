@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "53096d171f964193a8d9ca549c82d736"
+build_time: [1600011495, 358534000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxRelay/RxRelay/BehaviorRelay.swift": [1599832060, 79158925]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxRelay/RxRelay/Observable+Bind.swift": [1599832060, 77743674]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxRelay/RxRelay/PublishRelay.swift": [1599832060, 76968593]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxRelay/RxRelay/Utils.swift": [1599832060, 78431907]

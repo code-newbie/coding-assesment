@@ -1,0 +1,10 @@
+framework module Common {
+  umbrella header "Common.h"
+
+  export *
+  module * { export * }
+}
+
+module Common.__Swift {
+    exclude header "Common-Swift.h"
+}

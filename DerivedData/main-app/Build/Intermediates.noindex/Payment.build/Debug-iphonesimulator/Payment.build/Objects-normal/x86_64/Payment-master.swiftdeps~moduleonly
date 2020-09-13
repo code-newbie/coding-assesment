@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1b61155bfa3646640e8ef240897b7606"
+build_time: [1600011511, 32964000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Wireframe/PayemntWireframe.swift": [1599876985, 567935348]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Configurator/PaymentConfigurator.swift": [1599908827, 586802602]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Constant/PaymentConstants.swift": [1599912303, 745923162]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Payment/PaymentInteractor.swift": [1599825797, 805647254]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Payment/PaymentPresenter.swift": [1599912347, 177179575]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Payment/PaymentProtocols.swift": [1599912336, 266650081]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Payment/PaymentRouter.swift": [1599825797, 802683353]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Payment/PaymentView.swift": [1599912328, 514571428]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Receipt/ReceiptInteractor.swift": [1599825811, 555449367]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Receipt/ReceiptPresenter.swift": [1599825811, 550884962]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Receipt/ReceiptProtocols.swift": [1599825811, 554102778]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Receipt/ReceiptRouter.swift": [1599825811, 552582741]
+  "/Users/ilham/Desktop/coding-assesment/Features/Payment/Payment/Scene/Receipt/ReceiptView.swift": [1599825811, 557020903]

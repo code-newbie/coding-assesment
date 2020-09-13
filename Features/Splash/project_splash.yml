@@ -1,0 +1,70 @@
+name: Splash
+
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+  generateEmptyDirectories: true
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).splash
+  ENABLE_BITCODE: NO
+configs:
+  Debug: debug
+  Release: release
+  Pre-Release: release
+  SIT: debug
+  UAT: debug
+# Configurations Files
+configFiles:
+  # Main/AppConfig/dev.xcconfig
+  Debug: ../../Main/AppConfig/dev.xcconfig
+  Release: ../../Main/AppConfig/Production.xcconfig
+  Pre-Release: ../../Main/AppConfig/Pre-Production.xcconfig
+  SIT: ../../Main/AppConfig/SIT.xcconfig
+  UAT: ../../Main/AppConfig/UAT.xcconfig
+targets:
+  Splash:
+    type: framework
+    platform: iOS
+    sources:
+      - Splash
+    dependencies:
+      - framework: '${BUILT_PRODUCTS_DIR}/Common.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Domains.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/CommonUIKit.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/SplashWorker.framework'
+        embed: false
+        codeSign: false
+  SplashTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: Splash
+    sources:
+      - SplashTests
+schemes:
+  Splash:
+    build:
+      targets:
+        Splash: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+      - Splash
+      targets:
+      - name: SplashTests
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug

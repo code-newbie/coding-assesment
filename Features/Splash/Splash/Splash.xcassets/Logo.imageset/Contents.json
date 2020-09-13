@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "aia-logo-618BFE8E96-seeklogo.com.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "aia-logo-618BFE8E96-seeklogo.com-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "aia-logo-618BFE8E96-seeklogo.com-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

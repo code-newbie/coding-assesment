@@ -1,0 +1,8 @@
+// Defines all variables 
+APP_ENVIRONMENT = prod
+APP_BUNDLE_NAME = Project
+APP_BUNDLE_VERSION = 1.0
+
+BASE_URL = https:/\/\192.168.100.1:/\
+BASE_PATH = everest\/sit2
+API_GATEWAY_PATH = gateway

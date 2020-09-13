@@ -1,0 +1,552 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NFXDetailsController"
+provides-nominal:
+- "6netfox20NFXDetailsControllerC"
+- "6netfox20NFXDetailsControllerC12EDetailsViewO"
+provides-member:
+- ["6netfox20NFXDetailsControllerC", ""]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", ""]
+provides-dynamic-lookup:
+- "getInfoStringFromObject"
+- "getRequestBodyStringFooter"
+- "getRequestStringFromObject"
+- "getResponseBodyStringFooter"
+- "getResponseStringFromObject"
+- "viewDidLoad"
+depends-top-level:
+- !private "!"
+- !private "+="
+- "<"
+- "=="
+- ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Comparable"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "NFXDetailsController"
+- "NFXGenericController"
+- "NFXHTTPModel"
+- "NSAttributedString"
+- !private "NSMutableAttributedString"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "formatNFXString"]
+- !private ["s7CVarArgP", "getRequestBody"]
+- !private ["s7CVarArgP", "getRequestBodyStringFooter"]
+- !private ["s7CVarArgP", "getResponseBody"]
+- !private ["s7CVarArgP", "getResponseBodyStringFooter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "noResponse"]
+- !private ["s7CVarArgP", "requestBodyLength"]
+- !private ["s7CVarArgP", "requestCachePolicy"]
+- !private ["s7CVarArgP", "requestDate"]
+- !private ["s7CVarArgP", "requestHeaders"]
+- !private ["s7CVarArgP", "requestMethod"]
+- !private ["s7CVarArgP", "requestTimeout"]
+- !private ["s7CVarArgP", "requestURL"]
+- !private ["s7CVarArgP", "responseBodyLength"]
+- !private ["s7CVarArgP", "responseDate"]
+- !private ["s7CVarArgP", "responseHeaders"]
+- !private ["s7CVarArgP", "responseStatus"]
+- !private ["s7CVarArgP", "timeInterval"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "formatNFXString"]
+- !private ["s28CustomDebugStringConvertibleP", "getRequestBody"]
+- !private ["s28CustomDebugStringConvertibleP", "getRequestBodyStringFooter"]
+- !private ["s28CustomDebugStringConvertibleP", "getResponseBody"]
+- !private ["s28CustomDebugStringConvertibleP", "getResponseBodyStringFooter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "noResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "requestBodyLength"]
+- !private ["s28CustomDebugStringConvertibleP", "requestCachePolicy"]
+- !private ["s28CustomDebugStringConvertibleP", "requestDate"]
+- !private ["s28CustomDebugStringConvertibleP", "requestHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "requestMethod"]
+- !private ["s28CustomDebugStringConvertibleP", "requestTimeout"]
+- !private ["s28CustomDebugStringConvertibleP", "requestURL"]
+- !private ["s28CustomDebugStringConvertibleP", "responseBodyLength"]
+- !private ["s28CustomDebugStringConvertibleP", "responseDate"]
+- !private ["s28CustomDebugStringConvertibleP", "responseHeaders"]
+- !private ["s28CustomDebugStringConvertibleP", "responseStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "formatNFXString"]
+- !private ["s23CustomStringConvertibleP", "getRequestBody"]
+- !private ["s23CustomStringConvertibleP", "getRequestBodyStringFooter"]
+- !private ["s23CustomStringConvertibleP", "getResponseBody"]
+- !private ["s23CustomStringConvertibleP", "getResponseBodyStringFooter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "noResponse"]
+- !private ["s23CustomStringConvertibleP", "requestBodyLength"]
+- !private ["s23CustomStringConvertibleP", "requestCachePolicy"]
+- !private ["s23CustomStringConvertibleP", "requestDate"]
+- !private ["s23CustomStringConvertibleP", "requestHeaders"]
+- !private ["s23CustomStringConvertibleP", "requestMethod"]
+- !private ["s23CustomStringConvertibleP", "requestTimeout"]
+- !private ["s23CustomStringConvertibleP", "requestURL"]
+- !private ["s23CustomStringConvertibleP", "responseBodyLength"]
+- !private ["s23CustomStringConvertibleP", "responseDate"]
+- !private ["s23CustomStringConvertibleP", "responseHeaders"]
+- !private ["s23CustomStringConvertibleP", "responseStatus"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "count"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "=="]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "__derived_enum_equals"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "_rawHashValue"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "deinit"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "hash"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "hashValue"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "info"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "request"]
+- ["6netfox20NFXDetailsControllerC12EDetailsViewO", "response"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- ["SQ", "=="]
+- !private ["SQ", "NSMutableAttributedString"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "count"]
+- !private ["SQ", "formatNFXString"]
+- !private ["SQ", "getRequestBody"]
+- !private ["SQ", "getRequestBodyStringFooter"]
+- !private ["SQ", "getResponseBody"]
+- !private ["SQ", "getResponseBodyStringFooter"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "noResponse"]
+- !private ["SQ", "requestBodyLength"]
+- !private ["SQ", "requestCachePolicy"]
+- !private ["SQ", "requestDate"]
+- !private ["SQ", "requestHeaders"]
+- !private ["SQ", "requestMethod"]
+- !private ["SQ", "requestTimeout"]
+- !private ["SQ", "requestURL"]
+- !private ["SQ", "responseBodyLength"]
+- !private ["SQ", "responseDate"]
+- !private ["SQ", "responseHeaders"]
+- !private ["SQ", "responseStatus"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["SH", "=="]
+- !private ["SH", "NSMutableAttributedString"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "count"]
+- !private ["SH", "formatNFXString"]
+- !private ["SH", "getRequestBody"]
+- !private ["SH", "getRequestBodyStringFooter"]
+- !private ["SH", "getResponseBody"]
+- !private ["SH", "getResponseBodyStringFooter"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "noResponse"]
+- !private ["SH", "requestBodyLength"]
+- !private ["SH", "requestCachePolicy"]
+- !private ["SH", "requestDate"]
+- !private ["SH", "requestHeaders"]
+- !private ["SH", "requestMethod"]
+- !private ["SH", "requestTimeout"]
+- !private ["SH", "requestURL"]
+- !private ["SH", "responseBodyLength"]
+- !private ["SH", "responseDate"]
+- !private ["SH", "responseHeaders"]
+- !private ["SH", "responseStatus"]
+- !private ["SH", "timeInterval"]
+- !private ["SH", "viewDidLoad"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["6netfox20NFXDetailsControllerC", "EDetailsView"]
+- ["6netfox20NFXDetailsControllerC", "NFXHTTPModel"]
+- ["6netfox20NFXDetailsControllerC", "NSAttributedString"]
+- !private ["6netfox20NFXDetailsControllerC", "NSMutableAttributedString"]
+- ["6netfox20NFXDetailsControllerC", "String"]
+- ["6netfox20NFXDetailsControllerC", "deinit"]
+- !private ["6netfox20NFXDetailsControllerC", "formatNFXString"]
+- ["6netfox20NFXDetailsControllerC", "getInfoStringFromObject"]
+- ["6netfox20NFXDetailsControllerC", "getRequestBodyStringFooter"]
+- ["6netfox20NFXDetailsControllerC", "getRequestStringFromObject"]
+- ["6netfox20NFXDetailsControllerC", "getResponseBodyStringFooter"]
+- ["6netfox20NFXDetailsControllerC", "getResponseStringFromObject"]
+- ["6netfox20NFXDetailsControllerC", "init"]
+- ["6netfox20NFXDetailsControllerC", "viewDidLoad"]
+- ["6netfox20NFXGenericControllerC", "NFXHTTPModel"]
+- ["6netfox20NFXGenericControllerC", "NSAttributedString"]
+- !private ["6netfox20NFXGenericControllerC", "NSMutableAttributedString"]
+- ["6netfox20NFXGenericControllerC", "String"]
+- ["6netfox20NFXGenericControllerC", ""]
+- !private ["6netfox20NFXGenericControllerC", "formatNFXString"]
+- ["6netfox20NFXGenericControllerC", "getInfoStringFromObject"]
+- ["6netfox20NFXGenericControllerC", "getRequestBodyStringFooter"]
+- ["6netfox20NFXGenericControllerC", "getRequestStringFromObject"]
+- ["6netfox20NFXGenericControllerC", "getResponseBodyStringFooter"]
+- ["6netfox20NFXGenericControllerC", "getResponseStringFromObject"]
+- ["6netfox20NFXGenericControllerC", "init"]
+- ["6netfox20NFXGenericControllerC", "viewDidLoad"]
+- !private ["6netfox12NFXHTTPModelC", "getRequestBody"]
+- !private ["6netfox12NFXHTTPModelC", "getResponseBody"]
+- !private ["6netfox12NFXHTTPModelC", "noResponse"]
+- !private ["6netfox12NFXHTTPModelC", "requestBodyLength"]
+- !private ["6netfox12NFXHTTPModelC", "requestCachePolicy"]
+- !private ["6netfox12NFXHTTPModelC", "requestDate"]
+- !private ["6netfox12NFXHTTPModelC", "requestHeaders"]
+- !private ["6netfox12NFXHTTPModelC", "requestMethod"]
+- !private ["6netfox12NFXHTTPModelC", "requestTimeout"]
+- !private ["6netfox12NFXHTTPModelC", "requestURL"]
+- !private ["6netfox12NFXHTTPModelC", "responseBodyLength"]
+- !private ["6netfox12NFXHTTPModelC", "responseDate"]
+- !private ["6netfox12NFXHTTPModelC", "responseHeaders"]
+- !private ["6netfox12NFXHTTPModelC", "responseStatus"]
+- !private ["6netfox12NFXHTTPModelC", "timeInterval"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "formatNFXString"]
+- !private ["So8NSCodingP", "getRequestBodyStringFooter"]
+- !private ["So8NSCodingP", "getResponseBodyStringFooter"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "NSMutableAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "formatNFXString"]
+- !private ["So26NSExtensionRequestHandlingP", "getRequestBodyStringFooter"]
+- !private ["So26NSExtensionRequestHandlingP", "getResponseBodyStringFooter"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- ["So8NSObjectC", "NFXHTTPModel"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "formatNFXString"]
+- ["So8NSObjectC", "getInfoStringFromObject"]
+- !private ["So8NSObjectC", "getRequestBody"]
+- ["So8NSObjectC", "getRequestBodyStringFooter"]
+- ["So8NSObjectC", "getRequestStringFromObject"]
+- !private ["So8NSObjectC", "getResponseBody"]
+- ["So8NSObjectC", "getResponseBodyStringFooter"]
+- ["So8NSObjectC", "getResponseStringFromObject"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "noResponse"]
+- !private ["So8NSObjectC", "requestBodyLength"]
+- !private ["So8NSObjectC", "requestCachePolicy"]
+- !private ["So8NSObjectC", "requestDate"]
+- !private ["So8NSObjectC", "requestHeaders"]
+- !private ["So8NSObjectC", "requestMethod"]
+- !private ["So8NSObjectC", "requestTimeout"]
+- !private ["So8NSObjectC", "requestURL"]
+- !private ["So8NSObjectC", "responseBodyLength"]
+- !private ["So8NSObjectC", "responseDate"]
+- !private ["So8NSObjectC", "responseHeaders"]
+- !private ["So8NSObjectC", "responseStatus"]
+- !private ["So8NSObjectC", "timeInterval"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "NSMutableAttributedString"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "formatNFXString"]
+- !private ["So8NSObjectP", "getRequestBody"]
+- !private ["So8NSObjectP", "getRequestBodyStringFooter"]
+- !private ["So8NSObjectP", "getResponseBody"]
+- !private ["So8NSObjectP", "getResponseBodyStringFooter"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "noResponse"]
+- !private ["So8NSObjectP", "requestBodyLength"]
+- !private ["So8NSObjectP", "requestCachePolicy"]
+- !private ["So8NSObjectP", "requestDate"]
+- !private ["So8NSObjectP", "requestHeaders"]
+- !private ["So8NSObjectP", "requestMethod"]
+- !private ["So8NSObjectP", "requestTimeout"]
+- !private ["So8NSObjectP", "requestURL"]
+- !private ["So8NSObjectP", "responseBodyLength"]
+- !private ["So8NSObjectP", "responseDate"]
+- !private ["So8NSObjectP", "responseHeaders"]
+- !private ["So8NSObjectP", "responseStatus"]
+- !private ["So8NSObjectP", "timeInterval"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "NSMutableAttributedString"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "formatNFXString"]
+- !private ["So21UIAppearanceContainerP", "getRequestBodyStringFooter"]
+- !private ["So21UIAppearanceContainerP", "getResponseBodyStringFooter"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So18UIContentContainerP", "NSMutableAttributedString"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "formatNFXString"]
+- !private ["So18UIContentContainerP", "getRequestBodyStringFooter"]
+- !private ["So18UIContentContainerP", "getResponseBodyStringFooter"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So18UIFocusEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "formatNFXString"]
+- !private ["So18UIFocusEnvironmentP", "getRequestBodyStringFooter"]
+- !private ["So18UIFocusEnvironmentP", "getResponseBodyStringFooter"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSMutableAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "formatNFXString"]
+- !private ["So30UIPasteConfigurationSupportingP", "getRequestBodyStringFooter"]
+- !private ["So30UIPasteConfigurationSupportingP", "getResponseBodyStringFooter"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "NFXHTTPModel"]
+- ["So11UIResponderC", "NSAttributedString"]
+- !private ["So11UIResponderC", "NSMutableAttributedString"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "formatNFXString"]
+- ["So11UIResponderC", "getInfoStringFromObject"]
+- ["So11UIResponderC", "getRequestBodyStringFooter"]
+- ["So11UIResponderC", "getRequestStringFromObject"]
+- ["So11UIResponderC", "getResponseBodyStringFooter"]
+- ["So11UIResponderC", "getResponseStringFromObject"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NSMutableAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "formatNFXString"]
+- !private ["So30UIResponderStandardEditActionsP", "getRequestBodyStringFooter"]
+- !private ["So30UIResponderStandardEditActionsP", "getResponseBodyStringFooter"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "NSMutableAttributedString"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "formatNFXString"]
+- !private ["So16UIStateRestoringP", "getRequestBodyStringFooter"]
+- !private ["So16UIStateRestoringP", "getResponseBodyStringFooter"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "formatNFXString"]
+- !private ["So18UITraitEnvironmentP", "getRequestBodyStringFooter"]
+- !private ["So18UITraitEnvironmentP", "getResponseBodyStringFooter"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "NSMutableAttributedString"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "formatNFXString"]
+- !private ["So23UIUserActivityRestoringP", "getRequestBodyStringFooter"]
+- !private ["So23UIUserActivityRestoringP", "getResponseBodyStringFooter"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "NFXHTTPModel"]
+- ["So16UIViewControllerC", "NSAttributedString"]
+- !private ["So16UIViewControllerC", "NSMutableAttributedString"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "formatNFXString"]
+- ["So16UIViewControllerC", "getInfoStringFromObject"]
+- ["So16UIViewControllerC", "getRequestBodyStringFooter"]
+- ["So16UIViewControllerC", "getRequestStringFromObject"]
+- ["So16UIViewControllerC", "getResponseBodyStringFooter"]
+- ["So16UIViewControllerC", "getResponseStringFromObject"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formatNFXString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRequestBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getRequestBodyStringFooter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResponseBody"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResponseBodyStringFooter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "noResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestBodyLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestCachePolicy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestHeaders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestMethod"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestTimeout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseBodyLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseHeaders"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMutableAttributedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formatNFXString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getRequestBody"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getRequestBodyStringFooter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getResponseBody"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getResponseBodyStringFooter"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "noResponse"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestBodyLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestCachePolicy"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestHeaders"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestMethod"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestTimeout"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestURL"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseBodyLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseDate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseHeaders"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseStatus"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeInterval"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "SK"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- "6netfox20NFXDetailsControllerC12EDetailsViewO"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "6netfox20NFXDetailsControllerC"
+- "6netfox20NFXGenericControllerC"
+- !private "6netfox12NFXHTTPModelC"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/netfox/netfox-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/netfox/netfox/Core/NFXLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/netfox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2f5b5655faf5a69dda19d0fb74a156a2"

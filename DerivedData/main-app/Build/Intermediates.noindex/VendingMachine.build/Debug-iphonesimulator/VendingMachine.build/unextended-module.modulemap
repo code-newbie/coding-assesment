@@ -1,0 +1,10 @@
+framework module VendingMachine {
+  umbrella header "VendingMachine.h"
+
+  export *
+  module * { export * }
+}
+
+module VendingMachine.__Swift {
+    exclude header "VendingMachine-Swift.h"
+}

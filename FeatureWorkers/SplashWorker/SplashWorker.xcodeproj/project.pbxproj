@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E89E5D1282FBE1B6C1DE79F /* Pods_SplashWorker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 023E762D2D21A49CDA77CB6C /* Pods_SplashWorker.framework */; };
+		28B949F98C6BFA8B7ECF257D /* SplashWorker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8FE9B4BA3BF545A895FE71 /* SplashWorker.framework */; };
+		701230E5DA8A61561DBFDC6B /* SplashWorker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4A8FE9B4BA3BF545A895FE71 /* SplashWorker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		80E5322CCEAB1E4928621AF1 /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71847AB94EABA82A54343D4D /* NetworkService.framework */; };
+		B732A6633A8B2B9E9CFFBBF8 /* SplashWorker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DB8A5EF1A4DBA1AC8F61DFD /* SplashWorker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4DF71CA6A703B2C3F1E8C9D /* Pods_SplashWorker_SplashWorkerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B79A571860A06F90D7E0ED3 /* Pods_SplashWorker_SplashWorkerTests.framework */; };
+		D5772A3F116F8BDBBBE3BF54 /* SplashWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E58AD2A7449AA5DBAD3FB7 /* SplashWorker.swift */; };
+		FE37F877556A420010B3B8B6 /* SplashWorkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7098658F0C26588789F11DBE /* SplashWorkerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9FE5842F11A310FB025A1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE7812E47F679C0EFF1C863 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D94C7E4800BCFAA2971558C4;
+			remoteInfo = SplashWorker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91276639DC1640D4648A7F56 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				701230E5DA8A61561DBFDC6B /* SplashWorker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		023E762D2D21A49CDA77CB6C /* Pods_SplashWorker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashWorker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1DE823AAA58288673E54AF /* Pods-SplashWorker.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker.pre-release.xcconfig"; path = "Target Support Files/Pods-SplashWorker/Pods-SplashWorker.pre-release.xcconfig"; sourceTree = "<group>"; };
+		2B79C73B4D2DAE3D2FF85C77 /* Pods-SplashWorker.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker.uat.xcconfig"; path = "Target Support Files/Pods-SplashWorker/Pods-SplashWorker.uat.xcconfig"; sourceTree = "<group>"; };
+		2F10FCCB3E4A96F0DF467954 /* Pods-SplashWorker-SplashWorkerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker-SplashWorkerTests.release.xcconfig"; path = "Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests.release.xcconfig"; sourceTree = "<group>"; };
+		2FB69D760809DBAD03A70FA3 /* Pods-SplashWorker-SplashWorkerTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker-SplashWorkerTests.sit.xcconfig"; path = "Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests.sit.xcconfig"; sourceTree = "<group>"; };
+		41E58AD2A7449AA5DBAD3FB7 /* SplashWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWorker.swift; sourceTree = "<group>"; };
+		4A8FE9B4BA3BF545A895FE71 /* SplashWorker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SplashWorker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DB8A5EF1A4DBA1AC8F61DFD /* SplashWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashWorker.h; sourceTree = "<group>"; };
+		5B79A571860A06F90D7E0ED3 /* Pods_SplashWorker_SplashWorkerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SplashWorker_SplashWorkerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6786A1C8DF883EE300BAF88A /* Pods-SplashWorker-SplashWorkerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker-SplashWorkerTests.debug.xcconfig"; path = "Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7098658F0C26588789F11DBE /* SplashWorkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWorkerTests.swift; sourceTree = "<group>"; };
+		71847AB94EABA82A54343D4D /* NetworkService.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkService.framework; path = "${BUILT_PRODUCTS_DIR}/NetworkService.framework"; sourceTree = "<group>"; };
+		79972F50C585312A8FE06434 /* Pods-SplashWorker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker.debug.xcconfig"; path = "Target Support Files/Pods-SplashWorker/Pods-SplashWorker.debug.xcconfig"; sourceTree = "<group>"; };
+		83DEFF1AFC88F361326B64C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8E302C71D1912803935FCDC1 /* Pods-SplashWorker-SplashWorkerTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker-SplashWorkerTests.pre-release.xcconfig"; path = "Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests.pre-release.xcconfig"; sourceTree = "<group>"; };
+		91E31B3E9EC14981FB1391C1 /* Pods-SplashWorker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker.release.xcconfig"; path = "Target Support Files/Pods-SplashWorker/Pods-SplashWorker.release.xcconfig"; sourceTree = "<group>"; };
+		9B8968C640D59DE32FE443F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9C5698109A61C59031F71043 /* Pods-SplashWorker-SplashWorkerTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker-SplashWorkerTests.uat.xcconfig"; path = "Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests.uat.xcconfig"; sourceTree = "<group>"; };
+		9DAF1606C0CD0022F1EB2672 /* Pods-SplashWorker.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SplashWorker.sit.xcconfig"; path = "Target Support Files/Pods-SplashWorker/Pods-SplashWorker.sit.xcconfig"; sourceTree = "<group>"; };
+		ADB56D463989458924A59C78 /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
+		B3C279C322D99D87D2A70B97 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		DA5C4041C465B0AD0F95AFA9 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
+		DB4750AB13273EEE4A4DF73A /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
+		E2069710DF9F1B0BEAB9C548 /* Pre-Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pre-Production.xcconfig"; sourceTree = "<group>"; };
+		FEB4CFAC82E4E61FE6DBE1E5 /* SplashWorkerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SplashWorkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56697E0D9E995997C05B7D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B949F98C6BFA8B7ECF257D /* SplashWorker.framework in Frameworks */,
+				C4DF71CA6A703B2C3F1E8C9D /* Pods_SplashWorker_SplashWorkerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C901F56BB2CDAC7AF843DDEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80E5322CCEAB1E4928621AF1 /* NetworkService.framework in Frameworks */,
+				1E89E5D1282FBE1B6C1DE79F /* Pods_SplashWorker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CBB32D21854ADE053D26E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A8FE9B4BA3BF545A895FE71 /* SplashWorker.framework */,
+				FEB4CFAC82E4E61FE6DBE1E5 /* SplashWorkerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37BDC19E7EE7FED7C2DB4B7D /* SplashWorkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B8968C640D59DE32FE443F9 /* Info.plist */,
+				7098658F0C26588789F11DBE /* SplashWorkerTests.swift */,
+			);
+			path = SplashWorkerTests;
+			sourceTree = "<group>";
+		};
+		5C45B3A8B55E22C6AD5C253C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79972F50C585312A8FE06434 /* Pods-SplashWorker.debug.xcconfig */,
+				2B1DE823AAA58288673E54AF /* Pods-SplashWorker.pre-release.xcconfig */,
+				91E31B3E9EC14981FB1391C1 /* Pods-SplashWorker.release.xcconfig */,
+				9DAF1606C0CD0022F1EB2672 /* Pods-SplashWorker.sit.xcconfig */,
+				2B79C73B4D2DAE3D2FF85C77 /* Pods-SplashWorker.uat.xcconfig */,
+				6786A1C8DF883EE300BAF88A /* Pods-SplashWorker-SplashWorkerTests.debug.xcconfig */,
+				8E302C71D1912803935FCDC1 /* Pods-SplashWorker-SplashWorkerTests.pre-release.xcconfig */,
+				2F10FCCB3E4A96F0DF467954 /* Pods-SplashWorker-SplashWorkerTests.release.xcconfig */,
+				2FB69D760809DBAD03A70FA3 /* Pods-SplashWorker-SplashWorkerTests.sit.xcconfig */,
+				9C5698109A61C59031F71043 /* Pods-SplashWorker-SplashWorkerTests.uat.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		68D8383EC959415AA4846C4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71847AB94EABA82A54343D4D /* NetworkService.framework */,
+				023E762D2D21A49CDA77CB6C /* Pods_SplashWorker.framework */,
+				5B79A571860A06F90D7E0ED3 /* Pods_SplashWorker_SplashWorkerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		857C1D4896D0AE68B35FBBC6 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				DA5C4041C465B0AD0F95AFA9 /* dev.xcconfig */,
+				E2069710DF9F1B0BEAB9C548 /* Pre-Production.xcconfig */,
+				B3C279C322D99D87D2A70B97 /* Production.xcconfig */,
+				ADB56D463989458924A59C78 /* SIT.xcconfig */,
+				DB4750AB13273EEE4A4DF73A /* UAT.xcconfig */,
+			);
+			name = AppConfig;
+			path = ../../Main/AppConfig;
+			sourceTree = "<group>";
+		};
+		AAF7C44AFDB1AD99E90C57B6 = {
+			isa = PBXGroup;
+			children = (
+				857C1D4896D0AE68B35FBBC6 /* AppConfig */,
+				C5D656AF0A45501C666FD342 /* SplashWorker */,
+				37BDC19E7EE7FED7C2DB4B7D /* SplashWorkerTests */,
+				68D8383EC959415AA4846C4E /* Frameworks */,
+				2CBB32D21854ADE053D26E31 /* Products */,
+				5C45B3A8B55E22C6AD5C253C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C5D656AF0A45501C666FD342 /* SplashWorker */ = {
+			isa = PBXGroup;
+			children = (
+				83DEFF1AFC88F361326B64C3 /* Info.plist */,
+				4DB8A5EF1A4DBA1AC8F61DFD /* SplashWorker.h */,
+				41E58AD2A7449AA5DBAD3FB7 /* SplashWorker.swift */,
+			);
+			path = SplashWorker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2916BA3E04F846F8560174E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B732A6633A8B2B9E9CFFBBF8 /* SplashWorker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D94C7E4800BCFAA2971558C4 /* SplashWorker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4F44D90AD5EB09729202DFC /* Build configuration list for PBXNativeTarget "SplashWorker" */;
+			buildPhases = (
+				B862BE6B73E6612D976BBAA4 /* [CP] Check Pods Manifest.lock */,
+				2916BA3E04F846F8560174E5 /* Headers */,
+				75BA1AD510AEBF17CBEB2C7B /* Sources */,
+				C901F56BB2CDAC7AF843DDEA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplashWorker;
+			productName = SplashWorker;
+			productReference = 4A8FE9B4BA3BF545A895FE71 /* SplashWorker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E966DDDC252DF72FCDFB7E01 /* SplashWorkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A596EDBC8BF8B813D96BBF5 /* Build configuration list for PBXNativeTarget "SplashWorkerTests" */;
+			buildPhases = (
+				6C2332F2BFD5F1024C9124C4 /* [CP] Check Pods Manifest.lock */,
+				101A6063D244960B15A3D4F6 /* Sources */,
+				56697E0D9E995997C05B7D8F /* Frameworks */,
+				91276639DC1640D4648A7F56 /* Embed Frameworks */,
+				A77EBC1BD836D4351A63EDC7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17AF98568CDE0CE03E1F5285 /* PBXTargetDependency */,
+			);
+			name = SplashWorkerTests;
+			productName = SplashWorkerTests;
+			productReference = FEB4CFAC82E4E61FE6DBE1E5 /* SplashWorkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE7812E47F679C0EFF1C863 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 87B7900C765459B767244077 /* Build configuration list for PBXProject "SplashWorker" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AAF7C44AFDB1AD99E90C57B6;
+			productRefGroup = 2CBB32D21854ADE053D26E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D94C7E4800BCFAA2971558C4 /* SplashWorker */,
+				E966DDDC252DF72FCDFB7E01 /* SplashWorkerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C2332F2BFD5F1024C9124C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplashWorker-SplashWorkerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A77EBC1BD836D4351A63EDC7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SplashWorker-SplashWorkerTests/Pods-SplashWorker-SplashWorkerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B862BE6B73E6612D976BBAA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SplashWorker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		101A6063D244960B15A3D4F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE37F877556A420010B3B8B6 /* SplashWorkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75BA1AD510AEBF17CBEB2C7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5772A3F116F8BDBBBE3BF54 /* SplashWorker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17AF98568CDE0CE03E1F5285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D94C7E4800BCFAA2971558C4 /* SplashWorker */;
+			targetProxy = DB9FE5842F11A310FB025A1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		15F065DB30897FA04B789ECC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79972F50C585312A8FE06434 /* Pods-SplashWorker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = SplashWorker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		17639D8ADEFF63E1DA94D955 /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2069710DF9F1B0BEAB9C548 /* Pre-Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).SplashWorker.worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Pre-Release";
+		};
+		1985CEA5DCECB0AC79EC4EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C279C322D99D87D2A70B97 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).SplashWorker.worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D7831A9A9F0B433978ADF62 /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB56D463989458924A59C78 /* SIT.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).SplashWorker.worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = SIT;
+		};
+		1E6DC498D2F739E09846B407 /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DAF1606C0CD0022F1EB2672 /* Pods-SplashWorker.sit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = SplashWorker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = SIT;
+		};
+		845C43855BCC17AD0BF8DF3B /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E302C71D1912803935FCDC1 /* Pods-SplashWorker-SplashWorkerTests.pre-release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashWorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Pre-Release";
+		};
+		9070DA08BF517138B0368296 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5698109A61C59031F71043 /* Pods-SplashWorker-SplashWorkerTests.uat.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashWorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UAT;
+		};
+		914EC420F97BA3C952A58CF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F10FCCB3E4A96F0DF467954 /* Pods-SplashWorker-SplashWorkerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashWorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6FE462F190A21F6129021C7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B79C73B4D2DAE3D2FF85C77 /* Pods-SplashWorker.uat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = SplashWorker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = UAT;
+		};
+		AAFF339408F6D8B2B949861D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6786A1C8DF883EE300BAF88A /* Pods-SplashWorker-SplashWorkerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashWorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C37351D347869E5886B32F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA5C4041C465B0AD0F95AFA9 /* dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).SplashWorker.worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3A073AEEDBBD92E8FF4C38C /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB69D760809DBAD03A70FA3 /* Pods-SplashWorker-SplashWorkerTests.sit.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SplashWorkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = SIT;
+		};
+		D8431B90CDB8D3BFAFFD9B10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91E31B3E9EC14981FB1391C1 /* Pods-SplashWorker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = SplashWorker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		E3D8B89B2D9128218BCC66CC /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4750AB13273EEE4A4DF73A /* UAT.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).SplashWorker.worker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = UAT;
+		};
+		F55B93CABCCA784369DB5719 /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B1DE823AAA58288673E54AF /* Pods-SplashWorker.pre-release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = SplashWorker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Pre-Release";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A596EDBC8BF8B813D96BBF5 /* Build configuration list for PBXNativeTarget "SplashWorkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFF339408F6D8B2B949861D /* Debug */,
+				845C43855BCC17AD0BF8DF3B /* Pre-Release */,
+				914EC420F97BA3C952A58CF2 /* Release */,
+				D3A073AEEDBBD92E8FF4C38C /* SIT */,
+				9070DA08BF517138B0368296 /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		87B7900C765459B767244077 /* Build configuration list for PBXProject "SplashWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C37351D347869E5886B32F76 /* Debug */,
+				17639D8ADEFF63E1DA94D955 /* Pre-Release */,
+				1985CEA5DCECB0AC79EC4EC2 /* Release */,
+				1D7831A9A9F0B433978ADF62 /* SIT */,
+				E3D8B89B2D9128218BCC66CC /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B4F44D90AD5EB09729202DFC /* Build configuration list for PBXNativeTarget "SplashWorker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15F065DB30897FA04B789ECC /* Debug */,
+				F55B93CABCCA784369DB5719 /* Pre-Release */,
+				D8431B90CDB8D3BFAFFD9B10 /* Release */,
+				1E6DC498D2F739E09846B407 /* SIT */,
+				A6FE462F190A21F6129021C7 /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE7812E47F679C0EFF1C863 /* Project object */;
+}

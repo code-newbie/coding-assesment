@@ -1,0 +1,10 @@
+framework module AppNavigation {
+  umbrella header "AppNavigation.h"
+
+  export *
+  module * { export * }
+}
+
+module AppNavigation.__Swift {
+    exclude header "AppNavigation-Swift.h"
+}

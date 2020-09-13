@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "5cf10d02af4a346b6611d3aa7ae3758f"
+build_time: [1600011514, 621943000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/FeatureWorkers/SplashWorker/SplashWorker/SplashWorker.swift": [1599312932, 0]

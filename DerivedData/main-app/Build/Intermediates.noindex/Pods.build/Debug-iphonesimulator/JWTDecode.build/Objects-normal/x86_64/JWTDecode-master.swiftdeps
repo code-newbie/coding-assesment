@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "a771d9a93bfd7ebd4dd6a88554ae0c7d"
+build_time: [1600011475, 985328000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/A0JWT.swift": [1599832059, 803900130]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/Errors.swift": [1599832059, 802542384]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/JWT.swift": [1599832059, 799925936]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/JWTDecode.swift": [1599832059, 798872963]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/TokenValidators.swift": [1599832059, 800912098]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/ValidationError.swift": [1599832059, 801632352]
+  "/Users/ilham/Desktop/coding-assesment/Pods/JWTDecode/JWTDecode/ValidatorJWT.swift": [1599832059, 803306537]

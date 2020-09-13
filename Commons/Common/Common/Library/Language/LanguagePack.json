@@ -1,0 +1,13 @@
+{
+    "content": {
+        "id": {
+            "key": "value id",
+            "language": "id"
+        },
+        "en": {
+            "key": "value en",
+            "language": "en"
+        }
+    },
+    "languagePackId": "ABC"
+}

@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9ec7608aafcd23b2d0f221bf8ae4dab7"
+build_time: [1600011473, 478829000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Accessibility.swift": [1599832060, 289118684]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/CloudAccessibility.swift": [1599832060, 283889700]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Configuration.swift": [1599832060, 288350169]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/ErrorHandler.swift": [1599832060, 289836270]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Identifier.swift": [1599832060, 298913709]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Keychain.swift": [1599832060, 287431688]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/KeychainQueryConvertible.swift": [1599832060, 282328602]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/MigrationResult.swift": [1599832060, 281567139]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/SecItem.swift": [1599832060, 285990628]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclave.swift": [1599832060, 283002382]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveAccessControl.swift": [1599832060, 291893688]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveValet.swift": [1599832060, 295630097]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Service.swift": [1599832060, 286698578]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SinglePromptSecureEnclaveValet.swift": [1599832060, 293607259]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SwiftCompatibility.swift": [1599832060, 294435465]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Valet.swift": [1599832060, 284706441]

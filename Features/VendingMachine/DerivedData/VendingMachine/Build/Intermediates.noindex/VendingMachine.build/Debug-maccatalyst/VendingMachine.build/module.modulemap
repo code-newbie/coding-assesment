@@ -1,0 +1,6 @@
+framework module VendingMachine {
+  umbrella header "VendingMachine.h"
+
+  export *
+  module * { export * }
+}
