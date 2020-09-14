@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Common</string>
+	<string>CommonUIKit</string>
+	<string>SceneKit</string>
+	<string>RxSwift</string>
+	<string>Domains</string>
+	<string>libkern</string>
+	<string>WebKit</string>
+	<string>Glibc</string>
+	<string>Payment</string>
+	<string>malloc</string>
+	<string>Dispatch</string>
+	<string>Realm</string>
+	<string>AppNavigation</string>
+	<string>ImageIO</string>
+	<string>NetworkService</string>
+	<string>CoreServices</string>
+	<string>JWTDecode</string>
+	<string>mach</string>
+	<string>AVFoundation</string>
+	<string>Music</string>
+	<string>Swift</string>
+	<string>MobileCoreServices</string>
+	<string>Splash</string>
+	<string>Valet</string>
+	<string>Moya</string>
+	<string>NimbleCwlPreconditionTesting</string>
+	<string>RxRelay</string>
+	<string>i18next</string>
+	<string>NimbleCwlCatchExceptionSupport</string>
+	<string>AppKit</string>
+	<string>Nimble</string>
+	<string>SplashWorker</string>
+	<string>CoreFoundation</string>
+	<string>NimbleCwlCatchException</string>
+	<string>Cocoa</string>
+	<string>RxCocoa</string>
+	<string>Quick</string>
+	<string>ObjectiveC</string>
+	<string>XCTest</string>
+	<string>CoreData</string>
+	<string>CDispatch</string>
+	<string>VendingMachine</string>
+	<string>Alamofire</string>
+	<string>MainAssembly</string>
+	<string>dispatch</string>
+	<string>QuartzCore</string>
+	<string>FoundationNetworking</string>
+	<string>SystemConfiguration</string>
+	<string>Security</string>
+	<string>LocalAuthentication</string>
+	<string>CoreGraphics</string>
+	<string>FLEX</string>
+	<string>objc</string>
+	<string>RxCocoaRuntime</string>
+	<string>UIKit</string>
+	<string>NimbleCwlMachBadInstructionHandler</string>
+	<string>Foundation</string>
+	<string>Darwin</string>
+	<string>MessageUI</string>
+	<string>netfox</string>
+</array>
+</plist>

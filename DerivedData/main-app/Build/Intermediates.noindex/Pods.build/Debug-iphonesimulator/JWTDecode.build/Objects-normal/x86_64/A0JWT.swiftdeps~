@@ -1,0 +1,143 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "_JWT"
+provides-nominal:
+- "9JWTDecode4_JWTC"
+provides-member:
+- ["9JWTDecode4_JWTC", ""]
+provides-dynamic-lookup:
+- "body"
+- "decode"
+- "expired"
+- "expiresAt"
+- "header"
+- "jwt"
+- "signature"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CastingPrecedence"
+- "Date"
+- !private "DecodedJWT"
+- "JWT"
+- "NSObject"
+- "String"
+- "_JWT"
+depends-member:
+- !private ["s7CVarArgP", "DecodedJWT"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_JWT"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jwt"]
+- !private ["s28CustomDebugStringConvertibleP", "DecodedJWT"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_JWT"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jwt"]
+- !private ["s23CustomStringConvertibleP", "DecodedJWT"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_JWT"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jwt"]
+- !private ["9JWTDecode10DecodedJWTV", "deinit"]
+- !private ["9JWTDecode10DecodedJWTV", "init"]
+- !private ["SQ", "DecodedJWT"]
+- ["SQ", ""]
+- !private ["SQ", "_JWT"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jwt"]
+- !private ["SH", "DecodedJWT"]
+- ["SH", ""]
+- !private ["SH", "_JWT"]
+- !private ["SH", "init"]
+- !private ["SH", "jwt"]
+- !private ["9JWTDecode3JWTP", "body"]
+- !private ["9JWTDecode3JWTP", "expired"]
+- !private ["9JWTDecode3JWTP", "expiresAt"]
+- !private ["9JWTDecode3JWTP", "header"]
+- !private ["9JWTDecode3JWTP", "init"]
+- !private ["9JWTDecode3JWTP", "signature"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Date"]
+- !private ["So8NSObjectC", "DecodedJWT"]
+- ["So8NSObjectC", "JWT"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_JWT"]
+- ["So8NSObjectC", "body"]
+- ["So8NSObjectC", "decode"]
+- ["So8NSObjectC", "expired"]
+- ["So8NSObjectC", "expiresAt"]
+- ["So8NSObjectC", "header"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jwt"]
+- ["So8NSObjectC", "signature"]
+- !private ["So8NSObjectP", "DecodedJWT"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_JWT"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jwt"]
+- ["9JWTDecode4_JWTC", "Bool"]
+- ["9JWTDecode4_JWTC", "Date"]
+- !private ["9JWTDecode4_JWTC", "DecodedJWT"]
+- ["9JWTDecode4_JWTC", "JWT"]
+- ["9JWTDecode4_JWTC", "String"]
+- ["9JWTDecode4_JWTC", "_JWT"]
+- ["9JWTDecode4_JWTC", "body"]
+- ["9JWTDecode4_JWTC", "decode"]
+- ["9JWTDecode4_JWTC", "deinit"]
+- ["9JWTDecode4_JWTC", "expired"]
+- ["9JWTDecode4_JWTC", "expiresAt"]
+- ["9JWTDecode4_JWTC", "header"]
+- ["9JWTDecode4_JWTC", "init"]
+- ["9JWTDecode4_JWTC", "jwt"]
+- ["9JWTDecode4_JWTC", "signature"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DecodedJWT"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_JWT"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jwt"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "DecodedJWT"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "_JWT"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "jwt"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- !private "9JWTDecode10DecodedJWTV"
+- "SQ"
+- "SH"
+- !private "9JWTDecode3JWTP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "9JWTDecode4_JWTC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/JWTDecode.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0acb3603ac453ab60e0055ea9acb8609"

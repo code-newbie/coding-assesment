@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Ariana-Grande-and-Social-House_Boyfriend_Cover-Art-1564686362-compressed.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

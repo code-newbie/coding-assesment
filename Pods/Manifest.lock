@@ -1,0 +1,85 @@
+PODS:
+  - Alamofire (5.0.5)
+  - FLEX (4.1.1)
+  - i18next (1.0.1)
+  - JWTDecode (2.4.1)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - netfox (1.19.0)
+  - Nimble (8.1.2)
+  - Quick (3.0.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxGesture (3.0.1):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - SwiftLint (0.40.1)
+  - Valet (3.2.8)
+
+DEPENDENCIES:
+  - FLEX
+  - i18next
+  - JWTDecode (~> 2.3)
+  - Moya
+  - netfox (~> 1.19)
+  - Nimble
+  - Quick
+  - RxCocoa (~> 5)
+  - RxGesture
+  - RxSwift (~> 5)
+  - RxSwiftExt (~> 5)
+  - SwiftLint
+  - Valet (= 3.2.8)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FLEX
+    - i18next
+    - JWTDecode
+    - Moya
+    - netfox
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxGesture
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - SwiftLint
+    - Valet
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  FLEX: 81096107977a09836eb440173010ceeef01105d6
+  i18next: 5f3d8974d14e145edd8d735057ac33c7ee3ec184
+  JWTDecode: 4bd4da0cdf0f8154fd467fa48499f34ec057fb88
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  netfox: efeec1d23406df6cd605212f09a40957bb5654eb
+  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxGesture: a3f8dd6adf078110ed5e1c9c30d09d705a09852e
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  SwiftLint: bbfed21bf4451dcbd0f5cdbee44a18e06cf91b12
+  Valet: 16d0537d70db79d9ba953b9060b5da4fb8004e51
+
+PODFILE CHECKSUM: 96e69b52abd369f67f34e1f02f247e9b7160c680
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,92 @@
+name: AppNavigation
+# options configurations
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+# settings
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).AppNavigation
+  SKIP_INSTALL: YES
+  ENABLE_BITCODE: NO
+# Xcode Configurations
+configs:
+  Debug: debug
+  Release: release
+  Pre-Release: release
+  SIT: debug
+  UAT: debug
+# Configurations Files
+configFiles:
+  # Main/AppConfig/dev.xcconfig
+  Debug: ../../Main/AppConfig/dev.xcconfig
+  Release: ../../Main/AppConfig/Production.xcconfig
+  Pre-Release: ../../Main/AppConfig/Pre-Production.xcconfig
+  SIT: ../../Main/AppConfig/SIT.xcconfig
+  UAT: ../../Main/AppConfig/UAT.xcconfig
+# Targets
+targets:
+  AppNavigation:
+    type: framework
+    platform: iOS
+    sources:
+      - AppNavigation
+    dependencies:
+      - framework: '${BUILT_PRODUCTS_DIR}/Common.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Splash.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/VendingMachine.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Payment.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Music.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/CommonUIKit.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/NetworkService.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Domains.framework'
+        embed: false
+    testTargets:
+      - name: AppNavigationTests
+        parallelizable: true
+        randomExecutionOrder: true
+      - name: MainUITests
+        parallelizable: true
+        randomExecutionOrder: true
+  # Unit Tests
+  AppNavigationTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: AppNavigation
+    sources:
+      - AppNavigationTests
+schemes:
+  AppNavigation:
+    build:
+      targets:
+        AppNavigation: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+      - AppNavigation
+      targets:
+      - name: AppNavigationTests
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug

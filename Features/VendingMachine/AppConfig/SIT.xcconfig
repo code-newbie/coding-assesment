@@ -1,0 +1,8 @@
+// Defines all variables
+APP_ENVIRONMENT = sit
+APP_BUNDLE_NAME = Everest - SIT
+APP_BUNDLE_VERSION = 0.4.0
+
+BASE_URL = http:\/\/10.243.215.211:7201\/
+BASE_PATH = everest\/sit2
+API_GATEWAY_PATH = gateway

@@ -1,0 +1,10 @@
+framework module Splash {
+  umbrella header "Splash.h"
+
+  export *
+  module * { export * }
+}
+
+module Splash.__Swift {
+    exclude header "Splash-Swift.h"
+}

@@ -1,0 +1,10 @@
+framework module MainAssembly {
+  umbrella header "MainAssembly.h"
+
+  export *
+  module * { export * }
+}
+
+module MainAssembly.__Swift {
+    exclude header "MainAssembly-Swift.h"
+}

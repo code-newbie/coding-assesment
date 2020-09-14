@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9ec7608aafcd23b2d0f221bf8ae4dab7"
+build_time: [1600068549, 589231000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Accessibility.swift": [1600068523, 188758563]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/CloudAccessibility.swift": [1600068523, 181252878]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Configuration.swift": [1600068523, 187574067]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/ErrorHandler.swift": [1600068523, 190032291]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Identifier.swift": [1600068523, 198713418]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Keychain.swift": [1600068523, 185784369]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/KeychainQueryConvertible.swift": [1600068523, 180536221]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/MigrationResult.swift": [1600068523, 180184055]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/SecItem.swift": [1600068523, 183521103]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclave.swift": [1600068523, 180858772]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveAccessControl.swift": [1600068523, 192726173]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveValet.swift": [1600068523, 197341060]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Service.swift": [1600068523, 184606610]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SinglePromptSecureEnclaveValet.swift": [1600068523, 194286338]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SwiftCompatibility.swift": [1600068523, 195628081]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Valet.swift": [1600068523, 181632549]

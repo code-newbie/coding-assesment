@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B523924B40BFB427F8A4668 /* CommonUIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82382607B37753C39A2DAF19 /* CommonUIKit.framework */; };
+		3AC378634A4D0C668AB3C755 /* VendingMachineConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D45F19A0FB9CB02B483933 /* VendingMachineConfigurator.swift */; };
+		588725367B9072EC05244F38 /* VendingProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D95A32E158461758230CEE5 /* VendingProtocols.swift */; };
+		61A96CCB107C19936990AC84 /* VendingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65444AD1424D868F22E921AE /* VendingCollectionViewCell.swift */; };
+		6BAC56DCB114E6EDC5765CFB /* VendingMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */; };
+		71C33B20B74CB6152DB8F410 /* VendingMachine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC7A97F614255060E77A62 /* VendingMachine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7E3A3BB7035AF4EE997B24A4 /* VendingMachineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335EE59AE85E8383001C3F5 /* VendingMachineConstants.swift */; };
+		7ED0367594DD258E5B2E00D8 /* Pods_VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */; };
+		800A13039816C4AD648B358A /* VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC7A97F614255060E77A62 /* VendingMachine.framework */; };
+		82AB29681BCD726751DCDCC2 /* VendingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFB37BCD02944AEF2423A0D /* VendingCollectionViewCell.xib */; };
+		8EF1410D8761D09D524200D5 /* VendingMachineLocalizedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */; };
+		9EEEF0FB3C419F00517D62BB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0A04A71A7031C64FED6C5E /* Asset.xcassets */; };
+		A0EE606A176C5916F735828D /* VendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B667996C0F2B4D46A38954 /* VendingView.swift */; };
+		AE3336729893EA7B2359F63D /* Domains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713D95F8AACC2D1BE4D711F1 /* Domains.framework */; };
+		B659B69AD7E90AAA6CD31E46 /* VendingMachineWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73167756FF3BE3BFA49EACF2 /* VendingMachineWireframe.swift */; };
+		C134C1D2A1A58E402E6C263E /* VendingMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA386197CD323D9B8646809 /* VendingMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0F6F0594286AE9F430EA3EC /* VendingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B519BF6AE031292FD54D4C5 /* VendingInteractor.swift */; };
+		D7C4A0AFAC8086C1CD1C521C /* VendingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161AB0B9B2B5CD5CAA00CB77 /* VendingView.xib */; };
+		DBC1B06C7D0AE3AAEC42FBF8 /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */; };
+		E08E8E5A9D03D1AB7BC4F0CD /* VendingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C2322CE06DD43E2251F37 /* VendingPresenter.swift */; };
+		E2E18267AE4B74E574643F07 /* VendingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F52FCB17DB34BCFFD3180 /* VendingRouter.swift */; };
+		F8AE76E5F3AF85178726E820 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446B72366E5BAF463C6FF13D /* Common.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D34773AED6343E8E4C54A14D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2A2193B853CC97A873A203C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 630D535E9875DBF8FD31A7CA;
+			remoteInfo = VendingMachine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C1E8D0B7B58DDE7A1E41501 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				71C33B20B74CB6152DB8F410 /* VendingMachine.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineTests.swift; sourceTree = "<group>"; };
+		02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.uat.xcconfig"; sourceTree = "<group>"; };
+		0B519BF6AE031292FD54D4C5 /* VendingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingInteractor.swift; sourceTree = "<group>"; };
+		101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.release.xcconfig"; sourceTree = "<group>"; };
+		161AB0B9B2B5CD5CAA00CB77 /* VendingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendingView.xib; sourceTree = "<group>"; };
+		1D95A32E158461758230CEE5 /* VendingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingProtocols.swift; sourceTree = "<group>"; };
+		24B413F434556D23616BFA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineLocalizedKeys.swift; sourceTree = "<group>"; };
+		2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine_VendingMachineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38D45F19A0FB9CB02B483933 /* VendingMachineConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineConfigurator.swift; sourceTree = "<group>"; };
+		3EA7FD605D526D439C887597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		446B72366E5BAF463C6FF13D /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = "${BUILT_PRODUCTS_DIR}/Common.framework"; sourceTree = "<group>"; };
+		4FA386197CD323D9B8646809 /* VendingMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendingMachine.h; sourceTree = "<group>"; };
+		5530327F5EA0421E8C31D4F8 /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
+		5A2C2322CE06DD43E2251F37 /* VendingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingPresenter.swift; sourceTree = "<group>"; };
+		5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; sourceTree = "<group>"; };
+		65444AD1424D868F22E921AE /* VendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingCollectionViewCell.swift; sourceTree = "<group>"; };
+		6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; sourceTree = "<group>"; };
+		713D95F8AACC2D1BE4D711F1 /* Domains.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Domains.framework; path = "${BUILT_PRODUCTS_DIR}/Domains.framework"; sourceTree = "<group>"; };
+		73167756FF3BE3BFA49EACF2 /* VendingMachineWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineWireframe.swift; sourceTree = "<group>"; };
+		82382607B37753C39A2DAF19 /* CommonUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUIKit.framework; path = "${BUILT_PRODUCTS_DIR}/CommonUIKit.framework"; sourceTree = "<group>"; };
+		8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; sourceTree = "<group>"; };
+		A07F52FCB17DB34BCFFD3180 /* VendingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingRouter.swift; sourceTree = "<group>"; };
+		A46CD9BC73E20537C19953FB /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
+		BE9399E87B71759D917D9830 /* VendingMachineTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VendingMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B667996C0F2B4D46A38954 /* VendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingView.swift; sourceTree = "<group>"; };
+		D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		DDFC7A97F614255060E77A62 /* VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.sit.xcconfig"; sourceTree = "<group>"; };
+		E335EE59AE85E8383001C3F5 /* VendingMachineConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineConstants.swift; sourceTree = "<group>"; };
+		EEFB37BCD02944AEF2423A0D /* VendingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendingCollectionViewCell.xib; sourceTree = "<group>"; };
+		F0B8FB594F62EE7831940D70 /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
+		F24A6A8D422F3439237679E9 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		F96E667F7D4E61A21AD7093E /* Pre-Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pre-Production.xcconfig"; sourceTree = "<group>"; };
+		FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.pre-release.xcconfig"; sourceTree = "<group>"; };
+		FF0A04A71A7031C64FED6C5E /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		731DD4E0C20081981B0964A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8AE76E5F3AF85178726E820 /* Common.framework in Frameworks */,
+				AE3336729893EA7B2359F63D /* Domains.framework in Frameworks */,
+				1B523924B40BFB427F8A4668 /* CommonUIKit.framework in Frameworks */,
+				7ED0367594DD258E5B2E00D8 /* Pods_VendingMachine.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD0D09377F7D6760786773F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800A13039816C4AD648B358A /* VendingMachine.framework in Frameworks */,
+				DBC1B06C7D0AE3AAEC42FBF8 /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020E2B86970775E8FBBA9102 /* VendingMachineTests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA7FD605D526D439C887597 /* Info.plist */,
+				01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */,
+			);
+			path = VendingMachineTests;
+			sourceTree = "<group>";
+		};
+		132D32319D488AC1072BE42A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */,
+				FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */,
+				101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */,
+				DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */,
+				02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */,
+				373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */,
+				6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */,
+				8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */,
+				5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */,
+				918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		4AC56CC26EB619A0E34653EC /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				73167756FF3BE3BFA49EACF2 /* VendingMachineWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		5410B77A167B0330C4D71653 /* AppConfig */ = {
+			isa = PBXGroup;
+			children = (
+				A46CD9BC73E20537C19953FB /* dev.xcconfig */,
+				F96E667F7D4E61A21AD7093E /* Pre-Production.xcconfig */,
+				F24A6A8D422F3439237679E9 /* Production.xcconfig */,
+				5530327F5EA0421E8C31D4F8 /* SIT.xcconfig */,
+				F0B8FB594F62EE7831940D70 /* UAT.xcconfig */,
+			);
+			name = AppConfig;
+			path = ../../Main/AppConfig;
+			sourceTree = "<group>";
+		};
+		5F278F5A88EAF6FC9018E133 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				38D45F19A0FB9CB02B483933 /* VendingMachineConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		678EF3D60B2D025CBD2A02EC = {
+			isa = PBXGroup;
+			children = (
+				5410B77A167B0330C4D71653 /* AppConfig */,
+				9218C451C669779A4062E2EB /* VendingMachine */,
+				020E2B86970775E8FBBA9102 /* VendingMachineTests */,
+				A7ED8E877C9193C81B715609 /* Frameworks */,
+				9BED1FB35D22337A5482A3D8 /* Products */,
+				132D32319D488AC1072BE42A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7796A8F98B414FCED007365C /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				EEAE6C88C09027061E68B726 /* Vending */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		7D6EE73FB3D06188841A60B4 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				65444AD1424D868F22E921AE /* VendingCollectionViewCell.swift */,
+				EEFB37BCD02944AEF2423A0D /* VendingCollectionViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		9218C451C669779A4062E2EB /* VendingMachine */ = {
+			isa = PBXGroup;
+			children = (
+				5F278F5A88EAF6FC9018E133 /* Configurator */,
+				AE9CE4F17F899919D5A958D1 /* Constant */,
+				7796A8F98B414FCED007365C /* Scene */,
+				4AC56CC26EB619A0E34653EC /* Wireframe */,
+				FF0A04A71A7031C64FED6C5E /* Asset.xcassets */,
+				24B413F434556D23616BFA29 /* Info.plist */,
+				4FA386197CD323D9B8646809 /* VendingMachine.h */,
+			);
+			path = VendingMachine;
+			sourceTree = "<group>";
+		};
+		9BED1FB35D22337A5482A3D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDFC7A97F614255060E77A62 /* VendingMachine.framework */,
+				BE9399E87B71759D917D9830 /* VendingMachineTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7ED8E877C9193C81B715609 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446B72366E5BAF463C6FF13D /* Common.framework */,
+				82382607B37753C39A2DAF19 /* CommonUIKit.framework */,
+				713D95F8AACC2D1BE4D711F1 /* Domains.framework */,
+				8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */,
+				2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE9CE4F17F899919D5A958D1 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E335EE59AE85E8383001C3F5 /* VendingMachineConstants.swift */,
+				2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		EEAE6C88C09027061E68B726 /* Vending */ = {
+			isa = PBXGroup;
+			children = (
+				7D6EE73FB3D06188841A60B4 /* cell */,
+				0B519BF6AE031292FD54D4C5 /* VendingInteractor.swift */,
+				5A2C2322CE06DD43E2251F37 /* VendingPresenter.swift */,
+				1D95A32E158461758230CEE5 /* VendingProtocols.swift */,
+				A07F52FCB17DB34BCFFD3180 /* VendingRouter.swift */,
+				C5B667996C0F2B4D46A38954 /* VendingView.swift */,
+				161AB0B9B2B5CD5CAA00CB77 /* VendingView.xib */,
+			);
+			path = Vending;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E04FB1F73D5545EDEDB5C502 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C134C1D2A1A58E402E6C263E /* VendingMachine.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		630D535E9875DBF8FD31A7CA /* VendingMachine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D5445999AFB39B174CD8B10 /* Build configuration list for PBXNativeTarget "VendingMachine" */;
+			buildPhases = (
+				15657DAD1161E98822B1736E /* [CP] Check Pods Manifest.lock */,
+				E04FB1F73D5545EDEDB5C502 /* Headers */,
+				4DF4964C53E472F93089D97D /* Sources */,
+				4BDDFFE000DDCFC07067299C /* Resources */,
+				731DD4E0C20081981B0964A9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VendingMachine;
+			productName = VendingMachine;
+			productReference = DDFC7A97F614255060E77A62 /* VendingMachine.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6B17C856CBD5E90163A0DDC /* VendingMachineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5153D8B55855DA3FF60E770A /* Build configuration list for PBXNativeTarget "VendingMachineTests" */;
+			buildPhases = (
+				AAB682C82296144E83E29B9E /* [CP] Check Pods Manifest.lock */,
+				B0BEAC70082524A23D253C54 /* Sources */,
+				BDD0D09377F7D6760786773F /* Frameworks */,
+				3C1E8D0B7B58DDE7A1E41501 /* Embed Frameworks */,
+				B7E18526A76C307AB71D709D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BA5CFA1E026F8251752B38D /* PBXTargetDependency */,
+			);
+			name = VendingMachineTests;
+			productName = VendingMachineTests;
+			productReference = BE9399E87B71759D917D9830 /* VendingMachineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2A2193B853CC97A873A203C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 569C3A9EC27E67AFB5A38509 /* Build configuration list for PBXProject "VendingMachine" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 678EF3D60B2D025CBD2A02EC;
+			productRefGroup = 9BED1FB35D22337A5482A3D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				630D535E9875DBF8FD31A7CA /* VendingMachine */,
+				D6B17C856CBD5E90163A0DDC /* VendingMachineTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BDDFFE000DDCFC07067299C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EEEF0FB3C419F00517D62BB /* Asset.xcassets in Resources */,
+				82AB29681BCD726751DCDCC2 /* VendingCollectionViewCell.xib in Resources */,
+				D7C4A0AFAC8086C1CD1C521C /* VendingView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15657DAD1161E98822B1736E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendingMachine-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAB682C82296144E83E29B9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VendingMachine-VendingMachineTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E18526A76C307AB71D709D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DF4964C53E472F93089D97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A96CCB107C19936990AC84 /* VendingCollectionViewCell.swift in Sources */,
+				D0F6F0594286AE9F430EA3EC /* VendingInteractor.swift in Sources */,
+				3AC378634A4D0C668AB3C755 /* VendingMachineConfigurator.swift in Sources */,
+				7E3A3BB7035AF4EE997B24A4 /* VendingMachineConstants.swift in Sources */,
+				8EF1410D8761D09D524200D5 /* VendingMachineLocalizedKeys.swift in Sources */,
+				B659B69AD7E90AAA6CD31E46 /* VendingMachineWireframe.swift in Sources */,
+				E08E8E5A9D03D1AB7BC4F0CD /* VendingPresenter.swift in Sources */,
+				588725367B9072EC05244F38 /* VendingProtocols.swift in Sources */,
+				E2E18267AE4B74E574643F07 /* VendingRouter.swift in Sources */,
+				A0EE606A176C5916F735828D /* VendingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0BEAC70082524A23D253C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BAC56DCB114E6EDC5765CFB /* VendingMachineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BA5CFA1E026F8251752B38D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 630D535E9875DBF8FD31A7CA /* VendingMachine */;
+			targetProxy = D34773AED6343E8E4C54A14D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E53C0DB1AB4B641823F11FD /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5530327F5EA0421E8C31D4F8 /* SIT.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).VendingMachine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = SIT;
+		};
+		50B9C51615C661B88BA59037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VendingMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5328773B8CB9BE6F7639857F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		5965A55F18BD7656D6B4C6B2 /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VendingMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Pre-Release";
+		};
+		5F1FC520A0320277C4700F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46CD9BC73E20537C19953FB /* dev.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).VendingMachine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6B313BE4293BEF3D891D8356 /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = SIT;
+		};
+		6B8F8DEB0EF1970E8F254AC7 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0B8FB594F62EE7831940D70 /* UAT.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).VendingMachine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = UAT;
+		};
+		7A21D846265B3456D1B2646C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F24A6A8D422F3439237679E9 /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).VendingMachine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BCF5855B7ABCDB10EA3F08 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VendingMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = UAT;
+		};
+		912F38348CDC3E4D800B7FCE /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = "Pre-Release";
+		};
+		A1687CA79BB6B140F87534A4 /* Pre-Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96E667F7D4E61A21AD7093E /* Pre-Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).VendingMachine";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Pre-Release";
+		};
+		BA73F9BC76B7DBBF742E97F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VendingMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D529AA75C816E85297216A7C /* SIT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VendingMachineTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = SIT;
+		};
+		F6EB2CF5B45113ACA4675737 /* UAT */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = UAT;
+		};
+		FBB3B94BB876075B747B98A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${BUILT_PRODUCTS_DIR}\"",
+				);
+				INFOPLIST_FILE = VendingMachine/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5153D8B55855DA3FF60E770A /* Build configuration list for PBXNativeTarget "VendingMachineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA73F9BC76B7DBBF742E97F3 /* Debug */,
+				5965A55F18BD7656D6B4C6B2 /* Pre-Release */,
+				50B9C51615C661B88BA59037 /* Release */,
+				D529AA75C816E85297216A7C /* SIT */,
+				84BCF5855B7ABCDB10EA3F08 /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		569C3A9EC27E67AFB5A38509 /* Build configuration list for PBXProject "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F1FC520A0320277C4700F86 /* Debug */,
+				A1687CA79BB6B140F87534A4 /* Pre-Release */,
+				7A21D846265B3456D1B2646C /* Release */,
+				2E53C0DB1AB4B641823F11FD /* SIT */,
+				6B8F8DEB0EF1970E8F254AC7 /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D5445999AFB39B174CD8B10 /* Build configuration list for PBXNativeTarget "VendingMachine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBB3B94BB876075B747B98A0 /* Debug */,
+				912F38348CDC3E4D800B7FCE /* Pre-Release */,
+				5328773B8CB9BE6F7639857F /* Release */,
+				6B313BE4293BEF3D891D8356 /* SIT */,
+				F6EB2CF5B45113ACA4675737 /* UAT */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2A2193B853CC97A873A203C /* Project object */;
+}

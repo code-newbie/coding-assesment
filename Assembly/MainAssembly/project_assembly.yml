@@ -1,0 +1,64 @@
+name: MainAssembly
+
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+  generateEmptyDirectories: true
+# settings
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).mainassembly
+  SKIP_INSTALL: YES
+  ENABLE_BITCODE: NO
+# configs
+configs:
+  Debug: debug
+  Release: release
+  Pre-Release: release
+  SIT: debug
+  UAT: debug
+# Configurations Files
+configFiles:
+  # Main/AppConfig/dev.xcconfig
+  Debug: ../../Main/AppConfig/dev.xcconfig
+  Release: ../../Main/AppConfig/Production.xcconfig
+  Pre-Release: ../../Main/AppConfig/Pre-Production.xcconfig
+  SIT: ../../Main/AppConfig/SIT.xcconfig
+  UAT: ../../Main/AppConfig/UAT.xcconfig
+targets:
+  MainAssembly:
+    type: framework
+    platform: iOS
+    sources:
+      - MainAssembly
+    dependencies:
+      - framework: '${BUILT_PRODUCTS_DIR}/AppNavigation.framework'
+        embed: false
+        codeSign: false
+  MainAssemblyTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MainAssembly
+    sources:
+      - MainAssemblyTests
+schemes:
+  MainAssembly:
+    build:
+      targets:
+        MainAssembly: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+      - MainAssembly
+      targets:
+      - name: MainAssemblyTests
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug

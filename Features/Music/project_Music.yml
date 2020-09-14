@@ -1,0 +1,67 @@
+name: Music
+
+options:
+  groupSortPosition: top
+  deploymentTarget:
+      iOS: "11.0"
+  generateEmptyDirectories: true
+settings:
+  PRODUCT_BUNDLE_IDENTIFIER: $(APP_BUNDLE_ID).Music
+  ENABLE_BITCODE: NO
+configs:
+  Debug: debug
+  Release: release
+  Pre-Release: release
+  SIT: debug
+  UAT: debug
+# Configurations Files
+configFiles:
+  # Main/AppConfig/dev.xcconfig
+  Debug: ../../Main/AppConfig/dev.xcconfig
+  Release: ../../Main/AppConfig/Production.xcconfig
+  Pre-Release: ../../Main/AppConfig/Pre-Production.xcconfig
+  SIT: ../../Main/AppConfig/SIT.xcconfig
+  UAT: ../../Main/AppConfig/UAT.xcconfig
+targets:
+  Music:
+    type: framework
+    platform: iOS
+    sources:
+      - Music
+    dependencies:
+      - framework: '${BUILT_PRODUCTS_DIR}/Common.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/Domains.framework'
+        embed: false
+        codeSign: false
+      - framework: '${BUILT_PRODUCTS_DIR}/CommonUIKit.framework'
+        embed: false
+        codeSign: false
+  MusicTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: Music
+    sources:
+      - MusicTests
+schemes:
+  Music:
+    build:
+      targets:
+        Music: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: true
+      coverageTargets:
+      - Music
+      targets:
+      - name: MusicTests
+    profile:
+      config: Debug
+    anlyze:
+      config: Debug
+    archive:
+      config: Debug

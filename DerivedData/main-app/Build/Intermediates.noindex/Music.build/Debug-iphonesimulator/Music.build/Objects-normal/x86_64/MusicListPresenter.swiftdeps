@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MusicListPresenter"
+provides-nominal:
+- "5Music0A13ListPresenterC"
+provides-member:
+- ["5Music0A13ListPresenterC", ""]
+provides-dynamic-lookup:
+- "didSelect"
+- "interactor"
+- "musicModel"
+- "router"
+- "view"
+- "viewDidload"
+depends-top-level:
+- "+"
+- "IndexPath"
+- "MusicListInteractorToPresenter"
+- "MusicListPresenter"
+- "MusicListPresenterToInteractor"
+- "MusicListPresenterToRouter"
+- "MusicListPresenterToView"
+- "MusicListViewToPresenter"
+- "Song"
+- "StringLiteralType"
+- "andmesh"
+- "bts"
+- "composer"
+- "jeremy"
+- "judika"
+- "khalid"
+- "link"
+- "malone"
+- "priadi"
+- "richbrian"
+- "yovie"
+- "zayn"
+depends-member:
+- ["5Music0A25ListInteractorToPresenterP", "Song"]
+- ["5Music0A25ListInteractorToPresenterP", ""]
+- ["5Music0A25ListInteractorToPresenterP", "andmesh"]
+- ["5Music0A25ListInteractorToPresenterP", "bts"]
+- ["5Music0A25ListInteractorToPresenterP", "composer"]
+- ["5Music0A25ListInteractorToPresenterP", "didSelect"]
+- ["5Music0A25ListInteractorToPresenterP", "interactor"]
+- ["5Music0A25ListInteractorToPresenterP", "jeremy"]
+- ["5Music0A25ListInteractorToPresenterP", "judika"]
+- ["5Music0A25ListInteractorToPresenterP", "khalid"]
+- ["5Music0A25ListInteractorToPresenterP", "link"]
+- ["5Music0A25ListInteractorToPresenterP", "malone"]
+- ["5Music0A25ListInteractorToPresenterP", "musicModel"]
+- ["5Music0A25ListInteractorToPresenterP", "priadi"]
+- ["5Music0A25ListInteractorToPresenterP", "richbrian"]
+- ["5Music0A25ListInteractorToPresenterP", "router"]
+- ["5Music0A25ListInteractorToPresenterP", "view"]
+- ["5Music0A25ListInteractorToPresenterP", "viewDidload"]
+- ["5Music0A25ListInteractorToPresenterP", "yovie"]
+- ["5Music0A25ListInteractorToPresenterP", "zayn"]
+- ["5Music0A13ListPresenterC", "IndexPath"]
+- ["5Music0A13ListPresenterC", "MusicListPresenterToInteractor"]
+- ["5Music0A13ListPresenterC", "MusicListPresenterToRouter"]
+- ["5Music0A13ListPresenterC", "MusicListPresenterToView"]
+- ["5Music0A13ListPresenterC", "Song"]
+- ["5Music0A13ListPresenterC", "andmesh"]
+- ["5Music0A13ListPresenterC", "bts"]
+- ["5Music0A13ListPresenterC", "composer"]
+- ["5Music0A13ListPresenterC", "deinit"]
+- ["5Music0A13ListPresenterC", "didSelect"]
+- ["5Music0A13ListPresenterC", "init"]
+- ["5Music0A13ListPresenterC", "interactor"]
+- ["5Music0A13ListPresenterC", "jeremy"]
+- ["5Music0A13ListPresenterC", "judika"]
+- ["5Music0A13ListPresenterC", "khalid"]
+- ["5Music0A13ListPresenterC", "link"]
+- ["5Music0A13ListPresenterC", "malone"]
+- ["5Music0A13ListPresenterC", "musicModel"]
+- ["5Music0A13ListPresenterC", "priadi"]
+- ["5Music0A13ListPresenterC", "richbrian"]
+- ["5Music0A13ListPresenterC", "router"]
+- ["5Music0A13ListPresenterC", "view"]
+- ["5Music0A13ListPresenterC", "viewDidload"]
+- ["5Music0A13ListPresenterC", "yovie"]
+- ["5Music0A13ListPresenterC", "zayn"]
+- !private ["5Music0A21ListPresenterToRouterP", "navigateToPlayer"]
+- !private ["5Music0A19ListPresenterToViewP", "navigationBar"]
+- !private ["5Music0A19ListPresenterToViewP", "setupView"]
+- ["5Music0A19ListViewToPresenterP", "Song"]
+- ["5Music0A19ListViewToPresenterP", ""]
+- ["5Music0A19ListViewToPresenterP", "andmesh"]
+- ["5Music0A19ListViewToPresenterP", "bts"]
+- ["5Music0A19ListViewToPresenterP", "composer"]
+- ["5Music0A19ListViewToPresenterP", "didSelect"]
+- ["5Music0A19ListViewToPresenterP", "interactor"]
+- ["5Music0A19ListViewToPresenterP", "jeremy"]
+- ["5Music0A19ListViewToPresenterP", "judika"]
+- ["5Music0A19ListViewToPresenterP", "khalid"]
+- ["5Music0A19ListViewToPresenterP", "link"]
+- ["5Music0A19ListViewToPresenterP", "malone"]
+- ["5Music0A19ListViewToPresenterP", "musicModel"]
+- ["5Music0A19ListViewToPresenterP", "priadi"]
+- ["5Music0A19ListViewToPresenterP", "richbrian"]
+- ["5Music0A19ListViewToPresenterP", "router"]
+- ["5Music0A19ListViewToPresenterP", "view"]
+- ["5Music0A19ListViewToPresenterP", "viewDidload"]
+- ["5Music0A19ListViewToPresenterP", "yovie"]
+- ["5Music0A19ListViewToPresenterP", "zayn"]
+- ["7Domains4SongV", "init"]
+depends-nominal:
+- "5Music0A25ListInteractorToPresenterP"
+- "5Music0A13ListPresenterC"
+- !private "5Music0A21ListPresenterToRouterP"
+- !private "5Music0A19ListPresenterToViewP"
+- "5Music0A19ListViewToPresenterP"
+- "7Domains4SongV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/Domains.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/CommonUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Music.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit.h"
+- "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Constant/MusicConstant.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Music.build/Debug-iphonesimulator/Music.build/unextended-module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "21fea4b2044ea1182ddffefd185aee45"

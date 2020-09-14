@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "aff1abc2589124fd6e74ae8ef28166b1"
+build_time: [1600067400, 902028000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/cell/MusicCollectionViewCell.swift": [1600005045, 231795192]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Configurator/MusicConfigurator.swift": [1600001139, 604043126]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/MusicListInteractor.swift": [1599847849, 243225932]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/MusicListPresenter.swift": [1600008033, 77718854]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/MusicListProtocols.swift": [1599998930, 897055387]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/MusicListRouter.swift": [1599998997, 546510458]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicList/MusicListView.swift": [1600005097, 671538234]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicPlayer/MusicPlayerInteractor.swift": [1599847827, 967373848]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicPlayer/MusicPlayerPresenter.swift": [1600009102, 245977044]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicPlayer/MusicPlayerProtocols.swift": [1600009314, 47508121]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicPlayer/MusicPlayerRouter.swift": [1600001127, 214987755]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Scene/MusicPlayer/MusicPlayerView.swift": [1600010327, 654694438]
+  "/Users/ilham/Desktop/coding-assesment/Features/Music/Music/Wireframe/MusicWireframe.swift": [1599998997, 506874323]

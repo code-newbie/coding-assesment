@@ -1,0 +1,13 @@
+// Defines all variables
+APP_ENVIRONMENT = dev
+APP_BUNDLE_NAME = TEST - Dev
+APP_BUNDLE_VERSION = 0.2.0
+APP_BUNDLE_ID = com.test
+GOOGLE_BUNDLE_ID = com.test
+DEVELOPMENT_TEAM = 0
+PROVISIONING_PROFILE = match Development com.test
+APP_CODE_SIGN_IDENTITY = iPhone Developer
+
+BASE_URL = http:\/\/10.243.215.190:7201\/
+BASE_PATH = everest\/dev1
+API_GATEWAY_PATH = gateway

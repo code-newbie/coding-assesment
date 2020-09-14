@@ -1,0 +1,422 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HTTPHeaderField"
+- "HttpContentType"
+provides-nominal:
+- "14NetworkService15HTTPHeaderFieldO"
+- "14NetworkService15HttpContentTypeO"
+provides-member:
+- ["14NetworkService15HTTPHeaderFieldO", ""]
+- ["14NetworkService15HttpContentTypeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- "=="
+- !private "??"
+- !private "AppContext"
+- "AssignmentPrecedence"
+- !private "ConfigKeys"
+- !private "FloatLiteralType"
+- "HTTPHeaderField"
+- "HttpContentType"
+- !private "IntegerLiteralType"
+- !private "LanguageManager"
+- !private "SettingContext"
+- "String"
+- "StringLiteralType"
+- !private "UIApplication"
+- !private "UUID"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["6Common10AppContextC", "infoForKey"]
+- !private ["6Common10AppContextC", "instance"]
+- !private ["SK", "isEmpty"]
+- !private ["s7CVarArgP", "appVersion"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "isEmpty"]
+- !private ["6Common10ConfigKeysO", "clientId"]
+- !private ["6Common10ConfigKeysO", "clientSecret"]
+- !private ["6Common10ConfigKeysO", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "appVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "appVersion"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uuidString"]
+- !private ["SD", "subscript"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uuidString"]
+- ["SQ", "=="]
+- !private ["SQ", "AppContext"]
+- !private ["SQ", "ConfigKeys"]
+- !private ["SQ", "HTTPHeaderField"]
+- !private ["SQ", "HttpContentType"]
+- !private ["SQ", "LanguageManager"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "SettingContext"]
+- !private ["SQ", "UIApplication"]
+- !private ["SQ", "UUID"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "appVersion"]
+- !private ["SQ", "authentication"]
+- !private ["SQ", "channelId"]
+- !private ["SQ", "clientId"]
+- !private ["SQ", "clientSecret"]
+- !private ["SQ", "clientVersion"]
+- !private ["SQ", "contentType"]
+- !private ["SQ", "deviceId"]
+- !private ["SQ", "getCommonHeader"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "json"]
+- !private ["SQ", "language"]
+- !private ["SQ", "platform"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "requestId"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "uuidString"]
+- !private ["SQ", "xClientId"]
+- !private ["SQ", "xClientSecret"]
+- !private ["SQ", "xGrantType"]
+- !private ["SQ", "xScope"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s32ExpressibleByStringInterpolationP", "isEmpty"]
+- !private ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["14NetworkService15HTTPHeaderFieldO", "=="]
+- !private ["14NetworkService15HTTPHeaderFieldO", "AppContext"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "ConfigKeys"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "HTTPHeaderField"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "HttpContentType"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "LanguageManager"]
+- ["14NetworkService15HTTPHeaderFieldO", "RawValue"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "SettingContext"]
+- ["14NetworkService15HTTPHeaderFieldO", "String"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "UIApplication"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "UUID"]
+- ["14NetworkService15HTTPHeaderFieldO", "_Default_RawValue"]
+- !private ["14NetworkService15HTTPHeaderFieldO", "_findStringSwitchCase"]
+- ["14NetworkService15HTTPHeaderFieldO", "_rawHashValue"]
+- ["14NetworkService15HTTPHeaderFieldO", "acceptEncoding"]
+- ["14NetworkService15HTTPHeaderFieldO", "acceptType"]
+- ["14NetworkService15HTTPHeaderFieldO", "authentication"]
+- ["14NetworkService15HTTPHeaderFieldO", "channelId"]
+- ["14NetworkService15HTTPHeaderFieldO", "clientVersion"]
+- ["14NetworkService15HTTPHeaderFieldO", "contentType"]
+- ["14NetworkService15HTTPHeaderFieldO", "deinit"]
+- ["14NetworkService15HTTPHeaderFieldO", "deviceId"]
+- ["14NetworkService15HTTPHeaderFieldO", "getAnonymousHeader"]
+- ["14NetworkService15HTTPHeaderFieldO", "getCommonHeader"]
+- ["14NetworkService15HTTPHeaderFieldO", "hash"]
+- ["14NetworkService15HTTPHeaderFieldO", "hashValue"]
+- ["14NetworkService15HTTPHeaderFieldO", "init"]
+- ["14NetworkService15HTTPHeaderFieldO", "language"]
+- ["14NetworkService15HTTPHeaderFieldO", "local"]
+- ["14NetworkService15HTTPHeaderFieldO", "platform"]
+- ["14NetworkService15HTTPHeaderFieldO", "rawValue"]
+- ["14NetworkService15HTTPHeaderFieldO", "requestId"]
+- ["14NetworkService15HTTPHeaderFieldO", "xClientId"]
+- ["14NetworkService15HTTPHeaderFieldO", "xClientSecret"]
+- ["14NetworkService15HTTPHeaderFieldO", "xDeviceToken"]
+- ["14NetworkService15HTTPHeaderFieldO", "xGrantType"]
+- ["14NetworkService15HTTPHeaderFieldO", "xScope"]
+- ["SH", "=="]
+- !private ["SH", "AppContext"]
+- !private ["SH", "ConfigKeys"]
+- !private ["SH", "HTTPHeaderField"]
+- !private ["SH", "HttpContentType"]
+- !private ["SH", "LanguageManager"]
+- ["SH", "RawValue"]
+- !private ["SH", "SettingContext"]
+- !private ["SH", "UIApplication"]
+- !private ["SH", "UUID"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "appVersion"]
+- !private ["SH", "authentication"]
+- !private ["SH", "channelId"]
+- !private ["SH", "clientId"]
+- !private ["SH", "clientSecret"]
+- !private ["SH", "clientVersion"]
+- !private ["SH", "contentType"]
+- !private ["SH", "deviceId"]
+- !private ["SH", "getCommonHeader"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "json"]
+- !private ["SH", "language"]
+- !private ["SH", "platform"]
+- ["SH", "rawValue"]
+- !private ["SH", "requestId"]
+- !private ["SH", "subscript"]
+- !private ["SH", "uuidString"]
+- !private ["SH", "xClientId"]
+- !private ["SH", "xClientSecret"]
+- !private ["SH", "xGrantType"]
+- !private ["SH", "xScope"]
+- ["14NetworkService15HttpContentTypeO", "=="]
+- ["14NetworkService15HttpContentTypeO", "RawValue"]
+- ["14NetworkService15HttpContentTypeO", "_Default_RawValue"]
+- !private ["14NetworkService15HttpContentTypeO", "_findStringSwitchCase"]
+- ["14NetworkService15HttpContentTypeO", "_rawHashValue"]
+- ["14NetworkService15HttpContentTypeO", "deinit"]
+- ["14NetworkService15HttpContentTypeO", "hash"]
+- ["14NetworkService15HttpContentTypeO", "hashValue"]
+- ["14NetworkService15HttpContentTypeO", "init"]
+- ["14NetworkService15HttpContentTypeO", "json"]
+- ["14NetworkService15HttpContentTypeO", "rawValue"]
+- !private ["6Common15LanguageManagerC", "getCurrentStoreLanguageHTTPHeader"]
+- !private ["6Common15LanguageManagerC", "shared"]
+- !private ["6Common23LanguageManagerProtocolP", "getCurrentStoreLanguageHTTPHeader"]
+- !private ["6Common23LanguageManagerProtocolP", "shared"]
+- !private ["s25LosslessStringConvertibleP", "isEmpty"]
+- !private ["s10MirrorPathP", "isEmpty"]
+- !private ["So8NSCodingP", "isEmpty"]
+- !private ["So9NSCopyingP", "isEmpty"]
+- !private ["So21NSItemProviderReadingP", "isEmpty"]
+- !private ["So21NSItemProviderWritingP", "isEmpty"]
+- !private ["So16NSMutableCopyingP", "isEmpty"]
+- !private ["So8NSObjectC", "appVersion"]
+- !private ["So8NSObjectC", "isEmpty"]
+- !private ["So8NSObjectP", "appVersion"]
+- !private ["So8NSObjectP", "isEmpty"]
+- !private ["So14NSSecureCodingP", "isEmpty"]
+- !private ["So8NSStringC", "isEmpty"]
+- !private ["Sm", "isEmpty"]
+- ["SY", "=="]
+- !private ["SY", "AppContext"]
+- !private ["SY", "ConfigKeys"]
+- !private ["SY", "HTTPHeaderField"]
+- !private ["SY", "HttpContentType"]
+- !private ["SY", "LanguageManager"]
+- ["SY", "RawValue"]
+- !private ["SY", "SettingContext"]
+- !private ["SY", "UIApplication"]
+- !private ["SY", "UUID"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "authentication"]
+- !private ["SY", "channelId"]
+- !private ["SY", "clientId"]
+- !private ["SY", "clientSecret"]
+- !private ["SY", "clientVersion"]
+- !private ["SY", "contentType"]
+- !private ["SY", "deviceId"]
+- !private ["SY", "getCommonHeader"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "json"]
+- !private ["SY", "language"]
+- !private ["SY", "platform"]
+- ["SY", "rawValue"]
+- !private ["SY", "requestId"]
+- !private ["SY", "xClientId"]
+- !private ["SY", "xClientSecret"]
+- !private ["SY", "xGrantType"]
+- !private ["SY", "xScope"]
+- !private ["7RxSwift18ReactiveCompatibleP", "appVersion"]
+- !private ["7RxSwift18ReactiveCompatibleP", "isEmpty"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "subscript"]
+- !private ["6Common14SettingContextC", "accessToken"]
+- !private ["6Common14SettingContextC", "deviceId"]
+- !private ["6Common14SettingContextC", "shared"]
+- !private ["6Common22SettingContextProtocolP", "accessToken"]
+- !private ["6Common22SettingContextProtocolP", "deviceId"]
+- !private ["6Common22SettingContextProtocolP", "shared"]
+- !private ["SS", "isEmpty"]
+- !private ["Sy", "isEmpty"]
+- !private ["s16TextOutputStreamP", "isEmpty"]
+- !private ["s20TextOutputStreamableP", "isEmpty"]
+- !private ["So13UIApplicationC", "appVersion"]
+- !private ["So30UIPasteConfigurationSupportingP", "appVersion"]
+- !private ["So11UIResponderC", "appVersion"]
+- !private ["So30UIResponderStandardEditActionsP", "appVersion"]
+- !private ["So23UIUserActivityRestoringP", "appVersion"]
+- !private ["9Alamofire14URLConvertibleP", "isEmpty"]
+- !private ["10Foundation4UUIDV", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "isEmpty"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- !private ["s19_HasContiguousBytesP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isEmpty"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "appVersion"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+depends-nominal:
+- !private "6Common10AppContextC"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "6Common10ConfigKeysO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "14NetworkService15HTTPHeaderFieldO"
+- "SH"
+- "14NetworkService15HttpContentTypeO"
+- !private "6Common15LanguageManagerC"
+- !private "6Common23LanguageManagerProtocolP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "6Common14SettingContextC"
+- !private "6Common22SettingContextProtocolP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So13UIApplicationC"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So23UIUserActivityRestoringP"
+- !private "9Alamofire14URLConvertibleP"
+- !private "10Foundation4UUIDV"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/JWTDecode.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/Common.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/Domains.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/Valet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/CommonUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/i18next-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/NetworkService.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextCache.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextConnection.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextPlurals.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSString+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSObject+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/NetworkService.build/Debug-iphonesimulator/NetworkService.build/unextended-module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "80a6bb1b68157f4ad8bfb868a61e9d5e"

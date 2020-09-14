@@ -1,0 +1,194 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Accessibility"
+provides-nominal:
+- "5Valet13AccessibilityO"
+provides-member:
+- ["5Valet13AccessibilityO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "Accessibility"
+- "AssignmentPrecedence"
+- !private "CFString"
+- "CastingPrecedence"
+- "CustomStringConvertible"
+- "Equatable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "String"
+- !private "StringLiteralType"
+- !private "kSecAttrAccessibleAfterFirstUnlock"
+- !private "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"
+- !private "kSecAttrAccessibleAlways"
+- !private "kSecAttrAccessibleAlwaysThisDeviceOnly"
+- !private "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"
+- !private "kSecAttrAccessibleWhenUnlocked"
+- !private "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"
+- !private "unsafeBitCast"
+- !private "~="
+depends-member:
+- ["5Valet13AccessibilityO", "=="]
+- ["5Valet13AccessibilityO", "Accessibility"]
+- !private ["5Valet13AccessibilityO", "CFString"]
+- ["5Valet13AccessibilityO", "RawValue"]
+- ["5Valet13AccessibilityO", "String"]
+- ["5Valet13AccessibilityO", "_Default_RawValue"]
+- ["5Valet13AccessibilityO", "_rawHashValue"]
+- ["5Valet13AccessibilityO", "afterFirstUnlock"]
+- ["5Valet13AccessibilityO", "afterFirstUnlockThisDeviceOnly"]
+- ["5Valet13AccessibilityO", "allValues"]
+- ["5Valet13AccessibilityO", "always"]
+- ["5Valet13AccessibilityO", "alwaysThisDeviceOnly"]
+- ["5Valet13AccessibilityO", "deinit"]
+- ["5Valet13AccessibilityO", "description"]
+- ["5Valet13AccessibilityO", "hash"]
+- ["5Valet13AccessibilityO", "hashValue"]
+- ["5Valet13AccessibilityO", "init"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleAfterFirstUnlock"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleAlways"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleAlwaysThisDeviceOnly"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleWhenUnlocked"]
+- !private ["5Valet13AccessibilityO", "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"]
+- ["5Valet13AccessibilityO", "rawValue"]
+- ["5Valet13AccessibilityO", "secAccessibilityAttribute"]
+- !private ["5Valet13AccessibilityO", "unsafeBitCast"]
+- ["5Valet13AccessibilityO", "whenPasscodeSetThisDeviceOnly"]
+- ["5Valet13AccessibilityO", "whenUnlocked"]
+- ["5Valet13AccessibilityO", "whenUnlockedThisDeviceOnly"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "afterFirstUnlock"]
+- ["s23CustomStringConvertibleP", "afterFirstUnlockThisDeviceOnly"]
+- ["s23CustomStringConvertibleP", "always"]
+- ["s23CustomStringConvertibleP", "alwaysThisDeviceOnly"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleAfterFirstUnlock"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleAlways"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleAlwaysThisDeviceOnly"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleWhenUnlocked"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "unsafeBitCast"]
+- ["s23CustomStringConvertibleP", "whenPasscodeSetThisDeviceOnly"]
+- ["s23CustomStringConvertibleP", "whenUnlocked"]
+- ["s23CustomStringConvertibleP", "whenUnlockedThisDeviceOnly"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "afterFirstUnlock"]
+- ["SQ", "afterFirstUnlockThisDeviceOnly"]
+- ["SQ", "always"]
+- ["SQ", "alwaysThisDeviceOnly"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "kSecAttrAccessibleAfterFirstUnlock"]
+- !private ["SQ", "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"]
+- !private ["SQ", "kSecAttrAccessibleAlways"]
+- !private ["SQ", "kSecAttrAccessibleAlwaysThisDeviceOnly"]
+- !private ["SQ", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["SQ", "kSecAttrAccessibleWhenUnlocked"]
+- !private ["SQ", "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "unsafeBitCast"]
+- ["SQ", "whenPasscodeSetThisDeviceOnly"]
+- ["SQ", "whenUnlocked"]
+- ["SQ", "whenUnlockedThisDeviceOnly"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "afterFirstUnlock"]
+- ["SH", "afterFirstUnlockThisDeviceOnly"]
+- ["SH", "always"]
+- ["SH", "alwaysThisDeviceOnly"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "kSecAttrAccessibleAfterFirstUnlock"]
+- !private ["SH", "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"]
+- !private ["SH", "kSecAttrAccessibleAlways"]
+- !private ["SH", "kSecAttrAccessibleAlwaysThisDeviceOnly"]
+- !private ["SH", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["SH", "kSecAttrAccessibleWhenUnlocked"]
+- !private ["SH", "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"]
+- ["SH", "rawValue"]
+- !private ["SH", "unsafeBitCast"]
+- ["SH", "whenPasscodeSetThisDeviceOnly"]
+- ["SH", "whenUnlocked"]
+- ["SH", "whenUnlockedThisDeviceOnly"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "afterFirstUnlock"]
+- ["SY", "afterFirstUnlockThisDeviceOnly"]
+- ["SY", "always"]
+- ["SY", "alwaysThisDeviceOnly"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "kSecAttrAccessibleAfterFirstUnlock"]
+- !private ["SY", "kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly"]
+- !private ["SY", "kSecAttrAccessibleAlways"]
+- !private ["SY", "kSecAttrAccessibleAlwaysThisDeviceOnly"]
+- !private ["SY", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["SY", "kSecAttrAccessibleWhenUnlocked"]
+- !private ["SY", "kSecAttrAccessibleWhenUnlockedThisDeviceOnly"]
+- ["SY", "rawValue"]
+- !private ["SY", "unsafeBitCast"]
+- ["SY", "whenPasscodeSetThisDeviceOnly"]
+- ["SY", "whenUnlocked"]
+- ["SY", "whenUnlockedThisDeviceOnly"]
+depends-nominal:
+- "5Valet13AccessibilityO"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Valet.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "bf400e961578f8f92bed0765aec1bcbf"

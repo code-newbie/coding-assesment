@@ -1,0 +1,10 @@
+framework module NetworkService {
+  umbrella header "NetworkService.h"
+
+  export *
+  module * { export * }
+}
+
+module NetworkService.__Swift {
+    exclude header "NetworkService-Swift.h"
+}

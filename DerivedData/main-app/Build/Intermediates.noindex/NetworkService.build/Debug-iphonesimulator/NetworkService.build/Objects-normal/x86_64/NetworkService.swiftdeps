@@ -1,0 +1,622 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StubResponse"
+- "NetworkCounter"
+- "NetworkService"
+provides-nominal:
+- "14NetworkService12StubResponseV"
+- "14NetworkService0A7CounterO"
+- "14NetworkServiceAAV"
+provides-member:
+- ["14NetworkService12StubResponseV", ""]
+- ["14NetworkService0A7CounterO", ""]
+- ["14NetworkServiceAAV", ""]
+- ["14NetworkServiceAAV", "requestObject"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "..."
+- "=="
+- !private "??"
+- !private "AppContext"
+- !private "AppEnvironment"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "CastingPrecedence"
+- !private "ConfigKeys"
+- "Data"
+- "Decodable"
+- !private "DecodingError"
+- !private "DisabledEvaluator"
+- !private "EmptyResponse"
+- !private "Endpoint"
+- !private "ErrorResponse"
+- !private "ErrorResponseCode"
+- "FloatLiteralType"
+- !private "HTTPStatusCode"
+- "Int"
+- "IntegerLiteralType"
+- !private "MoyaError"
+- "MoyaProvider"
+- "MultiTarget"
+- !private "NSError"
+- "NetworkCounter"
+- "NetworkError"
+- "NetworkService"
+- "NetworkServiceWireframe"
+- !private "Response"
+- "Result"
+- !private "ServerTrustEvaluating"
+- !private "ServerTrustManager"
+- !private "Session"
+- "SettingContext"
+- !private "String"
+- !private "StringLiteralType"
+- "StubResponse"
+- "TargetType"
+- !private "URL"
+- !private "URLSessionConfiguration"
+- "Void"
+- !private "debugLog"
+- !private "~="
+depends-member:
+- !private ["4Moya23AccessTokenAuthorizableP", "headers"]
+- !private ["4Moya23AccessTokenAuthorizableP", "init"]
+- !private ["4Moya23AccessTokenAuthorizableP", "method"]
+- !private ["4Moya23AccessTokenAuthorizableP", "sampleData"]
+- !private ["4Moya23AccessTokenAuthorizableP", "task"]
+- !private ["9Alamofire0A8ExtendedP", "default"]
+- !private ["6Common10AppContextC", "infoForKey"]
+- !private ["6Common10AppContextC", "instance"]
+- !private ["6Common14AppEnvironmentO", "init"]
+- !private ["6Common14AppEnvironmentO", "uat"]
+- !private ["SK", "boolYN"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["s7CVarArgP", "boolYN"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["SN", "contains"]
+- !private ["Sl", "boolYN"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "boolYN"]
+- !private ["6Common10ConfigKeysO", "appEnv"]
+- !private ["6Common10ConfigKeysO", "baseUrl"]
+- !private ["6Common10ConfigKeysO", "isEnableUntrustBaseUrl"]
+- !private ["6Common10ConfigKeysO", "rawValue"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "absoluteString"]
+- !private ["s28CustomDebugStringConvertibleP", "boolYN"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "filterSuccessfulStatusCodes"]
+- !private ["s28CustomDebugStringConvertibleP", "host"]
+- !private ["s28CustomDebugStringConvertibleP", "httpShouldHandleCookies"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["10Foundation13CustomNSErrorP", "response"]
+- ["10Foundation13CustomNSErrorP", "statusCode"]
+- !private ["10Foundation13CustomNSErrorP", "underlying"]
+- !private ["s17CustomReflectableP", "boolYN"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "httpShouldHandleCookies"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeoutInterval"]
+- !private ["s17CustomReflectableP", "url"]
+- !private ["s23CustomStringConvertibleP", "absoluteString"]
+- !private ["s23CustomStringConvertibleP", "boolYN"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "host"]
+- !private ["s23CustomStringConvertibleP", "httpShouldHandleCookies"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["10Foundation4DataV", "init"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["Se", "absoluteString"]
+- !private ["Se", "boolYN"]
+- !private ["Se", "code"]
+- !private ["Se", "contains"]
+- !private ["Se", "host"]
+- !private ["Se", "init"]
+- !private ["Se", "serviceOff"]
+- !private ["Se", "subscript"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["9Alamofire17DisabledEvaluatorC", "init"]
+- !private ["SE", "absoluteString"]
+- !private ["SE", "boolYN"]
+- !private ["SE", "code"]
+- !private ["SE", "contains"]
+- !private ["SE", "host"]
+- !private ["SE", "init"]
+- !private ["SE", "serviceOff"]
+- !private ["SE", "subscript"]
+- !private ["4Moya8EndpointC", "init"]
+- !private ["4Moya8EndpointC", "urlRequest"]
+- !private ["4Moya22EndpointSampleResponseO", "networkResponse"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "absoluteString"]
+- !private ["SQ", "appEnv"]
+- !private ["SQ", "baseUrl"]
+- !private ["SQ", "boolYN"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "default"]
+- !private ["SQ", "downtimeScheduleError"]
+- !private ["SQ", "downtimeUnscheduleError"]
+- !private ["SQ", "failure"]
+- !private ["SQ", "filterSuccessfulStatusCodes"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "host"]
+- !private ["SQ", "httpShouldHandleCookies"]
+- ["SQ", "init"]
+- !private ["SQ", "isEnableUntrustBaseUrl"]
+- !private ["SQ", "map"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "request"]
+- !private ["SQ", "response"]
+- !private ["SQ", "serviceOff"]
+- !private ["SQ", "serviceUnavailable"]
+- !private ["SQ", "statusCode"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "success"]
+- !private ["SQ", "timeoutInterval"]
+- !private ["SQ", "uat"]
+- !private ["SQ", "unauthorized"]
+- !private ["SQ", "url"]
+- !private ["SQ", "urlRequest"]
+- !private ["s5ErrorP", "code"]
+- !private ["s5ErrorP", "emptyResponse"]
+- !private ["s5ErrorP", "incorrectDataReturned"]
+- !private ["s5ErrorP", "init"]
+- !private ["s5ErrorP", "response"]
+- !private ["s5ErrorP", "serviceOff"]
+- !private ["s5ErrorP", "serviceUnavailable"]
+- !private ["s5ErrorP", "softError"]
+- ["s5ErrorP", "statusCode"]
+- !private ["s5ErrorP", "underlying"]
+- !private ["s5ErrorP", "unknown"]
+- !private ["7Domains13ErrorResponseV", "code"]
+- !private ["7Domains13ErrorResponseV", "serviceOff"]
+- !private ["7Domains17ErrorResponseCodeO", "downtimeScheduleError"]
+- !private ["7Domains17ErrorResponseCodeO", "downtimeUnscheduleError"]
+- !private ["7Domains17ErrorResponseCodeO", "rawValue"]
+- !private ["7Domains17ErrorResponseCodeO", "serviceOff"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "boolYN"]
+- !private ["s32ExpressibleByStringInterpolationP", "boolYN"]
+- !private ["s26ExpressibleByStringLiteralP", "boolYN"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "boolYN"]
+- !private ["6Common14HTTPStatusCodeO", "rawValue"]
+- !private ["6Common14HTTPStatusCodeO", "serviceUnavailable"]
+- !private ["6Common14HTTPStatusCodeO", "unauthorized"]
+- !private ["So17NSHTTPURLResponseC", "statusCode"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "absoluteString"]
+- !private ["SH", "appEnv"]
+- !private ["SH", "baseUrl"]
+- !private ["SH", "boolYN"]
+- !private ["SH", "contains"]
+- !private ["SH", "default"]
+- !private ["SH", "downtimeScheduleError"]
+- !private ["SH", "downtimeUnscheduleError"]
+- !private ["SH", "failure"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "host"]
+- !private ["SH", "httpShouldHandleCookies"]
+- ["SH", "init"]
+- !private ["SH", "isEnableUntrustBaseUrl"]
+- ["SH", "rawValue"]
+- !private ["SH", "serviceOff"]
+- !private ["SH", "serviceUnavailable"]
+- !private ["SH", "statusCode"]
+- !private ["SH", "subscript"]
+- !private ["SH", "success"]
+- !private ["SH", "timeoutInterval"]
+- !private ["SH", "uat"]
+- !private ["SH", "unauthorized"]
+- !private ["SH", "url"]
+- !private ["SH", "urlRequest"]
+- !private ["10Foundation14LocalizedErrorP", "response"]
+- ["10Foundation14LocalizedErrorP", "statusCode"]
+- !private ["10Foundation14LocalizedErrorP", "underlying"]
+- !private ["s25LosslessStringConvertibleP", "boolYN"]
+- !private ["s10MirrorPathP", "boolYN"]
+- !private ["4Moya0A5ErrorO", "response"]
+- ["4Moya0A5ErrorO", "statusCode"]
+- !private ["4Moya0A5ErrorO", "underlying"]
+- !private ["4Moya0A8ProviderC", "immediatelyStub"]
+- !private ["4Moya0A8ProviderC", "init"]
+- !private ["4Moya0A8ProviderC", "request"]
+- !private ["4Moya0A8ProviderC", "session"]
+- !private ["4Moya0A12ProviderTypeP", "immediatelyStub"]
+- !private ["4Moya0A12ProviderTypeP", "init"]
+- !private ["4Moya0A12ProviderTypeP", "request"]
+- !private ["4Moya0A12ProviderTypeP", "session"]
+- !private ["4Moya11MultiTargetO", "headers"]
+- !private ["4Moya11MultiTargetO", "init"]
+- !private ["4Moya11MultiTargetO", "method"]
+- !private ["4Moya11MultiTargetO", "sampleData"]
+- !private ["4Moya11MultiTargetO", "task"]
+- !private ["SM", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["So8NSCodingP", "boolYN"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So9NSCopyingP", "boolYN"]
+- !private ["So9NSCopyingP", "default"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So21NSItemProviderReadingP", "boolYN"]
+- !private ["So21NSItemProviderWritingP", "boolYN"]
+- !private ["So16NSMutableCopyingP", "boolYN"]
+- !private ["So8NSObjectC", "boolYN"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectP", "boolYN"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "statusCode"]
+- !private ["So14NSSecureCodingP", "boolYN"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- !private ["So8NSStringC", "boolYN"]
+- ["14NetworkService0A7CounterO", "=="]
+- ["14NetworkService0A7CounterO", "RawValue"]
+- ["14NetworkService0A7CounterO", "_Default_RawValue"]
+- ["14NetworkService0A7CounterO", "_rawHashValue"]
+- ["14NetworkService0A7CounterO", "deinit"]
+- ["14NetworkService0A7CounterO", "hash"]
+- ["14NetworkService0A7CounterO", "hashValue"]
+- ["14NetworkService0A7CounterO", "init"]
+- ["14NetworkService0A7CounterO", "rawValue"]
+- ["14NetworkService0A7CounterO", "validity"]
+- ["14NetworkService0A5ErrorO", "deinit"]
+- !private ["14NetworkService0A5ErrorO", "emptyResponse"]
+- !private ["14NetworkService0A5ErrorO", "incorrectDataReturned"]
+- !private ["14NetworkService0A5ErrorO", "init"]
+- !private ["14NetworkService0A5ErrorO", "serviceUnavailable"]
+- !private ["14NetworkService0A5ErrorO", "softError"]
+- !private ["14NetworkService0A5ErrorO", "unknown"]
+- !private ["14NetworkServiceAAV", "AppContext"]
+- !private ["14NetworkServiceAAV", "AppEnvironment"]
+- !private ["14NetworkServiceAAV", "ConfigKeys"]
+- !private ["14NetworkServiceAAV", "Data"]
+- ["14NetworkServiceAAV", "Decodable"]
+- !private ["14NetworkServiceAAV", "DecodingError"]
+- !private ["14NetworkServiceAAV", "DisabledEvaluator"]
+- !private ["14NetworkServiceAAV", "EmptyResponse"]
+- !private ["14NetworkServiceAAV", "Endpoint"]
+- !private ["14NetworkServiceAAV", "ErrorResponse"]
+- !private ["14NetworkServiceAAV", "ErrorResponseCode"]
+- !private ["14NetworkServiceAAV", "HTTPStatusCode"]
+- !private ["14NetworkServiceAAV", "MoyaError"]
+- ["14NetworkServiceAAV", "MoyaProvider"]
+- ["14NetworkServiceAAV", "MultiTarget"]
+- !private ["14NetworkServiceAAV", "NSError"]
+- ["14NetworkServiceAAV", "NetworkError"]
+- ["14NetworkServiceAAV", "NetworkService"]
+- ["14NetworkServiceAAV", "NetworkServiceWireframe"]
+- !private ["14NetworkServiceAAV", "Response"]
+- ["14NetworkServiceAAV", "Result"]
+- !private ["14NetworkServiceAAV", "ServerTrustEvaluating"]
+- !private ["14NetworkServiceAAV", "ServerTrustManager"]
+- !private ["14NetworkServiceAAV", "Session"]
+- ["14NetworkServiceAAV", "SettingContext"]
+- !private ["14NetworkServiceAAV", "String"]
+- ["14NetworkServiceAAV", "StubResponse"]
+- ["14NetworkServiceAAV", "TargetType"]
+- !private ["14NetworkServiceAAV", "URL"]
+- !private ["14NetworkServiceAAV", "URLSessionConfiguration"]
+- ["14NetworkServiceAAV", "Void"]
+- !private ["14NetworkServiceAAV", "debugLog"]
+- ["14NetworkServiceAAV", "delegate"]
+- ["14NetworkServiceAAV", "init"]
+- ["14NetworkServiceAAV", "instance"]
+- !private ["14NetworkServiceAAV", "provider"]
+- ["14NetworkServiceAAV", "requestObject"]
+- ["14NetworkServiceAAV", "settingContext"]
+- !private ["14NetworkService0aB9WireframeP", "showGenericDowntime"]
+- !private ["14NetworkService0aB9WireframeP", "showServiceOff"]
+- !private ["Sk", "contains"]
+- !private ["Sk", "init"]
+- !private ["SX", "contains"]
+- !private ["Sm", "boolYN"]
+- !private ["Sm", "init"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- !private ["SY", "appEnv"]
+- !private ["SY", "baseUrl"]
+- !private ["SY", "downtimeScheduleError"]
+- !private ["SY", "downtimeUnscheduleError"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "isEnableUntrustBaseUrl"]
+- ["SY", "rawValue"]
+- !private ["SY", "serviceOff"]
+- !private ["SY", "serviceUnavailable"]
+- !private ["SY", "uat"]
+- !private ["SY", "unauthorized"]
+- !private ["7RxSwift18ReactiveCompatibleP", "boolYN"]
+- !private ["7RxSwift18ReactiveCompatibleP", "default"]
+- !private ["7RxSwift18ReactiveCompatibleP", "statusCode"]
+- !private ["10Foundation20ReferenceConvertibleP", "absoluteString"]
+- !private ["10Foundation20ReferenceConvertibleP", "host"]
+- !private ["10Foundation20ReferenceConvertibleP", "httpShouldHandleCookies"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeoutInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "url"]
+- !private ["9Alamofire15RequestDelegateP", "cancelAllRequests"]
+- !private ["9Alamofire15RequestDelegateP", "init"]
+- !private ["4Moya8ResponseC", "filterSuccessfulStatusCodes"]
+- !private ["4Moya8ResponseC", "init"]
+- !private ["4Moya8ResponseC", "map"]
+- !private ["4Moya8ResponseC", "request"]
+- !private ["4Moya8ResponseC", "response"]
+- !private ["4Moya8ResponseC", "statusCode"]
+- !private ["s6ResultO", "failure"]
+- !private ["s6ResultO", "success"]
+- !private ["ST", "boolYN"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["9Alamofire21ServerTrustEvaluatingP", "init"]
+- !private ["9Alamofire18ServerTrustManagerC", "init"]
+- !private ["9Alamofire7SessionC", "cancelAllRequests"]
+- !private ["9Alamofire7SessionC", "init"]
+- !private ["9Alamofire20SessionStateProviderP", "cancelAllRequests"]
+- !private ["9Alamofire20SessionStateProviderP", "init"]
+- ["6Common14SettingContextC", "shared"]
+- ["6Common22SettingContextProtocolP", "shared"]
+- !private ["SS", "boolYN"]
+- !private ["Sy", "boolYN"]
+- ["14NetworkService12StubResponseV", "Data"]
+- ["14NetworkService12StubResponseV", "Int"]
+- ["14NetworkService12StubResponseV", "init"]
+- ["14NetworkService12StubResponseV", "responseCode"]
+- ["14NetworkService12StubResponseV", "responseData"]
+- !private ["4Moya10TargetTypeP", "headers"]
+- !private ["4Moya10TargetTypeP", "init"]
+- !private ["4Moya10TargetTypeP", "method"]
+- !private ["4Moya10TargetTypeP", "sampleData"]
+- !private ["4Moya10TargetTypeP", "task"]
+- !private ["s16TextOutputStreamP", "boolYN"]
+- !private ["s20TextOutputStreamableP", "boolYN"]
+- !private ["10Foundation3URLV", "absoluteString"]
+- !private ["10Foundation3URLV", "host"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "absoluteString"]
+- !private ["9Alamofire14URLConvertibleP", "boolYN"]
+- !private ["9Alamofire14URLConvertibleP", "host"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["10Foundation10URLRequestV", "httpShouldHandleCookies"]
+- !private ["10Foundation10URLRequestV", "timeoutInterval"]
+- !private ["10Foundation10URLRequestV", "url"]
+- !private ["9Alamofire21URLRequestConvertibleP", "httpShouldHandleCookies"]
+- !private ["9Alamofire21URLRequestConvertibleP", "timeoutInterval"]
+- !private ["9Alamofire21URLRequestConvertibleP", "url"]
+- !private ["So13NSURLResponseC", "statusCode"]
+- !private ["So25NSURLSessionConfigurationC", "default"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "absoluteString"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "boolYN"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "host"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "boolYN"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "boolYN"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "boolYN"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "absoluteString"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "host"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "boolYN"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "boolYN"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boolYN"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "boolYN"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "statusCode"]
+- !private ["s21_ObjectiveCBridgeableP", "absoluteString"]
+- !private ["s21_ObjectiveCBridgeableP", "boolYN"]
+- !private ["s21_ObjectiveCBridgeableP", "host"]
+- !private ["s21_ObjectiveCBridgeableP", "httpShouldHandleCookies"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeoutInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "url"]
+depends-nominal:
+- !private "4Moya23AccessTokenAuthorizableP"
+- !private "9Alamofire0A8ExtendedP"
+- !private "6Common10AppContextC"
+- !private "6Common14AppEnvironmentO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "SN"
+- !private "Sl"
+- !private "SL"
+- !private "6Common10ConfigKeysO"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- "10Foundation13CustomNSErrorP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation4DataV"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SD"
+- !private "9Alamofire17DisabledEvaluatorC"
+- !private "SE"
+- !private "4Moya8EndpointC"
+- !private "4Moya22EndpointSampleResponseO"
+- "SQ"
+- "s5ErrorP"
+- !private "7Domains13ErrorResponseV"
+- !private "7Domains17ErrorResponseCodeO"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "6Common14HTTPStatusCodeO"
+- !private "So17NSHTTPURLResponseC"
+- "SH"
+- "10Foundation14LocalizedErrorP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "4Moya0A5ErrorO"
+- !private "4Moya0A8ProviderC"
+- !private "4Moya0A12ProviderTypeP"
+- !private "4Moya11MultiTargetO"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "14NetworkService0A7CounterO"
+- "14NetworkService0A5ErrorO"
+- "14NetworkServiceAAV"
+- !private "14NetworkService0aB9WireframeP"
+- !private "Sk"
+- !private "SX"
+- !private "Sm"
+- "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "9Alamofire15RequestDelegateP"
+- !private "4Moya8ResponseC"
+- !private "s6ResultO"
+- !private "ST"
+- !private "9Alamofire21ServerTrustEvaluatingP"
+- !private "9Alamofire18ServerTrustManagerC"
+- !private "9Alamofire7SessionC"
+- !private "9Alamofire20SessionStateProviderP"
+- "6Common14SettingContextC"
+- "6Common22SettingContextProtocolP"
+- !private "SS"
+- !private "Sy"
+- "14NetworkService12StubResponseV"
+- !private "4Moya10TargetTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "So13NSURLResponseC"
+- !private "So25NSURLSessionConfigurationC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/JWTDecode.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/Common.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/Domains.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/Valet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/CommonUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/i18next-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/NetworkService.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextCache.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextConnection.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextPlurals.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSString+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSObject+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/NetworkService.build/Debug-iphonesimulator/NetworkService.build/unextended-module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "824475323014d952a3d0983610a90f53"
