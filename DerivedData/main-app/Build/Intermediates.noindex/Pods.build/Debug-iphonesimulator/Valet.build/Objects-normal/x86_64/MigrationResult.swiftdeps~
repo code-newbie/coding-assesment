@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MigrationResult"
+provides-nominal:
+- "5Valet15MigrationResultO"
+provides-member:
+- ["5Valet15MigrationResultO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CustomStringConvertible"
+- "Equatable"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "MigrationResult"
+- "String"
+- !private "StringLiteralType"
+- !private "unsafeBitCast"
+- !private "~="
+depends-member:
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "couldNotReadKeychain"]
+- ["s23CustomStringConvertibleP", "couldNotWriteToKeychain"]
+- ["s23CustomStringConvertibleP", "dataInQueryResultInvalid"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "duplicateKeyInQueryResult"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "invalidQuery"]
+- ["s23CustomStringConvertibleP", "keyInQueryResultAlreadyExistsInValet"]
+- ["s23CustomStringConvertibleP", "keyInQueryResultInvalid"]
+- ["s23CustomStringConvertibleP", "noItemsToMigrateFound"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "removalFailed"]
+- ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "unsafeBitCast"]
+- ["SQ", "=="]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "couldNotReadKeychain"]
+- ["SQ", "couldNotWriteToKeychain"]
+- ["SQ", "dataInQueryResultInvalid"]
+- ["SQ", "description"]
+- ["SQ", "duplicateKeyInQueryResult"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "invalidQuery"]
+- ["SQ", "keyInQueryResultAlreadyExistsInValet"]
+- ["SQ", "keyInQueryResultInvalid"]
+- ["SQ", "noItemsToMigrateFound"]
+- ["SQ", "rawValue"]
+- ["SQ", "removalFailed"]
+- ["SQ", "success"]
+- !private ["SQ", "unsafeBitCast"]
+- ["SH", "=="]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "couldNotReadKeychain"]
+- ["SH", "couldNotWriteToKeychain"]
+- ["SH", "dataInQueryResultInvalid"]
+- ["SH", "description"]
+- ["SH", "duplicateKeyInQueryResult"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "invalidQuery"]
+- ["SH", "keyInQueryResultAlreadyExistsInValet"]
+- ["SH", "keyInQueryResultInvalid"]
+- ["SH", "noItemsToMigrateFound"]
+- ["SH", "rawValue"]
+- ["SH", "removalFailed"]
+- ["SH", "success"]
+- !private ["SH", "unsafeBitCast"]
+- ["5Valet15MigrationResultO", "=="]
+- ["5Valet15MigrationResultO", "RawValue"]
+- ["5Valet15MigrationResultO", "String"]
+- ["5Valet15MigrationResultO", "_Default_RawValue"]
+- ["5Valet15MigrationResultO", "_rawHashValue"]
+- ["5Valet15MigrationResultO", "couldNotReadKeychain"]
+- ["5Valet15MigrationResultO", "couldNotWriteToKeychain"]
+- ["5Valet15MigrationResultO", "dataInQueryResultInvalid"]
+- ["5Valet15MigrationResultO", "deinit"]
+- ["5Valet15MigrationResultO", "description"]
+- ["5Valet15MigrationResultO", "duplicateKeyInQueryResult"]
+- ["5Valet15MigrationResultO", "hash"]
+- ["5Valet15MigrationResultO", "hashValue"]
+- ["5Valet15MigrationResultO", "init"]
+- ["5Valet15MigrationResultO", "invalidQuery"]
+- ["5Valet15MigrationResultO", "keyInQueryResultAlreadyExistsInValet"]
+- ["5Valet15MigrationResultO", "keyInQueryResultInvalid"]
+- ["5Valet15MigrationResultO", "noItemsToMigrateFound"]
+- ["5Valet15MigrationResultO", "rawValue"]
+- ["5Valet15MigrationResultO", "removalFailed"]
+- ["5Valet15MigrationResultO", "success"]
+- !private ["5Valet15MigrationResultO", "unsafeBitCast"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "couldNotReadKeychain"]
+- ["SY", "couldNotWriteToKeychain"]
+- ["SY", "dataInQueryResultInvalid"]
+- ["SY", "description"]
+- ["SY", "duplicateKeyInQueryResult"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "invalidQuery"]
+- ["SY", "keyInQueryResultAlreadyExistsInValet"]
+- ["SY", "keyInQueryResultInvalid"]
+- ["SY", "noItemsToMigrateFound"]
+- ["SY", "rawValue"]
+- ["SY", "removalFailed"]
+- ["SY", "success"]
+- !private ["SY", "unsafeBitCast"]
+depends-nominal:
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "5Valet15MigrationResultO"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/Valet/Valet-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Valet.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Valet.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "0934325415914799536d81616b5fc15c"

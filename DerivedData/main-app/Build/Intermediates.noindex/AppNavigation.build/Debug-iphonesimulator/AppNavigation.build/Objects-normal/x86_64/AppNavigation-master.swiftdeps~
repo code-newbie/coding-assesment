@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "e562a573c183004ac40944e4a5dac4e3"
+build_time: [1600068499, 519442000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Class/MainNavigation.swift": !dirty [1598950480, 0]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Class/MainTabBarViewController.swift": !dirty [1600010492, 743719459]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Class/Navigation.swift": !dirty [1599999051, 448189020]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Class/NavigationConstant.swift": !dirty [1599914696, 558428645]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Navigations+Wireframe/Navigations+Music.swift": !dirty [1600003682, 803163528]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Navigations+Wireframe/Navigations+Payment.swift": !dirty [1599876992, 472058058]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Navigations+Wireframe/Navigations+Splash.swift": !dirty [1599914740, 420724630]
+  "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/Navigations+Wireframe/Navigations+VendingMachine.swift": !dirty [1599914989, 875431538]

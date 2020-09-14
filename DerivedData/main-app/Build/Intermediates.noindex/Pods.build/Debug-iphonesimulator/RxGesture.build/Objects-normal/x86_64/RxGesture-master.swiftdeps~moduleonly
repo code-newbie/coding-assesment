@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1197a5f2d50889a14111906d9c3459eb"
+build_time: [1600068558, 338686000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/ForceTouchGestureRecognizer.swift": [1600068522, 963917999]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/GestureFactory.swift": [1600068522, 959919706]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/GestureRecognizer+RxGesture.swift": [1600068522, 970066791]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/RxGestureRecognizerDelegate.swift": [1600068522, 960262961]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/SharedTypes.swift": [1600068522, 972093371]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/TouchDownGestureRecognizer.swift": [1600068522, 961068255]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/TransformGestureRecognizers.swift": [1600068522, 961968520]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UILongPressGestureRecognizer+RxGesture.swift": [1600068522, 966729836]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UIPanGestureRecognizer+RxGesture.swift": [1600068522, 968311845]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UIPinchGestureRecognizer+RxGesture.swift": [1600068522, 962930844]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UIRotationGestureRecognizer+RxGesture.swift": [1600068522, 963356860]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UIScreenEdgePanGestureRecognizer+RxGesture.swift": [1600068522, 962408384]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UISwipeGestureRecognizer+RxGesture.swift": [1600068522, 961556216]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/iOS/UITapGestureRecognizer+RxGesture.swift": [1600068522, 964558833]
+  "/Users/ilham/Desktop/coding-assesment/Pods/RxGesture/Pod/Classes/View+RxGesture.swift": [1600068522, 974203067]

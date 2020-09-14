@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0EB2F089C47A6656A98B032A /* NetworkService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD3C4C48D93DA882E32FCE8A /* NetworkService.framework */; };
 		1E5E72008A0BD45FB9269FB6 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89C72856450BC7C9CE30A6 /* Navigation.swift */; };
+		222F62B13322C21A1DA82B15 /* Pods_AppNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC60026266B77E94F7229665 /* Pods_AppNavigation.framework */; };
 		36FA42DF69117ECE352520F1 /* Domains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D35E0C6E3325F0901FB0A2C /* Domains.framework */; };
 		46B277284C32EB9906496F93 /* NavigationConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ACA05328E8743E3B29B74A /* NavigationConstant.swift */; };
 		4826120FC41D50F8B76381C1 /* MainNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833FC1C2BEE8081ADFE43DDD /* MainNavigation.swift */; };
@@ -27,7 +28,6 @@
 		C8561843B30B4F61B927D7BC /* AppNavigationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B2BB9D091827857F2DC075 /* AppNavigationTests.swift */; };
 		E6C08DA1A23D2230863BFD44 /* VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19188F57A12F66AB66A473A3 /* VendingMachine.framework */; };
 		F4CA11CE3134E955F9661226 /* Navigations+Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99AFD060BC63FA33E89BED3 /* Navigations+Payment.swift */; };
-		F7E101087AEC2FF8C10B428F /* Pods_AppNavigation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60E5B71F954CE46069BFDB33 /* Pods_AppNavigation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,31 +57,31 @@
 /* Begin PBXFileReference section */
 		0E89C72856450BC7C9CE30A6 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
 		19188F57A12F66AB66A473A3 /* VendingMachine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VendingMachine.framework; path = "${BUILT_PRODUCTS_DIR}/VendingMachine.framework"; sourceTree = "<group>"; };
+		232062E5874086E5E9D87808 /* Pods-AppNavigation.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.pre-release.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.pre-release.xcconfig"; sourceTree = "<group>"; };
 		25ED3C5CA421FBF1EDA4C736 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
 		31B2BB9D091827857F2DC075 /* AppNavigationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationTests.swift; sourceTree = "<group>"; };
-		4BDB6946C2180A18805F9475 /* Pods-AppNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.release.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.release.xcconfig"; sourceTree = "<group>"; };
-		5178D06BCE4FD5FF7F25F246 /* Pods-AppNavigation.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.pre-release.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.pre-release.xcconfig"; sourceTree = "<group>"; };
 		5D35E0C6E3325F0901FB0A2C /* Domains.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Domains.framework; path = "${BUILT_PRODUCTS_DIR}/Domains.framework"; sourceTree = "<group>"; };
-		60E5B71F954CE46069BFDB33 /* Pods_AppNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678368B567785FD60B4AA8A8 /* Pods-AppNavigation.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.uat.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.uat.xcconfig"; sourceTree = "<group>"; };
 		6D6A2CC0765174C4E010F4A4 /* AppNavigation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppNavigation.h; sourceTree = "<group>"; };
 		71ACA05328E8743E3B29B74A /* NavigationConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationConstant.swift; sourceTree = "<group>"; };
 		73C06829B59442BC3294CFE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		833FC1C2BEE8081ADFE43DDD /* MainNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigation.swift; sourceTree = "<group>"; };
 		8490BC145008CAC441A9E953 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		876F53BF1962373E97343D4D /* Pods-AppNavigation.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.uat.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.uat.xcconfig"; sourceTree = "<group>"; };
 		886CAB7D3DBA1D5FAD5FCE0B /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		96A518E998A6E69389A10372 /* Splash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Splash.framework; path = "${BUILT_PRODUCTS_DIR}/Splash.framework"; sourceTree = "<group>"; };
-		97A20D3FE37C46D2D0CEBD86 /* Pods-AppNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.debug.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		9F0DF2A2DECE8F4F995999FD /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
+		9F9B9F0D837D5C177E6970E4 /* Pods-AppNavigation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.debug.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.debug.xcconfig"; sourceTree = "<group>"; };
 		A432EAFA23D72BE891706CE0 /* CommonUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUIKit.framework; path = "${BUILT_PRODUCTS_DIR}/CommonUIKit.framework"; sourceTree = "<group>"; };
+		AD5756DE18CABFD56E8D7363 /* Pods-AppNavigation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.release.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.release.xcconfig"; sourceTree = "<group>"; };
 		B193B55540540D4E73F8542B /* Music.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Music.framework; path = "${BUILT_PRODUCTS_DIR}/Music.framework"; sourceTree = "<group>"; };
-		B43808838A291E70E6DC7BE6 /* Pods-AppNavigation.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.sit.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.sit.xcconfig"; sourceTree = "<group>"; };
 		B88931F4573C86421DBC74A4 /* AppNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AppNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99AFD060BC63FA33E89BED3 /* Navigations+Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigations+Payment.swift"; sourceTree = "<group>"; };
 		BD0CF4B4E8B6CF95DF84A06E /* Navigations+Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigations+Splash.swift"; sourceTree = "<group>"; };
 		C8DABD9389497EE89F351D8C /* Payment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Payment.framework; path = "${BUILT_PRODUCTS_DIR}/Payment.framework"; sourceTree = "<group>"; };
 		C8E952C7002A6699EF7C702D /* Pre-Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pre-Production.xcconfig"; sourceTree = "<group>"; };
+		CC60026266B77E94F7229665 /* Pods_AppNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FD045467C3610F58F943DF /* AppNavigationTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = AppNavigationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D95A5B02C0AC01710DC50B7E /* Pods-AppNavigation.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppNavigation.sit.xcconfig"; path = "Target Support Files/Pods-AppNavigation/Pods-AppNavigation.sit.xcconfig"; sourceTree = "<group>"; };
 		DD725C46DC77718146EB9528 /* Navigations+Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Navigations+Music.swift"; sourceTree = "<group>"; };
 		E6F82A98283CE84CFBDE66CF /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
 		EA804BF5FAE33F6BA4AAC3AE /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 				5D2009BB9038B48C3198CE23 /* CommonUIKit.framework in Frameworks */,
 				0EB2F089C47A6656A98B032A /* NetworkService.framework in Frameworks */,
 				36FA42DF69117ECE352520F1 /* Domains.framework in Frameworks */,
-				F7E101087AEC2FF8C10B428F /* Pods_AppNavigation.framework in Frameworks */,
+				222F62B13322C21A1DA82B15 /* Pods_AppNavigation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,19 +127,6 @@
 				71ACA05328E8743E3B29B74A /* NavigationConstant.swift */,
 			);
 			path = Class;
-			sourceTree = "<group>";
-		};
-		27A75810B987023C375FA422 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				97A20D3FE37C46D2D0CEBD86 /* Pods-AppNavigation.debug.xcconfig */,
-				5178D06BCE4FD5FF7F25F246 /* Pods-AppNavigation.pre-release.xcconfig */,
-				4BDB6946C2180A18805F9475 /* Pods-AppNavigation.release.xcconfig */,
-				B43808838A291E70E6DC7BE6 /* Pods-AppNavigation.sit.xcconfig */,
-				876F53BF1962373E97343D4D /* Pods-AppNavigation.uat.xcconfig */,
-			);
-			name = Pods;
-			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		27F0B553DB3BD603F9A7A4D0 /* Navigations+Wireframe */ = {
@@ -172,8 +159,21 @@
 				C6ECAD4EF395299946194313 /* AppNavigationTests */,
 				D56C24613E07F92B68B07F8C /* Frameworks */,
 				984F54D6B3D9A94FFF42E08B /* Products */,
-				27A75810B987023C375FA422 /* Pods */,
+				88D9FE3630A59F85FA094CD5 /* Pods */,
 			);
+			sourceTree = "<group>";
+		};
+		88D9FE3630A59F85FA094CD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F9B9F0D837D5C177E6970E4 /* Pods-AppNavigation.debug.xcconfig */,
+				232062E5874086E5E9D87808 /* Pods-AppNavigation.pre-release.xcconfig */,
+				AD5756DE18CABFD56E8D7363 /* Pods-AppNavigation.release.xcconfig */,
+				D95A5B02C0AC01710DC50B7E /* Pods-AppNavigation.sit.xcconfig */,
+				678368B567785FD60B4AA8A8 /* Pods-AppNavigation.uat.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		984F54D6B3D9A94FFF42E08B /* Products */ = {
@@ -218,7 +218,7 @@
 				C8DABD9389497EE89F351D8C /* Payment.framework */,
 				96A518E998A6E69389A10372 /* Splash.framework */,
 				19188F57A12F66AB66A473A3 /* VendingMachine.framework */,
-				60E5B71F954CE46069BFDB33 /* Pods_AppNavigation.framework */,
+				CC60026266B77E94F7229665 /* Pods_AppNavigation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BA489ED4AF58619E23E9E2E /* Build configuration list for PBXNativeTarget "AppNavigation" */;
 			buildPhases = (
-				B22010492E56F018452E89D2 /* [CP] Check Pods Manifest.lock */,
+				20881124316045DF16D0FB94 /* [CP] Check Pods Manifest.lock */,
 				00068DB5A5560390628898C7 /* Headers */,
 				45CE13E97578FC302B1287CE /* Sources */,
 				36FC9C79433C71CD1344C9FB /* Frameworks */,
@@ -302,7 +302,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B22010492E56F018452E89D2 /* [CP] Check Pods Manifest.lock */ = {
+		20881124316045DF16D0FB94 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,7 +363,7 @@
 /* Begin XCBuildConfiguration section */
 		02DDB774DF5355313B0FC4C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97A20D3FE37C46D2D0CEBD86 /* Pods-AppNavigation.debug.xcconfig */;
+			baseConfigurationReference = 9F9B9F0D837D5C177E6970E4 /* Pods-AppNavigation.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -420,7 +420,7 @@
 		};
 		533C6170FBBDBCF15EC4BF41 /* Pre-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5178D06BCE4FD5FF7F25F246 /* Pods-AppNavigation.pre-release.xcconfig */;
+			baseConfigurationReference = 232062E5874086E5E9D87808 /* Pods-AppNavigation.pre-release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -447,7 +447,7 @@
 		};
 		6802D119A63FAB9005DF9867 /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 876F53BF1962373E97343D4D /* Pods-AppNavigation.uat.xcconfig */;
+			baseConfigurationReference = 678368B567785FD60B4AA8A8 /* Pods-AppNavigation.uat.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -602,7 +602,7 @@
 		};
 		7D4D840577A194C7343F4A05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4BDB6946C2180A18805F9475 /* Pods-AppNavigation.release.xcconfig */;
+			baseConfigurationReference = AD5756DE18CABFD56E8D7363 /* Pods-AppNavigation.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -723,7 +723,7 @@
 		};
 		DA20440ADEFB1CE5A421036C /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B43808838A291E70E6DC7BE6 /* Pods-AppNavigation.sit.xcconfig */;
+			baseConfigurationReference = D95A5B02C0AC01710DC50B7E /* Pods-AppNavigation.sit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;

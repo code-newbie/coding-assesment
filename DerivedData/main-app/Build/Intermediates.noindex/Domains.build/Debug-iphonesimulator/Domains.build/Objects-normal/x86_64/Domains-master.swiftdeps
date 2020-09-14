@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "21a655662761ee5c4c711461e2494536"
+build_time: [1600067369, 696499000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Domains/Domains/Domains/NetworkResponse/EmptyResponse.swift": [1599291718, 0]
+  "/Users/ilham/Desktop/coding-assesment/Domains/Domains/Domains/NetworkResponse/ErrorResponse.swift": [1599291642, 0]
+  "/Users/ilham/Desktop/coding-assesment/Domains/Domains/Domains/Entities/Song.swift": [1599925336, 407550216]
+  "/Users/ilham/Desktop/coding-assesment/Domains/Domains/Domains/Entities/VendingModel.swift": [1599925284, 153994560]

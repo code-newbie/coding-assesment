@@ -1,0 +1,654 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NFXStatisticsController"
+provides-nominal:
+- "6netfox23NFXStatisticsControllerC"
+provides-member:
+- ["6netfox23NFXStatisticsControllerC", ""]
+provides-dynamic-lookup:
+- "clearStatistics"
+- "failedRequests"
+- "fastestResponseTime"
+- "generateStatics"
+- "getReportString"
+- "reloadData"
+- "slowestResponseTime"
+- "successfulRequests"
+- "totalModels"
+- "totalRequestSize"
+- "totalResponseSize"
+- "totalResponseTime"
+depends-top-level:
+- !private "!="
+- !private "+="
+- !private "/"
+- "<"
+- !private "=="
+- ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Comparable"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "NFXGenericController"
+- !private "NFXHTTPModelManager"
+- "NFXStatisticsController"
+- "NSAttributedString"
+- !private "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["s7CVarArgP", "Float"]
+- !private ["s7CVarArgP", "NFXHTTPModelManager"]
+- !private ["s7CVarArgP", "String"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "clearStatistics"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "failedRequests"]
+- !private ["s7CVarArgP", "fastestResponseTime"]
+- !private ["s7CVarArgP", "formatNFXString"]
+- !private ["s7CVarArgP", "generateStatics"]
+- !private ["s7CVarArgP", "getModels"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isSuccessful"]
+- !private ["s7CVarArgP", "requestBodyLength"]
+- !private ["s7CVarArgP", "responseBodyLength"]
+- !private ["s7CVarArgP", "sharedInstance"]
+- !private ["s7CVarArgP", "slowestResponseTime"]
+- !private ["s7CVarArgP", "successfulRequests"]
+- !private ["s7CVarArgP", "timeInterval"]
+- !private ["s7CVarArgP", "totalModels"]
+- !private ["s7CVarArgP", "totalRequestSize"]
+- !private ["s7CVarArgP", "totalResponseSize"]
+- !private ["s7CVarArgP", "totalResponseTime"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "Float"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXHTTPModelManager"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "clearStatistics"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "failedRequests"]
+- !private ["s28CustomDebugStringConvertibleP", "fastestResponseTime"]
+- !private ["s28CustomDebugStringConvertibleP", "formatNFXString"]
+- !private ["s28CustomDebugStringConvertibleP", "generateStatics"]
+- !private ["s28CustomDebugStringConvertibleP", "getModels"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isSuccessful"]
+- !private ["s28CustomDebugStringConvertibleP", "requestBodyLength"]
+- !private ["s28CustomDebugStringConvertibleP", "responseBodyLength"]
+- !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
+- !private ["s28CustomDebugStringConvertibleP", "slowestResponseTime"]
+- !private ["s28CustomDebugStringConvertibleP", "successfulRequests"]
+- !private ["s28CustomDebugStringConvertibleP", "timeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "totalModels"]
+- !private ["s28CustomDebugStringConvertibleP", "totalRequestSize"]
+- !private ["s28CustomDebugStringConvertibleP", "totalResponseSize"]
+- !private ["s28CustomDebugStringConvertibleP", "totalResponseTime"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Float"]
+- !private ["s23CustomStringConvertibleP", "NFXHTTPModelManager"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "clearStatistics"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "failedRequests"]
+- !private ["s23CustomStringConvertibleP", "fastestResponseTime"]
+- !private ["s23CustomStringConvertibleP", "formatNFXString"]
+- !private ["s23CustomStringConvertibleP", "generateStatics"]
+- !private ["s23CustomStringConvertibleP", "getModels"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isSuccessful"]
+- !private ["s23CustomStringConvertibleP", "requestBodyLength"]
+- !private ["s23CustomStringConvertibleP", "responseBodyLength"]
+- !private ["s23CustomStringConvertibleP", "sharedInstance"]
+- !private ["s23CustomStringConvertibleP", "slowestResponseTime"]
+- !private ["s23CustomStringConvertibleP", "successfulRequests"]
+- !private ["s23CustomStringConvertibleP", "timeInterval"]
+- !private ["s23CustomStringConvertibleP", "totalModels"]
+- !private ["s23CustomStringConvertibleP", "totalRequestSize"]
+- !private ["s23CustomStringConvertibleP", "totalResponseSize"]
+- !private ["s23CustomStringConvertibleP", "totalResponseTime"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SQ", "Float"]
+- !private ["SQ", "NFXHTTPModelManager"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "clearStatistics"]
+- !private ["SQ", "count"]
+- !private ["SQ", "failedRequests"]
+- !private ["SQ", "fastestResponseTime"]
+- !private ["SQ", "formatNFXString"]
+- !private ["SQ", "generateStatics"]
+- !private ["SQ", "getModels"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isSuccessful"]
+- !private ["SQ", "requestBodyLength"]
+- !private ["SQ", "responseBodyLength"]
+- !private ["SQ", "sharedInstance"]
+- !private ["SQ", "slowestResponseTime"]
+- !private ["SQ", "successfulRequests"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "totalModels"]
+- !private ["SQ", "totalRequestSize"]
+- !private ["SQ", "totalResponseSize"]
+- !private ["SQ", "totalResponseTime"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Float"]
+- !private ["SH", "NFXHTTPModelManager"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "clearStatistics"]
+- !private ["SH", "count"]
+- !private ["SH", "failedRequests"]
+- !private ["SH", "fastestResponseTime"]
+- !private ["SH", "formatNFXString"]
+- !private ["SH", "generateStatics"]
+- !private ["SH", "getModels"]
+- !private ["SH", "init"]
+- !private ["SH", "isSuccessful"]
+- !private ["SH", "requestBodyLength"]
+- !private ["SH", "responseBodyLength"]
+- !private ["SH", "sharedInstance"]
+- !private ["SH", "slowestResponseTime"]
+- !private ["SH", "successfulRequests"]
+- !private ["SH", "timeInterval"]
+- !private ["SH", "totalModels"]
+- !private ["SH", "totalRequestSize"]
+- !private ["SH", "totalResponseSize"]
+- !private ["SH", "totalResponseTime"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- ["6netfox20NFXGenericControllerC", "Float"]
+- ["6netfox20NFXGenericControllerC", "Int"]
+- !private ["6netfox20NFXGenericControllerC", "NFXHTTPModelManager"]
+- ["6netfox20NFXGenericControllerC", "NSAttributedString"]
+- !private ["6netfox20NFXGenericControllerC", "String"]
+- ["6netfox20NFXGenericControllerC", ""]
+- ["6netfox20NFXGenericControllerC", "clearStatistics"]
+- ["6netfox20NFXGenericControllerC", "failedRequests"]
+- ["6netfox20NFXGenericControllerC", "fastestResponseTime"]
+- !private ["6netfox20NFXGenericControllerC", "formatNFXString"]
+- ["6netfox20NFXGenericControllerC", "generateStatics"]
+- ["6netfox20NFXGenericControllerC", "getReportString"]
+- ["6netfox20NFXGenericControllerC", "init"]
+- ["6netfox20NFXGenericControllerC", "reloadData"]
+- ["6netfox20NFXGenericControllerC", "slowestResponseTime"]
+- ["6netfox20NFXGenericControllerC", "successfulRequests"]
+- ["6netfox20NFXGenericControllerC", "totalModels"]
+- ["6netfox20NFXGenericControllerC", "totalRequestSize"]
+- ["6netfox20NFXGenericControllerC", "totalResponseSize"]
+- ["6netfox20NFXGenericControllerC", "totalResponseTime"]
+- !private ["6netfox12NFXHTTPModelC", "isSuccessful"]
+- !private ["6netfox12NFXHTTPModelC", "requestBodyLength"]
+- !private ["6netfox12NFXHTTPModelC", "responseBodyLength"]
+- !private ["6netfox12NFXHTTPModelC", "timeInterval"]
+- !private ["6netfox19NFXHTTPModelManagerC", "getModels"]
+- !private ["6netfox19NFXHTTPModelManagerC", "sharedInstance"]
+- ["6netfox23NFXStatisticsControllerC", "Float"]
+- ["6netfox23NFXStatisticsControllerC", "Int"]
+- !private ["6netfox23NFXStatisticsControllerC", "NFXHTTPModelManager"]
+- ["6netfox23NFXStatisticsControllerC", "NSAttributedString"]
+- !private ["6netfox23NFXStatisticsControllerC", "String"]
+- ["6netfox23NFXStatisticsControllerC", "clearStatistics"]
+- ["6netfox23NFXStatisticsControllerC", "deinit"]
+- ["6netfox23NFXStatisticsControllerC", "failedRequests"]
+- ["6netfox23NFXStatisticsControllerC", "fastestResponseTime"]
+- !private ["6netfox23NFXStatisticsControllerC", "formatNFXString"]
+- ["6netfox23NFXStatisticsControllerC", "generateStatics"]
+- ["6netfox23NFXStatisticsControllerC", "getReportString"]
+- ["6netfox23NFXStatisticsControllerC", "init"]
+- ["6netfox23NFXStatisticsControllerC", "reloadData"]
+- ["6netfox23NFXStatisticsControllerC", "slowestResponseTime"]
+- ["6netfox23NFXStatisticsControllerC", "successfulRequests"]
+- ["6netfox23NFXStatisticsControllerC", "totalModels"]
+- ["6netfox23NFXStatisticsControllerC", "totalRequestSize"]
+- ["6netfox23NFXStatisticsControllerC", "totalResponseSize"]
+- ["6netfox23NFXStatisticsControllerC", "totalResponseTime"]
+- !private ["So8NSCodingP", "Float"]
+- !private ["So8NSCodingP", "NFXHTTPModelManager"]
+- !private ["So8NSCodingP", "String"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "clearStatistics"]
+- !private ["So8NSCodingP", "failedRequests"]
+- !private ["So8NSCodingP", "fastestResponseTime"]
+- !private ["So8NSCodingP", "formatNFXString"]
+- !private ["So8NSCodingP", "generateStatics"]
+- !private ["So8NSCodingP", "slowestResponseTime"]
+- !private ["So8NSCodingP", "successfulRequests"]
+- !private ["So8NSCodingP", "totalModels"]
+- !private ["So8NSCodingP", "totalRequestSize"]
+- !private ["So8NSCodingP", "totalResponseSize"]
+- !private ["So8NSCodingP", "totalResponseTime"]
+- !private ["So26NSExtensionRequestHandlingP", "Float"]
+- !private ["So26NSExtensionRequestHandlingP", "NFXHTTPModelManager"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "clearStatistics"]
+- !private ["So26NSExtensionRequestHandlingP", "failedRequests"]
+- !private ["So26NSExtensionRequestHandlingP", "fastestResponseTime"]
+- !private ["So26NSExtensionRequestHandlingP", "formatNFXString"]
+- !private ["So26NSExtensionRequestHandlingP", "generateStatics"]
+- !private ["So26NSExtensionRequestHandlingP", "slowestResponseTime"]
+- !private ["So26NSExtensionRequestHandlingP", "successfulRequests"]
+- !private ["So26NSExtensionRequestHandlingP", "totalModels"]
+- !private ["So26NSExtensionRequestHandlingP", "totalRequestSize"]
+- !private ["So26NSExtensionRequestHandlingP", "totalResponseSize"]
+- !private ["So26NSExtensionRequestHandlingP", "totalResponseTime"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "NFXHTTPModelManager"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "clearStatistics"]
+- ["So8NSObjectC", "failedRequests"]
+- ["So8NSObjectC", "fastestResponseTime"]
+- !private ["So8NSObjectC", "formatNFXString"]
+- ["So8NSObjectC", "generateStatics"]
+- !private ["So8NSObjectC", "getModels"]
+- ["So8NSObjectC", "getReportString"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isSuccessful"]
+- ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "requestBodyLength"]
+- !private ["So8NSObjectC", "responseBodyLength"]
+- !private ["So8NSObjectC", "sharedInstance"]
+- ["So8NSObjectC", "slowestResponseTime"]
+- ["So8NSObjectC", "successfulRequests"]
+- !private ["So8NSObjectC", "timeInterval"]
+- ["So8NSObjectC", "totalModels"]
+- ["So8NSObjectC", "totalRequestSize"]
+- ["So8NSObjectC", "totalResponseSize"]
+- ["So8NSObjectC", "totalResponseTime"]
+- !private ["So8NSObjectP", "Float"]
+- !private ["So8NSObjectP", "NFXHTTPModelManager"]
+- !private ["So8NSObjectP", "String"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "clearStatistics"]
+- !private ["So8NSObjectP", "failedRequests"]
+- !private ["So8NSObjectP", "fastestResponseTime"]
+- !private ["So8NSObjectP", "formatNFXString"]
+- !private ["So8NSObjectP", "generateStatics"]
+- !private ["So8NSObjectP", "getModels"]
+- !private ["So8NSObjectP", "isSuccessful"]
+- !private ["So8NSObjectP", "requestBodyLength"]
+- !private ["So8NSObjectP", "responseBodyLength"]
+- !private ["So8NSObjectP", "sharedInstance"]
+- !private ["So8NSObjectP", "slowestResponseTime"]
+- !private ["So8NSObjectP", "successfulRequests"]
+- !private ["So8NSObjectP", "timeInterval"]
+- !private ["So8NSObjectP", "totalModels"]
+- !private ["So8NSObjectP", "totalRequestSize"]
+- !private ["So8NSObjectP", "totalResponseSize"]
+- !private ["So8NSObjectP", "totalResponseTime"]
+- !private ["Sj", "init"]
+- !private ["Sk", "count"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "Float"]
+- !private ["So21UIAppearanceContainerP", "NFXHTTPModelManager"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "clearStatistics"]
+- !private ["So21UIAppearanceContainerP", "failedRequests"]
+- !private ["So21UIAppearanceContainerP", "fastestResponseTime"]
+- !private ["So21UIAppearanceContainerP", "formatNFXString"]
+- !private ["So21UIAppearanceContainerP", "generateStatics"]
+- !private ["So21UIAppearanceContainerP", "slowestResponseTime"]
+- !private ["So21UIAppearanceContainerP", "successfulRequests"]
+- !private ["So21UIAppearanceContainerP", "totalModels"]
+- !private ["So21UIAppearanceContainerP", "totalRequestSize"]
+- !private ["So21UIAppearanceContainerP", "totalResponseSize"]
+- !private ["So21UIAppearanceContainerP", "totalResponseTime"]
+- !private ["So18UIContentContainerP", "Float"]
+- !private ["So18UIContentContainerP", "NFXHTTPModelManager"]
+- !private ["So18UIContentContainerP", "String"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "clearStatistics"]
+- !private ["So18UIContentContainerP", "failedRequests"]
+- !private ["So18UIContentContainerP", "fastestResponseTime"]
+- !private ["So18UIContentContainerP", "formatNFXString"]
+- !private ["So18UIContentContainerP", "generateStatics"]
+- !private ["So18UIContentContainerP", "slowestResponseTime"]
+- !private ["So18UIContentContainerP", "successfulRequests"]
+- !private ["So18UIContentContainerP", "totalModels"]
+- !private ["So18UIContentContainerP", "totalRequestSize"]
+- !private ["So18UIContentContainerP", "totalResponseSize"]
+- !private ["So18UIContentContainerP", "totalResponseTime"]
+- !private ["So18UIFocusEnvironmentP", "Float"]
+- !private ["So18UIFocusEnvironmentP", "NFXHTTPModelManager"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "clearStatistics"]
+- !private ["So18UIFocusEnvironmentP", "failedRequests"]
+- !private ["So18UIFocusEnvironmentP", "fastestResponseTime"]
+- !private ["So18UIFocusEnvironmentP", "formatNFXString"]
+- !private ["So18UIFocusEnvironmentP", "generateStatics"]
+- !private ["So18UIFocusEnvironmentP", "slowestResponseTime"]
+- !private ["So18UIFocusEnvironmentP", "successfulRequests"]
+- !private ["So18UIFocusEnvironmentP", "totalModels"]
+- !private ["So18UIFocusEnvironmentP", "totalRequestSize"]
+- !private ["So18UIFocusEnvironmentP", "totalResponseSize"]
+- !private ["So18UIFocusEnvironmentP", "totalResponseTime"]
+- !private ["So30UIPasteConfigurationSupportingP", "Float"]
+- !private ["So30UIPasteConfigurationSupportingP", "NFXHTTPModelManager"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "clearStatistics"]
+- !private ["So30UIPasteConfigurationSupportingP", "failedRequests"]
+- !private ["So30UIPasteConfigurationSupportingP", "fastestResponseTime"]
+- !private ["So30UIPasteConfigurationSupportingP", "formatNFXString"]
+- !private ["So30UIPasteConfigurationSupportingP", "generateStatics"]
+- !private ["So30UIPasteConfigurationSupportingP", "slowestResponseTime"]
+- !private ["So30UIPasteConfigurationSupportingP", "successfulRequests"]
+- !private ["So30UIPasteConfigurationSupportingP", "totalModels"]
+- !private ["So30UIPasteConfigurationSupportingP", "totalRequestSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "totalResponseSize"]
+- !private ["So30UIPasteConfigurationSupportingP", "totalResponseTime"]
+- ["So11UIResponderC", "Float"]
+- ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "NFXHTTPModelManager"]
+- ["So11UIResponderC", "NSAttributedString"]
+- !private ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "clearStatistics"]
+- ["So11UIResponderC", "failedRequests"]
+- ["So11UIResponderC", "fastestResponseTime"]
+- !private ["So11UIResponderC", "formatNFXString"]
+- ["So11UIResponderC", "generateStatics"]
+- ["So11UIResponderC", "getReportString"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "slowestResponseTime"]
+- ["So11UIResponderC", "successfulRequests"]
+- ["So11UIResponderC", "totalModels"]
+- ["So11UIResponderC", "totalRequestSize"]
+- ["So11UIResponderC", "totalResponseSize"]
+- ["So11UIResponderC", "totalResponseTime"]
+- !private ["So30UIResponderStandardEditActionsP", "Float"]
+- !private ["So30UIResponderStandardEditActionsP", "NFXHTTPModelManager"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "clearStatistics"]
+- !private ["So30UIResponderStandardEditActionsP", "failedRequests"]
+- !private ["So30UIResponderStandardEditActionsP", "fastestResponseTime"]
+- !private ["So30UIResponderStandardEditActionsP", "formatNFXString"]
+- !private ["So30UIResponderStandardEditActionsP", "generateStatics"]
+- !private ["So30UIResponderStandardEditActionsP", "slowestResponseTime"]
+- !private ["So30UIResponderStandardEditActionsP", "successfulRequests"]
+- !private ["So30UIResponderStandardEditActionsP", "totalModels"]
+- !private ["So30UIResponderStandardEditActionsP", "totalRequestSize"]
+- !private ["So30UIResponderStandardEditActionsP", "totalResponseSize"]
+- !private ["So30UIResponderStandardEditActionsP", "totalResponseTime"]
+- !private ["So16UIStateRestoringP", "Float"]
+- !private ["So16UIStateRestoringP", "NFXHTTPModelManager"]
+- !private ["So16UIStateRestoringP", "String"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "clearStatistics"]
+- !private ["So16UIStateRestoringP", "failedRequests"]
+- !private ["So16UIStateRestoringP", "fastestResponseTime"]
+- !private ["So16UIStateRestoringP", "formatNFXString"]
+- !private ["So16UIStateRestoringP", "generateStatics"]
+- !private ["So16UIStateRestoringP", "slowestResponseTime"]
+- !private ["So16UIStateRestoringP", "successfulRequests"]
+- !private ["So16UIStateRestoringP", "totalModels"]
+- !private ["So16UIStateRestoringP", "totalRequestSize"]
+- !private ["So16UIStateRestoringP", "totalResponseSize"]
+- !private ["So16UIStateRestoringP", "totalResponseTime"]
+- !private ["So18UITraitEnvironmentP", "Float"]
+- !private ["So18UITraitEnvironmentP", "NFXHTTPModelManager"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "clearStatistics"]
+- !private ["So18UITraitEnvironmentP", "failedRequests"]
+- !private ["So18UITraitEnvironmentP", "fastestResponseTime"]
+- !private ["So18UITraitEnvironmentP", "formatNFXString"]
+- !private ["So18UITraitEnvironmentP", "generateStatics"]
+- !private ["So18UITraitEnvironmentP", "slowestResponseTime"]
+- !private ["So18UITraitEnvironmentP", "successfulRequests"]
+- !private ["So18UITraitEnvironmentP", "totalModels"]
+- !private ["So18UITraitEnvironmentP", "totalRequestSize"]
+- !private ["So18UITraitEnvironmentP", "totalResponseSize"]
+- !private ["So18UITraitEnvironmentP", "totalResponseTime"]
+- !private ["So23UIUserActivityRestoringP", "Float"]
+- !private ["So23UIUserActivityRestoringP", "NFXHTTPModelManager"]
+- !private ["So23UIUserActivityRestoringP", "String"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "clearStatistics"]
+- !private ["So23UIUserActivityRestoringP", "failedRequests"]
+- !private ["So23UIUserActivityRestoringP", "fastestResponseTime"]
+- !private ["So23UIUserActivityRestoringP", "formatNFXString"]
+- !private ["So23UIUserActivityRestoringP", "generateStatics"]
+- !private ["So23UIUserActivityRestoringP", "slowestResponseTime"]
+- !private ["So23UIUserActivityRestoringP", "successfulRequests"]
+- !private ["So23UIUserActivityRestoringP", "totalModels"]
+- !private ["So23UIUserActivityRestoringP", "totalRequestSize"]
+- !private ["So23UIUserActivityRestoringP", "totalResponseSize"]
+- !private ["So23UIUserActivityRestoringP", "totalResponseTime"]
+- ["So16UIViewControllerC", "Float"]
+- ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "NFXHTTPModelManager"]
+- ["So16UIViewControllerC", "NSAttributedString"]
+- !private ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "clearStatistics"]
+- ["So16UIViewControllerC", "failedRequests"]
+- ["So16UIViewControllerC", "fastestResponseTime"]
+- !private ["So16UIViewControllerC", "formatNFXString"]
+- ["So16UIViewControllerC", "generateStatics"]
+- ["So16UIViewControllerC", "getReportString"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "reloadData"]
+- ["So16UIViewControllerC", "slowestResponseTime"]
+- ["So16UIViewControllerC", "successfulRequests"]
+- ["So16UIViewControllerC", "totalModels"]
+- ["So16UIViewControllerC", "totalRequestSize"]
+- ["So16UIViewControllerC", "totalResponseSize"]
+- ["So16UIViewControllerC", "totalResponseTime"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Float"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXHTTPModelManager"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "clearStatistics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "failedRequests"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fastestResponseTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "formatNFXString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "generateStatics"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isSuccessful"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "requestBodyLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "responseBodyLength"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "slowestResponseTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "successfulRequests"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalRequestSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalResponseSize"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "totalResponseTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Float"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXHTTPModelManager"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clearStatistics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "failedRequests"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fastestResponseTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "formatNFXString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "generateStatics"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getModels"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "isSuccessful"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "requestBodyLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "responseBodyLength"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "slowestResponseTime"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "successfulRequests"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "timeInterval"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalModels"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalRequestSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalResponseSize"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "totalResponseTime"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "SB"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "6netfox20NFXGenericControllerC"
+- !private "6netfox12NFXHTTPModelC"
+- !private "6netfox19NFXHTTPModelManagerC"
+- "6netfox23NFXStatisticsControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- !private "s14_ArrayProtocolP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/netfox/netfox-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/netfox/netfox/Core/NFXLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/netfox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "edfb48b7cfa42658f73305d324c5adba"

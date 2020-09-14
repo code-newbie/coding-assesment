@@ -1,0 +1,485 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Navigation"
+provides-nominal:
+- "13AppNavigation0B0C"
+provides-member:
+- ["13AppNavigation0B0C", ""]
+provides-dynamic-lookup:
+- "buildMusicModule"
+- "buildMusicPlayerModule"
+- "buildPaymentModule"
+- "buildReceiptModule"
+- "buildSplashModule"
+- "buildTabBarScreen"
+- "buildVendingModule"
+- "mainWindow"
+- "shared"
+- "window"
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IndexPath"
+- "Int"
+- "IntegerLiteralType"
+- "MainTabBarViewController"
+- !private "MusicConfigurator"
+- "Navigation"
+- !private "PaymentConfigurator"
+- "Song"
+- !private "SplashConfigurator"
+- !private "TabBarControllerCategory"
+- !private "UIApplication"
+- "UIViewController"
+- "UIWindow"
+- !private "UIWindowScene"
+- !private "UIWindowSceneDelegate"
+- !private "VendingMachineConfigurator"
+- "VendingModel"
+depends-member:
+- !private ["So22UISceneActivationStateV", "foregroundActive"]
+- !private ["9Alamofire0A8ExtendedP", "append"]
+- !private ["9Alamofire0A8ExtendedP", "compactMap"]
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- !private ["Sa", "first"]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "activationState"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compactMap"]
+- !private ["s7CVarArgP", "connectedScenes"]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "keyWindow"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "append"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "activationState"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- !private ["s28CustomDebugStringConvertibleP", "connectedScenes"]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keyWindow"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "activationState"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- !private ["s23CustomStringConvertibleP", "connectedScenes"]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "keyWindow"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["10Foundation12DataProtocolP", "append"]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- !private ["10Foundation12DataProtocolP", "first"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "filter"]
+- !private ["Se", "first"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "filter"]
+- !private ["SE", "first"]
+- !private ["SQ", "activationState"]
+- !private ["SQ", "append"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "connectedScenes"]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "first"]
+- !private ["SQ", "foregroundActive"]
+- !private ["SQ", "home"]
+- !private ["SQ", "init"]
+- !private ["SQ", "keyWindow"]
+- !private ["SQ", "music"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "viewController"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["SH", "activationState"]
+- !private ["SH", "append"]
+- !private ["SH", "compactMap"]
+- !private ["SH", "connectedScenes"]
+- !private ["SH", "delegate"]
+- !private ["SH", "filter"]
+- !private ["SH", "first"]
+- !private ["SH", "foregroundActive"]
+- !private ["SH", "home"]
+- !private ["SH", "init"]
+- !private ["SH", "keyWindow"]
+- !private ["SH", "music"]
+- !private ["SH", "shared"]
+- !private ["SH", "viewController"]
+- !private ["13AppNavigation24MainTabBarViewControllerC", "deinit"]
+- !private ["13AppNavigation24MainTabBarViewControllerC", "init"]
+- !private ["5Music0A12ConfiguratorC", "createMusicListModule"]
+- !private ["5Music0A12ConfiguratorC", "createMusicPlayerModule"]
+- !private ["5Music0A12ConfiguratorC", "delegate"]
+- !private ["5Music0A12ConfiguratorC", "shared"]
+- !private ["5Music0A9WireframeP", "MainTabBarViewController"]
+- !private ["5Music0A9WireframeP", "MusicConfigurator"]
+- ["5Music0A9WireframeP", "Navigation"]
+- !private ["5Music0A9WireframeP", "PaymentConfigurator"]
+- !private ["5Music0A9WireframeP", "SplashConfigurator"]
+- !private ["5Music0A9WireframeP", "TabBarControllerCategory"]
+- !private ["5Music0A9WireframeP", "UIApplication"]
+- !private ["5Music0A9WireframeP", "VendingMachineConfigurator"]
+- ["5Music0A9WireframeP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "append"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So8NSObjectC", "activationState"]
+- !private ["So8NSObjectC", "connectedScenes"]
+- !private ["So8NSObjectC", "delegate"]
+- !private ["So8NSObjectC", "keyWindow"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectP", "activationState"]
+- !private ["So8NSObjectP", "connectedScenes"]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "keyWindow"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "window"]
+- ["13AppNavigation0B0C", "Bool"]
+- ["13AppNavigation0B0C", "IndexPath"]
+- ["13AppNavigation0B0C", "Int"]
+- ["13AppNavigation0B0C", "MainTabBarViewController"]
+- !private ["13AppNavigation0B0C", "MusicConfigurator"]
+- ["13AppNavigation0B0C", "Navigation"]
+- !private ["13AppNavigation0B0C", "PaymentConfigurator"]
+- ["13AppNavigation0B0C", "Song"]
+- !private ["13AppNavigation0B0C", "SplashConfigurator"]
+- !private ["13AppNavigation0B0C", "TabBarControllerCategory"]
+- !private ["13AppNavigation0B0C", "UIApplication"]
+- ["13AppNavigation0B0C", "UIViewController"]
+- ["13AppNavigation0B0C", "UIWindow"]
+- !private ["13AppNavigation0B0C", "UIWindowScene"]
+- !private ["13AppNavigation0B0C", "UIWindowSceneDelegate"]
+- !private ["13AppNavigation0B0C", "VendingMachineConfigurator"]
+- ["13AppNavigation0B0C", "VendingModel"]
+- ["13AppNavigation0B0C", "buildMusicModule"]
+- ["13AppNavigation0B0C", "buildMusicPlayerModule"]
+- ["13AppNavigation0B0C", "buildPaymentModule"]
+- ["13AppNavigation0B0C", "buildReceiptModule"]
+- ["13AppNavigation0B0C", "buildSplashModule"]
+- ["13AppNavigation0B0C", "buildTabBarScreen"]
+- ["13AppNavigation0B0C", "buildVendingModule"]
+- ["13AppNavigation0B0C", "deinit"]
+- ["13AppNavigation0B0C", "init"]
+- ["13AppNavigation0B0C", "mainWindow"]
+- ["13AppNavigation0B0C", "shared"]
+- ["13AppNavigation0B0C", "window"]
+- !private ["7Payment0A12ConfiguratorC", "createPaymentModule"]
+- !private ["7Payment0A12ConfiguratorC", "createReceiptModule"]
+- !private ["7Payment0A12ConfiguratorC", "delegate"]
+- !private ["7Payment0A12ConfiguratorC", "shared"]
+- !private ["7Payment0A9WireframeP", "MainTabBarViewController"]
+- !private ["7Payment0A9WireframeP", "MusicConfigurator"]
+- ["7Payment0A9WireframeP", "Navigation"]
+- !private ["7Payment0A9WireframeP", "PaymentConfigurator"]
+- !private ["7Payment0A9WireframeP", "SplashConfigurator"]
+- !private ["7Payment0A9WireframeP", "TabBarControllerCategory"]
+- !private ["7Payment0A9WireframeP", "UIApplication"]
+- !private ["7Payment0A9WireframeP", "VendingMachineConfigurator"]
+- ["7Payment0A9WireframeP", "init"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "first"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- !private ["Sm", "first"]
+- !private ["SY", "foregroundActive"]
+- !private ["7RxSwift18ReactiveCompatibleP", "activationState"]
+- !private ["7RxSwift18ReactiveCompatibleP", "connectedScenes"]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "keyWindow"]
+- !private ["7RxSwift18ReactiveCompatibleP", "shared"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "filter"]
+- !private ["ST", "first"]
+- !private ["Sh", "compactMap"]
+- !private ["Sh", "filter"]
+- !private ["s10SetAlgebraP", "compactMap"]
+- !private ["s10SetAlgebraP", "filter"]
+- !private ["13AppNavigation24TabBarControllerCategoryO", "home"]
+- !private ["13AppNavigation24TabBarControllerCategoryO", "music"]
+- !private ["13AppNavigation24TabBarControllerCategoryO", "viewController"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So13UIApplicationC", "connectedScenes"]
+- !private ["So13UIApplicationC", "keyWindow"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "activationState"]
+- !private ["So30UIPasteConfigurationSupportingP", "connectedScenes"]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "keyWindow"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So11UIResponderC", "activationState"]
+- !private ["So11UIResponderC", "connectedScenes"]
+- !private ["So11UIResponderC", "delegate"]
+- !private ["So11UIResponderC", "keyWindow"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "activationState"]
+- !private ["So30UIResponderStandardEditActionsP", "connectedScenes"]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "keyWindow"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So7UISceneC", "activationState"]
+- !private ["So7UISceneC", "delegate"]
+- !private ["So15UISceneDelegateP", "window"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So26UITabBarControllerDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So23UIUserActivityRestoringP", "activationState"]
+- !private ["So23UIUserActivityRestoringP", "connectedScenes"]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "keyWindow"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So13UIWindowSceneC", "delegate"]
+- !private ["So21UIWindowSceneDelegateP", "window"]
+- !private ["14VendingMachine0aB12ConfiguratorC", "createVendingModule"]
+- !private ["14VendingMachine0aB12ConfiguratorC", "delegate"]
+- !private ["14VendingMachine0aB12ConfiguratorC", "shared"]
+- !private ["14VendingMachine0aB9WireframeP", "MainTabBarViewController"]
+- !private ["14VendingMachine0aB9WireframeP", "MusicConfigurator"]
+- ["14VendingMachine0aB9WireframeP", "Navigation"]
+- !private ["14VendingMachine0aB9WireframeP", "PaymentConfigurator"]
+- !private ["14VendingMachine0aB9WireframeP", "SplashConfigurator"]
+- !private ["14VendingMachine0aB9WireframeP", "TabBarControllerCategory"]
+- !private ["14VendingMachine0aB9WireframeP", "UIApplication"]
+- !private ["14VendingMachine0aB9WireframeP", "VendingMachineConfigurator"]
+- ["14VendingMachine0aB9WireframeP", "init"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s19_HasContiguousBytesP", "append"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "activationState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectedScenes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "keyWindow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activationState"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "connectedScenes"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "keyWindow"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+depends-nominal:
+- !private "So22UISceneActivationStateV"
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "SH"
+- !private "13AppNavigation24MainTabBarViewControllerC"
+- !private "5Music0A12ConfiguratorC"
+- "5Music0A9WireframeP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "13AppNavigation0B0C"
+- !private "7Payment0A12ConfiguratorC"
+- "7Payment0A9WireframeP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "ST"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "13AppNavigation24TabBarControllerCategoryO"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So7UISceneC"
+- !private "So15UISceneDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So26UITabBarControllerDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So13UIWindowSceneC"
+- !private "So21UIWindowSceneDelegateP"
+- !private "14VendingMachine0aB12ConfiguratorC"
+- "14VendingMachine0aB9WireframeP"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMIDI.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreMedia.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/simd.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/AVFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreAudio.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/Moya.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Music.framework/Modules/Music.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/NetworkService.framework/Modules/NetworkService.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/JWTDecode.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/VendingMachine.framework/Modules/VendingMachine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Splash.framework/Modules/Splash.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/Common.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/SplashWorker.framework/Modules/SplashWorker.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/Domains.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/Valet.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/CommonUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Payment.framework/Modules/Payment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/i18next-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Music.framework/Headers/Music.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/NetworkService.framework/Headers/NetworkService.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextCache.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/VendingMachine.framework/Headers/VendingMachine.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Splash.framework/Headers/Splash.h"
+- "/Users/ilham/Desktop/coding-assesment/Navigation/AppNavigation/AppNavigation/AppNavigation.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextConnection.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/SplashWorker.framework/Headers/SplashWorker.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18NextPlurals.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Music.framework/Headers/Music-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/NetworkService.framework/Headers/NetworkService-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Headers/JWTDecode-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/VendingMachine.framework/Headers/VendingMachine-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Splash.framework/Headers/Splash-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Headers/Common-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/SplashWorker.framework/Headers/SplashWorker-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Headers/Domains-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Headers/Valet-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Payment.framework/Headers/Payment-Swift.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Headers/CommonUIKit.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Music.framework/Headers/MusicConstant.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Payment.framework/Headers/Payment.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSString+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/NSObject+I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Headers/I18Next.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/AppNavigation.build/Debug-iphonesimulator/AppNavigation.build/unextended-module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Music.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/NetworkService.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/JWTDecode/JWTDecode.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/VendingMachine.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Splash.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Common.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/SplashWorker.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Domains.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Valet/Valet.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/CommonUIKit.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/Payment.framework/Modules/module.modulemap"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Products/Debug-iphonesimulator/i18next/i18next.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MediaToolbox.framework/Headers/MediaToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "40a8be5afce506f1d6e729af8a4e82fd"

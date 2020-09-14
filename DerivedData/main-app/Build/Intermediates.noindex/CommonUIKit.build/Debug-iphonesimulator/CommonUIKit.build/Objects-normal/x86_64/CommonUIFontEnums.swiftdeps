@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CommonUIFontOption"
+- "CommonUIFontIdentifiable"
+- "CommonUIFontBodySize"
+provides-nominal:
+- "11CommonUIKit0A12UIFontOptionO"
+- "11CommonUIKit0A18UIFontIdentifiableP"
+- "11CommonUIKit0A14UIFontBodySizeO"
+provides-member:
+- ["11CommonUIKit0A12UIFontOptionO", ""]
+- ["11CommonUIKit0A18UIFontIdentifiableP", ""]
+- ["11CommonUIKit0A14UIFontBodySizeO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- !private "CommonUIConstant"
+- "CommonUIFontBodySize"
+- "CommonUIFontComponent"
+- "CommonUIFontIdentifiable"
+- "CommonUIFontOption"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize1"]
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize2"]
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize3"]
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize4"]
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize5"]
+- !private ["11CommonUIKit0A10UIConstantC", "fontSize7"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize1"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize2"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize3"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize4"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize6"]
+- !private ["11CommonUIKit0A10UIConstantC", "spaceSize8"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "=="]
+- !private ["11CommonUIKit0A14UIFontBodySizeO", "CommonUIConstant"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "CommonUIFontComponent"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "__derived_enum_equals"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "_rawHashValue"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "amountInput"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "body"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "body2Lines"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "button1"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "button2"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "deinit"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "getFontComponent"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "hash"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "hashValue"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "note"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "paragraphLead"]
+- ["11CommonUIKit0A14UIFontBodySizeO", "placeholder"]
+- !private ["11CommonUIKit0A15UIFontComponentV", "init"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "=="]
+- !private ["11CommonUIKit0A18UIFontIdentifiableP", "CommonUIConstant"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "CommonUIFontComponent"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", ""]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "_rawHashValue"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "amountInput"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "body"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "body2Lines"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "button1"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "button2"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "getFontComponent"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "hash"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "hashValue"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "note"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "paragraphLead"]
+- ["11CommonUIKit0A18UIFontIdentifiableP", "placeholder"]
+- ["11CommonUIKit0A12UIFontOptionO", "=="]
+- ["11CommonUIKit0A12UIFontOptionO", "RawValue"]
+- ["11CommonUIKit0A12UIFontOptionO", "_Default_RawValue"]
+- !private ["11CommonUIKit0A12UIFontOptionO", "_findStringSwitchCase"]
+- ["11CommonUIKit0A12UIFontOptionO", "_rawHashValue"]
+- ["11CommonUIKit0A12UIFontOptionO", "deinit"]
+- ["11CommonUIKit0A12UIFontOptionO", "hash"]
+- ["11CommonUIKit0A12UIFontOptionO", "hashValue"]
+- ["11CommonUIKit0A12UIFontOptionO", "init"]
+- ["11CommonUIKit0A12UIFontOptionO", "rawValue"]
+- ["11CommonUIKit0A12UIFontOptionO", "ttInterphasesBold"]
+- ["11CommonUIKit0A12UIFontOptionO", "ttInterphasesDemiBold"]
+- ["11CommonUIKit0A12UIFontOptionO", "ttInterphasesExtraBold"]
+- ["11CommonUIKit0A12UIFontOptionO", "ttInterphasesMedium"]
+- ["11CommonUIKit0A12UIFontOptionO", "ttInterphasesRegular"]
+- ["SQ", "=="]
+- !private ["SQ", "CommonUIConstant"]
+- !private ["SQ", "CommonUIFontComponent"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "amountInput"]
+- ["SQ", "body"]
+- ["SQ", "body2Lines"]
+- ["SQ", "button1"]
+- ["SQ", "button2"]
+- ["SQ", "getFontComponent"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "note"]
+- ["SQ", "paragraphLead"]
+- ["SQ", "placeholder"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "ttInterphasesBold"]
+- !private ["SQ", "ttInterphasesDemiBold"]
+- !private ["SQ", "ttInterphasesRegular"]
+- ["SH", "=="]
+- !private ["SH", "CommonUIConstant"]
+- !private ["SH", "CommonUIFontComponent"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- ["SH", "amountInput"]
+- ["SH", "body"]
+- ["SH", "body2Lines"]
+- ["SH", "button1"]
+- ["SH", "button2"]
+- ["SH", "getFontComponent"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "note"]
+- ["SH", "paragraphLead"]
+- ["SH", "placeholder"]
+- ["SH", "rawValue"]
+- !private ["SH", "ttInterphasesBold"]
+- !private ["SH", "ttInterphasesDemiBold"]
+- !private ["SH", "ttInterphasesRegular"]
+- !private ["s6HasherV", "combine"]
+- ["SY", "=="]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "ttInterphasesBold"]
+- !private ["SY", "ttInterphasesDemiBold"]
+- !private ["SY", "ttInterphasesRegular"]
+depends-nominal:
+- !private "11CommonUIKit0A10UIConstantC"
+- "11CommonUIKit0A14UIFontBodySizeO"
+- !private "11CommonUIKit0A15UIFontComponentV"
+- "11CommonUIKit0A18UIFontIdentifiableP"
+- "11CommonUIKit0A12UIFontOptionO"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "SY"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Commons/CommonUIKit/CommonUIKit/CommonUIKit.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/CommonUIKit.build/Debug-iphonesimulator/CommonUIKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5008bdc3e241dc69ecd4f3a0da67d1e4"

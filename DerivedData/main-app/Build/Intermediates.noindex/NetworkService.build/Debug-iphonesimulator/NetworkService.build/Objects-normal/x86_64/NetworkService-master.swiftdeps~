@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "17b5fe933c2d6a338e3086a3b4d93b23"
+build_time: [1600068496, 5244000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/Class/HttpHeader.swift": !dirty [1599283610, 0]
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/Microservice/MicroservicePaths.swift": !dirty [1599283360, 0]
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/Class/NetworkError.swift": !dirty [1599291520, 0]
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/Class/NetworkService.swift": !dirty [1599308788, 0]
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/WireFrame/NetworkServiceWireframe.swift": !dirty [1599291916, 0]
+  "/Users/ilham/Desktop/coding-assesment/NetworkService/NetworkService/NetworkService/Microservice/SplashService.swift": !dirty [1599284704, 0]

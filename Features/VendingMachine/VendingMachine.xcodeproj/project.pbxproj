@@ -14,20 +14,20 @@
 		6BAC56DCB114E6EDC5765CFB /* VendingMachineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */; };
 		71C33B20B74CB6152DB8F410 /* VendingMachine.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC7A97F614255060E77A62 /* VendingMachine.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7E3A3BB7035AF4EE997B24A4 /* VendingMachineConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335EE59AE85E8383001C3F5 /* VendingMachineConstants.swift */; };
+		7ED0367594DD258E5B2E00D8 /* Pods_VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */; };
 		800A13039816C4AD648B358A /* VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFC7A97F614255060E77A62 /* VendingMachine.framework */; };
 		82AB29681BCD726751DCDCC2 /* VendingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEFB37BCD02944AEF2423A0D /* VendingCollectionViewCell.xib */; };
 		8EF1410D8761D09D524200D5 /* VendingMachineLocalizedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */; };
 		9EEEF0FB3C419F00517D62BB /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0A04A71A7031C64FED6C5E /* Asset.xcassets */; };
 		A0EE606A176C5916F735828D /* VendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B667996C0F2B4D46A38954 /* VendingView.swift */; };
 		AE3336729893EA7B2359F63D /* Domains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713D95F8AACC2D1BE4D711F1 /* Domains.framework */; };
-		AF5BFAA4D4447FBCC7004D6D /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311AC049FAB09A2149A9A826 /* Pods_VendingMachine_VendingMachineTests.framework */; };
 		B659B69AD7E90AAA6CD31E46 /* VendingMachineWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73167756FF3BE3BFA49EACF2 /* VendingMachineWireframe.swift */; };
 		C134C1D2A1A58E402E6C263E /* VendingMachine.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA386197CD323D9B8646809 /* VendingMachine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0F6F0594286AE9F430EA3EC /* VendingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B519BF6AE031292FD54D4C5 /* VendingInteractor.swift */; };
 		D7C4A0AFAC8086C1CD1C521C /* VendingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 161AB0B9B2B5CD5CAA00CB77 /* VendingView.xib */; };
+		DBC1B06C7D0AE3AAEC42FBF8 /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */; };
 		E08E8E5A9D03D1AB7BC4F0CD /* VendingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C2322CE06DD43E2251F37 /* VendingPresenter.swift */; };
 		E2E18267AE4B74E574643F07 /* VendingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07F52FCB17DB34BCFFD3180 /* VendingRouter.swift */; };
-		EFD25BF1D29D91D152C750E2 /* Pods_VendingMachine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82EB12DD69B3D7DED7935C91 /* Pods_VendingMachine.framework */; };
 		F8AE76E5F3AF85178726E820 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 446B72366E5BAF463C6FF13D /* Common.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,43 +57,43 @@
 
 /* Begin PBXFileReference section */
 		01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineTests.swift; sourceTree = "<group>"; };
+		02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.uat.xcconfig"; sourceTree = "<group>"; };
 		0B519BF6AE031292FD54D4C5 /* VendingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingInteractor.swift; sourceTree = "<group>"; };
-		0ECA875043740AC789C94AB1 /* Pods-VendingMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.debug.xcconfig"; sourceTree = "<group>"; };
+		101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.release.xcconfig"; sourceTree = "<group>"; };
 		161AB0B9B2B5CD5CAA00CB77 /* VendingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendingView.xib; sourceTree = "<group>"; };
-		18B2FF0F4BFCA733FC16BE6D /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; sourceTree = "<group>"; };
-		19C709999A3467FC531AC9A9 /* Pods-VendingMachine.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.uat.xcconfig"; sourceTree = "<group>"; };
 		1D95A32E158461758230CEE5 /* VendingProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingProtocols.swift; sourceTree = "<group>"; };
-		20F4D2BEE0F80B87EA17D350 /* Pods-VendingMachine.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.sit.xcconfig"; sourceTree = "<group>"; };
 		24B413F434556D23616BFA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineLocalizedKeys.swift; sourceTree = "<group>"; };
-		311AC049FAB09A2149A9A826 /* Pods_VendingMachine_VendingMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine_VendingMachineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine_VendingMachineTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		38D45F19A0FB9CB02B483933 /* VendingMachineConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineConfigurator.swift; sourceTree = "<group>"; };
 		3EA7FD605D526D439C887597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		446B72366E5BAF463C6FF13D /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = "${BUILT_PRODUCTS_DIR}/Common.framework"; sourceTree = "<group>"; };
-		46A7F6CC55C07B7BF64A0177 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; sourceTree = "<group>"; };
-		48212105E02F7D8E13B817D3 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.release.xcconfig"; sourceTree = "<group>"; };
 		4FA386197CD323D9B8646809 /* VendingMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VendingMachine.h; sourceTree = "<group>"; };
 		5530327F5EA0421E8C31D4F8 /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
 		5A2C2322CE06DD43E2251F37 /* VendingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingPresenter.swift; sourceTree = "<group>"; };
+		5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.sit.xcconfig"; sourceTree = "<group>"; };
 		65444AD1424D868F22E921AE /* VendingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingCollectionViewCell.swift; sourceTree = "<group>"; };
-		659D8DD2BF9987C7FED510FF /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; sourceTree = "<group>"; };
+		6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig"; sourceTree = "<group>"; };
 		713D95F8AACC2D1BE4D711F1 /* Domains.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Domains.framework; path = "${BUILT_PRODUCTS_DIR}/Domains.framework"; sourceTree = "<group>"; };
 		73167756FF3BE3BFA49EACF2 /* VendingMachineWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineWireframe.swift; sourceTree = "<group>"; };
 		82382607B37753C39A2DAF19 /* CommonUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUIKit.framework; path = "${BUILT_PRODUCTS_DIR}/CommonUIKit.framework"; sourceTree = "<group>"; };
-		82EB12DD69B3D7DED7935C91 /* Pods_VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.release.xcconfig"; sourceTree = "<group>"; };
+		8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.uat.xcconfig"; sourceTree = "<group>"; };
 		A07F52FCB17DB34BCFFD3180 /* VendingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingRouter.swift; sourceTree = "<group>"; };
-		A088CD904CFB1679F18CE6CA /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A46CD9BC73E20537C19953FB /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
-		A4CB73B94C0080952BF0B92A /* Pods-VendingMachine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.release.xcconfig"; sourceTree = "<group>"; };
 		BE9399E87B71759D917D9830 /* VendingMachineTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VendingMachineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5B667996C0F2B4D46A38954 /* VendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingView.swift; sourceTree = "<group>"; };
+		D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.debug.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.debug.xcconfig"; sourceTree = "<group>"; };
 		DDFC7A97F614255060E77A62 /* VendingMachine.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VendingMachine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.sit.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.sit.xcconfig"; sourceTree = "<group>"; };
 		E335EE59AE85E8383001C3F5 /* VendingMachineConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendingMachineConstants.swift; sourceTree = "<group>"; };
-		EE5BEB92EC5E340B8A7C428F /* Pods-VendingMachine.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.pre-release.xcconfig"; sourceTree = "<group>"; };
 		EEFB37BCD02944AEF2423A0D /* VendingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VendingCollectionViewCell.xib; sourceTree = "<group>"; };
 		F0B8FB594F62EE7831940D70 /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
 		F24A6A8D422F3439237679E9 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		F96E667F7D4E61A21AD7093E /* Pre-Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pre-Production.xcconfig"; sourceTree = "<group>"; };
+		FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VendingMachine.pre-release.xcconfig"; path = "Target Support Files/Pods-VendingMachine/Pods-VendingMachine.pre-release.xcconfig"; sourceTree = "<group>"; };
 		FF0A04A71A7031C64FED6C5E /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,7 +105,7 @@
 				F8AE76E5F3AF85178726E820 /* Common.framework in Frameworks */,
 				AE3336729893EA7B2359F63D /* Domains.framework in Frameworks */,
 				1B523924B40BFB427F8A4668 /* CommonUIKit.framework in Frameworks */,
-				EFD25BF1D29D91D152C750E2 /* Pods_VendingMachine.framework in Frameworks */,
+				7ED0367594DD258E5B2E00D8 /* Pods_VendingMachine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				800A13039816C4AD648B358A /* VendingMachine.framework in Frameworks */,
-				AF5BFAA4D4447FBCC7004D6D /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */,
+				DBC1B06C7D0AE3AAEC42FBF8 /* Pods_VendingMachine_VendingMachineTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +128,24 @@
 				01E0B01753ED454CAD63D024 /* VendingMachineTests.swift */,
 			);
 			path = VendingMachineTests;
+			sourceTree = "<group>";
+		};
+		132D32319D488AC1072BE42A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */,
+				FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */,
+				101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */,
+				DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */,
+				02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */,
+				373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */,
+				6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */,
+				8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */,
+				5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */,
+				918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		4AC56CC26EB619A0E34653EC /* Wireframe */ = {
@@ -167,7 +185,7 @@
 				020E2B86970775E8FBBA9102 /* VendingMachineTests */,
 				A7ED8E877C9193C81B715609 /* Frameworks */,
 				9BED1FB35D22337A5482A3D8 /* Products */,
-				E9C705D38DE0D7091384E53A /* Pods */,
+				132D32319D488AC1072BE42A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -217,8 +235,8 @@
 				446B72366E5BAF463C6FF13D /* Common.framework */,
 				82382607B37753C39A2DAF19 /* CommonUIKit.framework */,
 				713D95F8AACC2D1BE4D711F1 /* Domains.framework */,
-				82EB12DD69B3D7DED7935C91 /* Pods_VendingMachine.framework */,
-				311AC049FAB09A2149A9A826 /* Pods_VendingMachine_VendingMachineTests.framework */,
+				8EDB0405AC0A6E7C429BFE54 /* Pods_VendingMachine.framework */,
+				2ED62A964FD0A95236D3ED0D /* Pods_VendingMachine_VendingMachineTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,24 +248,6 @@
 				2B4285520701C39D1F30D9D6 /* VendingMachineLocalizedKeys.swift */,
 			);
 			path = Constant;
-			sourceTree = "<group>";
-		};
-		E9C705D38DE0D7091384E53A /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0ECA875043740AC789C94AB1 /* Pods-VendingMachine.debug.xcconfig */,
-				EE5BEB92EC5E340B8A7C428F /* Pods-VendingMachine.pre-release.xcconfig */,
-				A4CB73B94C0080952BF0B92A /* Pods-VendingMachine.release.xcconfig */,
-				20F4D2BEE0F80B87EA17D350 /* Pods-VendingMachine.sit.xcconfig */,
-				19C709999A3467FC531AC9A9 /* Pods-VendingMachine.uat.xcconfig */,
-				A088CD904CFB1679F18CE6CA /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */,
-				18B2FF0F4BFCA733FC16BE6D /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */,
-				48212105E02F7D8E13B817D3 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */,
-				46A7F6CC55C07B7BF64A0177 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */,
-				659D8DD2BF9987C7FED510FF /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */,
-			);
-			name = Pods;
-			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		EEAE6C88C09027061E68B726 /* Vending */ = {
@@ -282,7 +282,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D5445999AFB39B174CD8B10 /* Build configuration list for PBXNativeTarget "VendingMachine" */;
 			buildPhases = (
-				1343ECFCFC9F3785F854D3B3 /* [CP] Check Pods Manifest.lock */,
+				15657DAD1161E98822B1736E /* [CP] Check Pods Manifest.lock */,
 				E04FB1F73D5545EDEDB5C502 /* Headers */,
 				4DF4964C53E472F93089D97D /* Sources */,
 				4BDDFFE000DDCFC07067299C /* Resources */,
@@ -301,11 +301,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5153D8B55855DA3FF60E770A /* Build configuration list for PBXNativeTarget "VendingMachineTests" */;
 			buildPhases = (
-				7C80D54E1CC00F6B071C9072 /* [CP] Check Pods Manifest.lock */,
+				AAB682C82296144E83E29B9E /* [CP] Check Pods Manifest.lock */,
 				B0BEAC70082524A23D253C54 /* Sources */,
 				BDD0D09377F7D6760786773F /* Frameworks */,
 				3C1E8D0B7B58DDE7A1E41501 /* Embed Frameworks */,
-				464DD3E7BC52C3FC4C53BBDC /* [CP] Embed Pods Frameworks */,
+				B7E18526A76C307AB71D709D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -359,7 +359,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1343ECFCFC9F3785F854D3B3 /* [CP] Check Pods Manifest.lock */ = {
+		15657DAD1161E98822B1736E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,24 +381,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		464DD3E7BC52C3FC4C53BBDC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C80D54E1CC00F6B071C9072 /* [CP] Check Pods Manifest.lock */ = {
+		AAB682C82296144E83E29B9E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,6 +401,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E18526A76C307AB71D709D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VendingMachine-VendingMachineTests/Pods-VendingMachine-VendingMachineTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -524,7 +524,7 @@
 		};
 		50B9C51615C661B88BA59037 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 48212105E02F7D8E13B817D3 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */;
+			baseConfigurationReference = 8D43C702C424F829C1416358 /* Pods-VendingMachine-VendingMachineTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendingMachineTests/Info.plist;
@@ -540,7 +540,7 @@
 		};
 		5328773B8CB9BE6F7639857F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4CB73B94C0080952BF0B92A /* Pods-VendingMachine.release.xcconfig */;
+			baseConfigurationReference = 101A3039179AC4006871AFEA /* Pods-VendingMachine.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -567,7 +567,7 @@
 		};
 		5965A55F18BD7656D6B4C6B2 /* Pre-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18B2FF0F4BFCA733FC16BE6D /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */;
+			baseConfigurationReference = 6F4A51E372E5F5C7C24DEC12 /* Pods-VendingMachine-VendingMachineTests.pre-release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendingMachineTests/Info.plist;
@@ -646,7 +646,7 @@
 		};
 		6B313BE4293BEF3D891D8356 /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 20F4D2BEE0F80B87EA17D350 /* Pods-VendingMachine.sit.xcconfig */;
+			baseConfigurationReference = DF9FE1A91AA3716D14FF6052 /* Pods-VendingMachine.sit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -791,7 +791,7 @@
 		};
 		84BCF5855B7ABCDB10EA3F08 /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 659D8DD2BF9987C7FED510FF /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */;
+			baseConfigurationReference = 918AE9549E7A2E1ADC06CF50 /* Pods-VendingMachine-VendingMachineTests.uat.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendingMachineTests/Info.plist;
@@ -807,7 +807,7 @@
 		};
 		912F38348CDC3E4D800B7FCE /* Pre-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE5BEB92EC5E340B8A7C428F /* Pods-VendingMachine.pre-release.xcconfig */;
+			baseConfigurationReference = FEE644ED26FB308817FC9989 /* Pods-VendingMachine.pre-release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -889,7 +889,7 @@
 		};
 		BA73F9BC76B7DBBF742E97F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A088CD904CFB1679F18CE6CA /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */;
+			baseConfigurationReference = 373BE239AE924302BBF86E64 /* Pods-VendingMachine-VendingMachineTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendingMachineTests/Info.plist;
@@ -905,7 +905,7 @@
 		};
 		D529AA75C816E85297216A7C /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46A7F6CC55C07B7BF64A0177 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */;
+			baseConfigurationReference = 5E3FF2C51C7DFFEBCB51D386 /* Pods-VendingMachine-VendingMachineTests.sit.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VendingMachineTests/Info.plist;
@@ -921,7 +921,7 @@
 		};
 		F6EB2CF5B45113ACA4675737 /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 19C709999A3467FC531AC9A9 /* Pods-VendingMachine.uat.xcconfig */;
+			baseConfigurationReference = 02DF67CD5EAD1AA2F40C155A /* Pods-VendingMachine.uat.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -948,7 +948,7 @@
 		};
 		FBB3B94BB876075B747B98A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0ECA875043740AC789C94AB1 /* Pods-VendingMachine.debug.xcconfig */;
+			baseConfigurationReference = D1688B199382D2D37A7DAE0C /* Pods-VendingMachine.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;

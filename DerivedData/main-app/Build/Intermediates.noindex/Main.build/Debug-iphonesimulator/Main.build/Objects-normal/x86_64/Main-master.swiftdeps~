@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "35733fb343bff33df0ccde2ada8d9dfd"
+build_time: [1600068500, 630940000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Main/Main/AppDelegate.swift": !dirty [1599912225, 11821628]
+  "/Users/ilham/Desktop/coding-assesment/Main/Main/SceneDelegate.swift": !dirty [1599191435, 0]
+  "/Users/ilham/Desktop/coding-assesment/Main/Main/ViewController.swift": !dirty [1599191256, 0]

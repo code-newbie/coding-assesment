@@ -1,0 +1,6 @@
+framework module Pods_VendingMachine_VendingMachineTests {
+  umbrella header "Pods-VendingMachine-VendingMachineTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

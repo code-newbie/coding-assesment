@@ -1,0 +1,20 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "9ec7608aafcd23b2d0f221bf8ae4dab7"
+build_time: [1600068491, 457081000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Accessibility.swift": !dirty [1600068476, 862397171]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/CloudAccessibility.swift": !dirty [1600068476, 856102148]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Configuration.swift": !dirty [1600068476, 861365900]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/ErrorHandler.swift": !dirty [1600068476, 863267327]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Identifier.swift": !dirty [1600068476, 869591047]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Keychain.swift": !dirty [1600068476, 860258406]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/KeychainQueryConvertible.swift": !dirty [1600068476, 854608585]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/MigrationResult.swift": !dirty [1600068476, 853589176]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/SecItem.swift": !dirty [1600068476, 858455403]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclave.swift": !dirty [1600068476, 855326882]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveAccessControl.swift": !dirty [1600068476, 865364115]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SecureEnclaveValet.swift": !dirty [1600068476, 868559438]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Internal/Service.swift": !dirty [1600068476, 859369499]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SinglePromptSecureEnclaveValet.swift": !dirty [1600068476, 866889987]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/SwiftCompatibility.swift": !dirty [1600068476, 867698397]
+  "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Valet.swift": !dirty [1600068476, 857066254]

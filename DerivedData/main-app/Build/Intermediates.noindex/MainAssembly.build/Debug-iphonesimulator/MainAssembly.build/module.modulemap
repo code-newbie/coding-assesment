@@ -1,0 +1,11 @@
+framework module MainAssembly {
+  umbrella header "MainAssembly.h"
+
+  export *
+  module * { export * }
+}
+
+module MainAssembly.Swift {
+    header "MainAssembly-Swift.h"
+    requires objc
+}

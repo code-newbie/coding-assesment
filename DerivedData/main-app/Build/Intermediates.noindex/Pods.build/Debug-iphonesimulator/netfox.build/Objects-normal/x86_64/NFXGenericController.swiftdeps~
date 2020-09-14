@@ -1,0 +1,723 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NFXGenericController"
+provides-nominal:
+- "6netfox20NFXGenericControllerC"
+provides-member:
+- ["6netfox20NFXGenericControllerC", ""]
+provides-dynamic-lookup:
+- "formatNFXString"
+- "reloadData"
+- "selectedModel"
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "NFXColor"
+- !private "NFXFont"
+- "NFXGenericController"
+- "NFXHTTPModel"
+- "NFXViewController"
+- "NSAttributedString"
+- !private "NSMakeRange"
+- !private "NSMutableAttributedString"
+- !private "NSRegularExpression"
+- !private "NSString"
+- !private "NSTextCheckingResult"
+- "String"
+- !private "StringLiteralType"
+- !private "UIRectEdge"
+depends-member:
+- !private ["SK", "count"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["s7CVarArgP", "MatchingOptions"]
+- !private ["s7CVarArgP", "NFXBlackColor"]
+- !private ["s7CVarArgP", "NFXColor"]
+- !private ["s7CVarArgP", "NFXFont"]
+- !private ["s7CVarArgP", "NFXFontBold"]
+- !private ["s7CVarArgP", "NFXGray95Color"]
+- ["s7CVarArgP", "NFXHTTPModel"]
+- !private ["s7CVarArgP", "NFXOrangeColor"]
+- !private ["s7CVarArgP", "NSMakeRange"]
+- !private ["s7CVarArgP", "NSMutableAttributedString"]
+- !private ["s7CVarArgP", "NSRegularExpression"]
+- !private ["s7CVarArgP", "Options"]
+- !private ["s7CVarArgP", "UIRectEdge"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addAttribute"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "edgesForExtendedLayout"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "matches"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "selectedModel"]
+- !private ["s7CVarArgP", "substring"]
+- !private ["s7CVarArgP", "view"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["Sl", "count"]
+- !private ["SL", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "MatchingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXBlackColor"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXColor"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXFont"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXFontBold"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXGray95Color"]
+- ["s28CustomDebugStringConvertibleP", "NFXHTTPModel"]
+- !private ["s28CustomDebugStringConvertibleP", "NFXOrangeColor"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMakeRange"]
+- !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s28CustomDebugStringConvertibleP", "NSRegularExpression"]
+- !private ["s28CustomDebugStringConvertibleP", "Options"]
+- !private ["s28CustomDebugStringConvertibleP", "UIRectEdge"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "edgesForExtendedLayout"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "matches"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "selectedModel"]
+- !private ["s28CustomDebugStringConvertibleP", "substring"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s17CustomReflectableP", "backgroundColor"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s23CustomStringConvertibleP", "MatchingOptions"]
+- !private ["s23CustomStringConvertibleP", "NFXBlackColor"]
+- !private ["s23CustomStringConvertibleP", "NFXColor"]
+- !private ["s23CustomStringConvertibleP", "NFXFont"]
+- !private ["s23CustomStringConvertibleP", "NFXFontBold"]
+- !private ["s23CustomStringConvertibleP", "NFXGray95Color"]
+- ["s23CustomStringConvertibleP", "NFXHTTPModel"]
+- !private ["s23CustomStringConvertibleP", "NFXOrangeColor"]
+- !private ["s23CustomStringConvertibleP", "NSMakeRange"]
+- !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
+- !private ["s23CustomStringConvertibleP", "NSRegularExpression"]
+- !private ["s23CustomStringConvertibleP", "Options"]
+- !private ["s23CustomStringConvertibleP", "UIRectEdge"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addAttribute"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "edgesForExtendedLayout"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "matches"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "selectedModel"]
+- !private ["s23CustomStringConvertibleP", "substring"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "backgroundColor"]
+- !private ["Se", "count"]
+- !private ["SE", "backgroundColor"]
+- !private ["SE", "count"]
+- !private ["SQ", "MatchingOptions"]
+- !private ["SQ", "NFXBlackColor"]
+- !private ["SQ", "NFXColor"]
+- !private ["SQ", "NFXFont"]
+- !private ["SQ", "NFXFontBold"]
+- !private ["SQ", "NFXGray95Color"]
+- ["SQ", "NFXHTTPModel"]
+- !private ["SQ", "NFXOrangeColor"]
+- !private ["SQ", "NSMakeRange"]
+- !private ["SQ", "NSMutableAttributedString"]
+- !private ["SQ", "NSRegularExpression"]
+- !private ["SQ", "Options"]
+- !private ["SQ", "UIRectEdge"]
+- ["SQ", ""]
+- !private ["SQ", "addAttribute"]
+- !private ["SQ", "all"]
+- !private ["SQ", "backgroundColor"]
+- !private ["SQ", "caseInsensitive"]
+- !private ["SQ", "count"]
+- !private ["SQ", "edgesForExtendedLayout"]
+- !private ["SQ", "font"]
+- !private ["SQ", "foregroundColor"]
+- ["SQ", "init"]
+- !private ["SQ", "link"]
+- !private ["SQ", "matches"]
+- !private ["SQ", "range"]
+- !private ["SQ", "selectedModel"]
+- !private ["SQ", "substring"]
+- !private ["SQ", "view"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["SQ", "withoutAnchoringBounds"]
+- !private ["s25ExpressibleByArrayLiteralP", "all"]
+- !private ["s25ExpressibleByArrayLiteralP", "caseInsensitive"]
+- !private ["s25ExpressibleByArrayLiteralP", "withoutAnchoringBounds"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "substring"]
+- !private ["s23ExpressibleByNilLiteralP", "backgroundColor"]
+- !private ["s32ExpressibleByStringInterpolationP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "count"]
+- !private ["s26ExpressibleByStringLiteralP", "substring"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "substring"]
+- !private ["SH", "MatchingOptions"]
+- !private ["SH", "NFXBlackColor"]
+- !private ["SH", "NFXColor"]
+- !private ["SH", "NFXFont"]
+- !private ["SH", "NFXFontBold"]
+- !private ["SH", "NFXGray95Color"]
+- ["SH", "NFXHTTPModel"]
+- !private ["SH", "NFXOrangeColor"]
+- !private ["SH", "NSMakeRange"]
+- !private ["SH", "NSMutableAttributedString"]
+- !private ["SH", "NSRegularExpression"]
+- !private ["SH", "Options"]
+- !private ["SH", "UIRectEdge"]
+- ["SH", ""]
+- !private ["SH", "addAttribute"]
+- !private ["SH", "backgroundColor"]
+- !private ["SH", "count"]
+- !private ["SH", "edgesForExtendedLayout"]
+- !private ["SH", "font"]
+- !private ["SH", "foregroundColor"]
+- ["SH", "init"]
+- !private ["SH", "link"]
+- !private ["SH", "matches"]
+- !private ["SH", "range"]
+- !private ["SH", "selectedModel"]
+- !private ["SH", "substring"]
+- !private ["SH", "view"]
+- !private ["SH", "viewDidLoad"]
+- !private ["So21NSAttributedStringKeya", "font"]
+- !private ["So21NSAttributedStringKeya", "foregroundColor"]
+- !private ["So21NSAttributedStringKeya", "link"]
+- !private ["s25LosslessStringConvertibleP", "count"]
+- !private ["So17NSMatchingOptionsV", "withoutAnchoringBounds"]
+- !private ["s10MirrorPathP", "count"]
+- !private ["6netfox20NFXGenericControllerC", "Array"]
+- !private ["6netfox20NFXGenericControllerC", "NFXColor"]
+- !private ["6netfox20NFXGenericControllerC", "NFXFont"]
+- ["6netfox20NFXGenericControllerC", "NFXHTTPModel"]
+- ["6netfox20NFXGenericControllerC", "NSAttributedString"]
+- !private ["6netfox20NFXGenericControllerC", "NSMakeRange"]
+- !private ["6netfox20NFXGenericControllerC", "NSMutableAttributedString"]
+- !private ["6netfox20NFXGenericControllerC", "NSRegularExpression"]
+- !private ["6netfox20NFXGenericControllerC", "NSString"]
+- !private ["6netfox20NFXGenericControllerC", "NSTextCheckingResult"]
+- ["6netfox20NFXGenericControllerC", "String"]
+- !private ["6netfox20NFXGenericControllerC", "UIRectEdge"]
+- ["6netfox20NFXGenericControllerC", "deinit"]
+- !private ["6netfox20NFXGenericControllerC", "edgesForExtendedLayout"]
+- ["6netfox20NFXGenericControllerC", "formatNFXString"]
+- ["6netfox20NFXGenericControllerC", "init"]
+- ["6netfox20NFXGenericControllerC", "reloadData"]
+- ["6netfox20NFXGenericControllerC", "selectedModel"]
+- !private ["6netfox20NFXGenericControllerC", "view"]
+- ["6netfox20NFXGenericControllerC", "viewDidLoad"]
+- ["6netfox12NFXHTTPModelC", "init"]
+- !private ["So18NSAttributedStringC", "addAttribute"]
+- !private ["So18NSAttributedStringC", "init"]
+- !private ["So8NSCodingP", "MatchingOptions"]
+- !private ["So8NSCodingP", "NFXBlackColor"]
+- !private ["So8NSCodingP", "NFXColor"]
+- !private ["So8NSCodingP", "NFXFont"]
+- !private ["So8NSCodingP", "NFXGray95Color"]
+- ["So8NSCodingP", "NFXHTTPModel"]
+- !private ["So8NSCodingP", "NFXOrangeColor"]
+- !private ["So8NSCodingP", "NSMakeRange"]
+- !private ["So8NSCodingP", "NSMutableAttributedString"]
+- !private ["So8NSCodingP", "NSRegularExpression"]
+- !private ["So8NSCodingP", "Options"]
+- !private ["So8NSCodingP", "UIRectEdge"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "addAttribute"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "count"]
+- !private ["So8NSCodingP", "edgesForExtendedLayout"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "matches"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "selectedModel"]
+- !private ["So8NSCodingP", "substring"]
+- !private ["So8NSCodingP", "view"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So9NSCopyingP", "MatchingOptions"]
+- !private ["So9NSCopyingP", "NFXBlackColor"]
+- !private ["So9NSCopyingP", "NFXFontBold"]
+- !private ["So9NSCopyingP", "NFXGray95Color"]
+- !private ["So9NSCopyingP", "NFXOrangeColor"]
+- !private ["So9NSCopyingP", "Options"]
+- !private ["So9NSCopyingP", "addAttribute"]
+- !private ["So9NSCopyingP", "count"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "matches"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "substring"]
+- !private ["So26NSExtensionRequestHandlingP", "NFXColor"]
+- !private ["So26NSExtensionRequestHandlingP", "NFXFont"]
+- ["So26NSExtensionRequestHandlingP", "NFXHTTPModel"]
+- !private ["So26NSExtensionRequestHandlingP", "NSMakeRange"]
+- !private ["So26NSExtensionRequestHandlingP", "NSMutableAttributedString"]
+- !private ["So26NSExtensionRequestHandlingP", "NSRegularExpression"]
+- !private ["So26NSExtensionRequestHandlingP", "UIRectEdge"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "edgesForExtendedLayout"]
+- !private ["So26NSExtensionRequestHandlingP", "selectedModel"]
+- !private ["So26NSExtensionRequestHandlingP", "view"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So21NSItemProviderReadingP", "NFXBlackColor"]
+- !private ["So21NSItemProviderReadingP", "NFXGray95Color"]
+- !private ["So21NSItemProviderReadingP", "NFXOrangeColor"]
+- !private ["So21NSItemProviderReadingP", "addAttribute"]
+- !private ["So21NSItemProviderReadingP", "count"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "substring"]
+- !private ["So21NSItemProviderWritingP", "NFXBlackColor"]
+- !private ["So21NSItemProviderWritingP", "NFXGray95Color"]
+- !private ["So21NSItemProviderWritingP", "NFXOrangeColor"]
+- !private ["So21NSItemProviderWritingP", "addAttribute"]
+- !private ["So21NSItemProviderWritingP", "count"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "substring"]
+- !private ["So25NSMutableAttributedStringC", "addAttribute"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "addAttribute"]
+- !private ["So16NSMutableCopyingP", "count"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "substring"]
+- !private ["So8NSObjectC", "Array"]
+- !private ["So8NSObjectC", "MatchingOptions"]
+- !private ["So8NSObjectC", "NFXBlackColor"]
+- !private ["So8NSObjectC", "NFXColor"]
+- !private ["So8NSObjectC", "NFXFont"]
+- !private ["So8NSObjectC", "NFXFontBold"]
+- !private ["So8NSObjectC", "NFXGray95Color"]
+- ["So8NSObjectC", "NFXHTTPModel"]
+- !private ["So8NSObjectC", "NFXOrangeColor"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSMakeRange"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSRegularExpression"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSTextCheckingResult"]
+- !private ["So8NSObjectC", "Options"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIRectEdge"]
+- !private ["So8NSObjectC", "addAttribute"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- !private ["So8NSObjectC", "count"]
+- !private ["So8NSObjectC", "edgesForExtendedLayout"]
+- ["So8NSObjectC", "formatNFXString"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "matches"]
+- !private ["So8NSObjectC", "range"]
+- ["So8NSObjectC", "reloadData"]
+- ["So8NSObjectC", "selectedModel"]
+- !private ["So8NSObjectC", "substring"]
+- !private ["So8NSObjectC", "view"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "MatchingOptions"]
+- !private ["So8NSObjectP", "NFXBlackColor"]
+- !private ["So8NSObjectP", "NFXColor"]
+- !private ["So8NSObjectP", "NFXFont"]
+- !private ["So8NSObjectP", "NFXFontBold"]
+- !private ["So8NSObjectP", "NFXGray95Color"]
+- ["So8NSObjectP", "NFXHTTPModel"]
+- !private ["So8NSObjectP", "NFXOrangeColor"]
+- !private ["So8NSObjectP", "NSMakeRange"]
+- !private ["So8NSObjectP", "NSMutableAttributedString"]
+- !private ["So8NSObjectP", "NSRegularExpression"]
+- !private ["So8NSObjectP", "Options"]
+- !private ["So8NSObjectP", "UIRectEdge"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addAttribute"]
+- !private ["So8NSObjectP", "backgroundColor"]
+- !private ["So8NSObjectP", "count"]
+- !private ["So8NSObjectP", "edgesForExtendedLayout"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "matches"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "selectedModel"]
+- !private ["So8NSObjectP", "substring"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["So19NSRegularExpressionC", "MatchingOptions"]
+- !private ["So19NSRegularExpressionC", "Options"]
+- !private ["So19NSRegularExpressionC", "init"]
+- !private ["So19NSRegularExpressionC", "matches"]
+- !private ["So14NSSecureCodingP", "MatchingOptions"]
+- !private ["So14NSSecureCodingP", "NFXBlackColor"]
+- !private ["So14NSSecureCodingP", "NFXGray95Color"]
+- !private ["So14NSSecureCodingP", "NFXOrangeColor"]
+- !private ["So14NSSecureCodingP", "Options"]
+- !private ["So14NSSecureCodingP", "addAttribute"]
+- !private ["So14NSSecureCodingP", "count"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "matches"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "substring"]
+- !private ["So8NSStringC", "count"]
+- !private ["So8NSStringC", "substring"]
+- !private ["So20NSTextCheckingResultC", "range"]
+- !private ["s9OptionSetP", "all"]
+- !private ["s9OptionSetP", "caseInsensitive"]
+- !private ["s9OptionSetP", "withoutAnchoringBounds"]
+- !private ["Sq", "backgroundColor"]
+- !private ["So26NSRegularExpressionOptionsV", "caseInsensitive"]
+- !private ["Sm", "count"]
+- !private ["SY", "all"]
+- !private ["SY", "caseInsensitive"]
+- !private ["SY", "font"]
+- !private ["SY", "foregroundColor"]
+- !private ["SY", "link"]
+- !private ["SY", "withoutAnchoringBounds"]
+- !private ["ST", "count"]
+- !private ["s10SetAlgebraP", "all"]
+- !private ["s10SetAlgebraP", "caseInsensitive"]
+- !private ["s10SetAlgebraP", "withoutAnchoringBounds"]
+- !private ["SS", "count"]
+- !private ["Sy", "count"]
+- !private ["s16TextOutputStreamP", "count"]
+- !private ["s20TextOutputStreamableP", "count"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "NFXColor"]
+- !private ["So21UIAppearanceContainerP", "NFXFont"]
+- ["So21UIAppearanceContainerP", "NFXHTTPModel"]
+- !private ["So21UIAppearanceContainerP", "NSMakeRange"]
+- !private ["So21UIAppearanceContainerP", "NSMutableAttributedString"]
+- !private ["So21UIAppearanceContainerP", "NSRegularExpression"]
+- !private ["So21UIAppearanceContainerP", "UIRectEdge"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "edgesForExtendedLayout"]
+- !private ["So21UIAppearanceContainerP", "selectedModel"]
+- !private ["So21UIAppearanceContainerP", "view"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So7UIColorC", "NFXBlackColor"]
+- !private ["So7UIColorC", "NFXGray95Color"]
+- !private ["So7UIColorC", "NFXOrangeColor"]
+- !private ["So18UIContentContainerP", "NFXColor"]
+- !private ["So18UIContentContainerP", "NFXFont"]
+- ["So18UIContentContainerP", "NFXHTTPModel"]
+- !private ["So18UIContentContainerP", "NSMakeRange"]
+- !private ["So18UIContentContainerP", "NSMutableAttributedString"]
+- !private ["So18UIContentContainerP", "NSRegularExpression"]
+- !private ["So18UIContentContainerP", "UIRectEdge"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "edgesForExtendedLayout"]
+- !private ["So18UIContentContainerP", "selectedModel"]
+- !private ["So18UIContentContainerP", "view"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "NFXColor"]
+- !private ["So18UIFocusEnvironmentP", "NFXFont"]
+- ["So18UIFocusEnvironmentP", "NFXHTTPModel"]
+- !private ["So18UIFocusEnvironmentP", "NSMakeRange"]
+- !private ["So18UIFocusEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UIFocusEnvironmentP", "NSRegularExpression"]
+- !private ["So18UIFocusEnvironmentP", "UIRectEdge"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "edgesForExtendedLayout"]
+- !private ["So18UIFocusEnvironmentP", "selectedModel"]
+- !private ["So18UIFocusEnvironmentP", "view"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So20UIFocusItemContainerP", "backgroundColor"]
+- !private ["So6UIFontC", "NFXFontBold"]
+- !private ["So24UILargeContentViewerItemP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "NFXColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "NFXFont"]
+- ["So30UIPasteConfigurationSupportingP", "NFXHTTPModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSMakeRange"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSMutableAttributedString"]
+- !private ["So30UIPasteConfigurationSupportingP", "NSRegularExpression"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIRectEdge"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "edgesForExtendedLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "selectedModel"]
+- !private ["So30UIPasteConfigurationSupportingP", "view"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So10UIRectEdgeV", "all"]
+- !private ["So11UIResponderC", "Array"]
+- !private ["So11UIResponderC", "NFXColor"]
+- !private ["So11UIResponderC", "NFXFont"]
+- ["So11UIResponderC", "NFXHTTPModel"]
+- ["So11UIResponderC", "NSAttributedString"]
+- !private ["So11UIResponderC", "NSMakeRange"]
+- !private ["So11UIResponderC", "NSMutableAttributedString"]
+- !private ["So11UIResponderC", "NSRegularExpression"]
+- !private ["So11UIResponderC", "NSString"]
+- !private ["So11UIResponderC", "NSTextCheckingResult"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIRectEdge"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- !private ["So11UIResponderC", "edgesForExtendedLayout"]
+- ["So11UIResponderC", "formatNFXString"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "reloadData"]
+- ["So11UIResponderC", "selectedModel"]
+- !private ["So11UIResponderC", "view"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "NFXColor"]
+- !private ["So30UIResponderStandardEditActionsP", "NFXFont"]
+- ["So30UIResponderStandardEditActionsP", "NFXHTTPModel"]
+- !private ["So30UIResponderStandardEditActionsP", "NSMakeRange"]
+- !private ["So30UIResponderStandardEditActionsP", "NSMutableAttributedString"]
+- !private ["So30UIResponderStandardEditActionsP", "NSRegularExpression"]
+- !private ["So30UIResponderStandardEditActionsP", "UIRectEdge"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "edgesForExtendedLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "selectedModel"]
+- !private ["So30UIResponderStandardEditActionsP", "view"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So16UIStateRestoringP", "NFXColor"]
+- !private ["So16UIStateRestoringP", "NFXFont"]
+- ["So16UIStateRestoringP", "NFXHTTPModel"]
+- !private ["So16UIStateRestoringP", "NSMakeRange"]
+- !private ["So16UIStateRestoringP", "NSMutableAttributedString"]
+- !private ["So16UIStateRestoringP", "NSRegularExpression"]
+- !private ["So16UIStateRestoringP", "UIRectEdge"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "edgesForExtendedLayout"]
+- !private ["So16UIStateRestoringP", "selectedModel"]
+- !private ["So16UIStateRestoringP", "view"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "NFXColor"]
+- !private ["So18UITraitEnvironmentP", "NFXFont"]
+- ["So18UITraitEnvironmentP", "NFXHTTPModel"]
+- !private ["So18UITraitEnvironmentP", "NSMakeRange"]
+- !private ["So18UITraitEnvironmentP", "NSMutableAttributedString"]
+- !private ["So18UITraitEnvironmentP", "NSRegularExpression"]
+- !private ["So18UITraitEnvironmentP", "UIRectEdge"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "edgesForExtendedLayout"]
+- !private ["So18UITraitEnvironmentP", "selectedModel"]
+- !private ["So18UITraitEnvironmentP", "view"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "NFXColor"]
+- !private ["So23UIUserActivityRestoringP", "NFXFont"]
+- ["So23UIUserActivityRestoringP", "NFXHTTPModel"]
+- !private ["So23UIUserActivityRestoringP", "NSMakeRange"]
+- !private ["So23UIUserActivityRestoringP", "NSMutableAttributedString"]
+- !private ["So23UIUserActivityRestoringP", "NSRegularExpression"]
+- !private ["So23UIUserActivityRestoringP", "UIRectEdge"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "backgroundColor"]
+- !private ["So23UIUserActivityRestoringP", "edgesForExtendedLayout"]
+- !private ["So23UIUserActivityRestoringP", "selectedModel"]
+- !private ["So23UIUserActivityRestoringP", "view"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "backgroundColor"]
+- !private ["So16UIViewControllerC", "Array"]
+- !private ["So16UIViewControllerC", "NFXColor"]
+- !private ["So16UIViewControllerC", "NFXFont"]
+- ["So16UIViewControllerC", "NFXHTTPModel"]
+- ["So16UIViewControllerC", "NSAttributedString"]
+- !private ["So16UIViewControllerC", "NSMakeRange"]
+- !private ["So16UIViewControllerC", "NSMutableAttributedString"]
+- !private ["So16UIViewControllerC", "NSRegularExpression"]
+- !private ["So16UIViewControllerC", "NSString"]
+- !private ["So16UIViewControllerC", "NSTextCheckingResult"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIRectEdge"]
+- ["So16UIViewControllerC", ""]
+- !private ["So16UIViewControllerC", "edgesForExtendedLayout"]
+- ["So16UIViewControllerC", "formatNFXString"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "reloadData"]
+- ["So16UIViewControllerC", "selectedModel"]
+- !private ["So16UIViewControllerC", "view"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "count"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "substring"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- !private ["s26_ExpressibleByColorLiteralP", "NFXBlackColor"]
+- !private ["s26_ExpressibleByColorLiteralP", "NFXGray95Color"]
+- !private ["s26_ExpressibleByColorLiteralP", "NFXOrangeColor"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "font"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "foregroundColor"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "link"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "substring"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MatchingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXBlackColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXFontBold"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXGray95Color"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NFXHTTPModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NFXOrangeColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMakeRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSRegularExpression"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Options"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIRectEdge"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "count"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "edgesForExtendedLayout"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "matches"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "selectedModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "substring"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MatchingOptions"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXBlackColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXFont"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXFontBold"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXGray95Color"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXHTTPModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NFXOrangeColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMakeRange"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSMutableAttributedString"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NSRegularExpression"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Options"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UIRectEdge"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "addAttribute"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backgroundColor"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "count"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "edgesForExtendedLayout"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "matches"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "range"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "selectedModel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "substring"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "view"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "backgroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "font"]
+- !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
+- !private ["s21_ObjectiveCBridgeableP", "link"]
+- !private ["s20_SwiftNewtypeWrapperP", "font"]
+- !private ["s20_SwiftNewtypeWrapperP", "foregroundColor"]
+- !private ["s20_SwiftNewtypeWrapperP", "link"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+depends-nominal:
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "So21NSAttributedStringKeya"
+- !private "s25LosslessStringConvertibleP"
+- !private "So17NSMatchingOptionsV"
+- !private "s10MirrorPathP"
+- "6netfox20NFXGenericControllerC"
+- "6netfox12NFXHTTPModelC"
+- !private "So18NSAttributedStringC"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So19NSRegularExpressionC"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So20NSTextCheckingResultC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "So26NSRegularExpressionOptionsV"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So18UIContentContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So6UIFontC"
+- !private "So24UILargeContentViewerItemP"
+- "So30UIPasteConfigurationSupportingP"
+- !private "So10UIRectEdgeV"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s26_ExpressibleByColorLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/netfox/netfox-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/netfox/netfox/Core/NFXLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/netfox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "063e39e020f5cf66d4bccf081c8ecb0d"

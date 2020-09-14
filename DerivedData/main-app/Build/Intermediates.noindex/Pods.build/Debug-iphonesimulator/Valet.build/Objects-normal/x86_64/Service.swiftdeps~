@@ -1,0 +1,284 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Service"
+- "=="
+provides-nominal:
+- "5Valet7ServiceO"
+provides-member:
+- ["5Valet7ServiceO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "+="
+- "=="
+- "AnyHashable"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Configuration"
+- "CustomStringConvertible"
+- "Equatable"
+- !private "ErrorHandler"
+- !private "FloatLiteralType"
+- "Identifier"
+- !private "IntegerLiteralType"
+- !private "SecAccessControlCreateWithFlags"
+- !private "SecItem"
+- "Service"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- !private "kSecAttrAccessControl"
+- !private "kSecAttrAccessGroup"
+- !private "kSecAttrAccessible"
+- !private "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"
+- !private "kSecAttrService"
+- !private "kSecAttrSynchronizable"
+- !private "kSecClass"
+- !private "kSecClassGenericPassword"
+- !private "kSecUseDataProtectionKeychain"
+depends-member:
+- !private ["5Valet13AccessibilityO", "deinit"]
+- !private ["5Valet13AccessibilityO", "description"]
+- !private ["5Valet13AccessibilityO", "secAccessibilityAttribute"]
+- !private ["SK", "hasPrefix"]
+- !private ["s7CVarArgP", "hasPrefix"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["Sl", "hasPrefix"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "hasPrefix"]
+- !private ["5Valet13ConfigurationO", "accessibility"]
+- !private ["5Valet13ConfigurationO", "deinit"]
+- !private ["5Valet13ConfigurationO", "description"]
+- ["5Valet13ConfigurationO", "iCloud"]
+- ["5Valet13ConfigurationO", "secureEnclave"]
+- ["5Valet13ConfigurationO", "singlePromptSecureEnclave"]
+- ["5Valet13ConfigurationO", "valet"]
+- !private ["s28CustomDebugStringConvertibleP", "hasPrefix"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s17CustomReflectableP", "hasPrefix"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "ErrorHandler"]
+- !private ["s23CustomStringConvertibleP", "SecAccessControlCreateWithFlags"]
+- !private ["s23CustomStringConvertibleP", "SecItem"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessibility"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "hasPrefix"]
+- ["s23CustomStringConvertibleP", "iCloud"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessControl"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessGroup"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessible"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrService"]
+- !private ["s23CustomStringConvertibleP", "kSecAttrSynchronizable"]
+- !private ["s23CustomStringConvertibleP", "kSecClass"]
+- !private ["s23CustomStringConvertibleP", "kSecClassGenericPassword"]
+- !private ["s23CustomStringConvertibleP", "kSecUseDataProtectionKeychain"]
+- !private ["s23CustomStringConvertibleP", "secAccessControl"]
+- !private ["s23CustomStringConvertibleP", "secAccessibilityAttribute"]
+- !private ["s23CustomStringConvertibleP", "secService"]
+- ["s23CustomStringConvertibleP", "secureEnclave"]
+- ["s23CustomStringConvertibleP", "sharedAccessGroup"]
+- ["s23CustomStringConvertibleP", "singlePromptSecureEnclave"]
+- ["s23CustomStringConvertibleP", "standard"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "valet"]
+- !private ["Se", "hasPrefix"]
+- !private ["Se", "subscript"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SD", "subscript"]
+- !private ["SE", "hasPrefix"]
+- !private ["SE", "subscript"]
+- ["SQ", "=="]
+- !private ["SQ", "ErrorHandler"]
+- !private ["SQ", "SecAccessControlCreateWithFlags"]
+- !private ["SQ", "SecItem"]
+- ["SQ", ""]
+- ["SQ", "description"]
+- !private ["SQ", "hasPrefix"]
+- !private ["SQ", "kSecAttrAccessControl"]
+- !private ["SQ", "kSecAttrAccessGroup"]
+- !private ["SQ", "kSecAttrAccessible"]
+- !private ["SQ", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["SQ", "kSecAttrService"]
+- !private ["SQ", "kSecAttrSynchronizable"]
+- !private ["SQ", "kSecClass"]
+- !private ["SQ", "kSecClassGenericPassword"]
+- !private ["SQ", "kSecUseDataProtectionKeychain"]
+- !private ["SQ", "secAccessControl"]
+- !private ["SQ", "secAccessibilityAttribute"]
+- !private ["SQ", "secService"]
+- ["SQ", "sharedAccessGroup"]
+- ["SQ", "standard"]
+- !private ["SQ", "subscript"]
+- !private ["5Valet12ErrorHandlerC", "assert"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s32ExpressibleByStringInterpolationP", "hasPrefix"]
+- !private ["s26ExpressibleByStringLiteralP", "hasPrefix"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["SH", "description"]
+- !private ["SH", "hasPrefix"]
+- !private ["SH", "secAccessControl"]
+- !private ["SH", "secAccessibilityAttribute"]
+- !private ["SH", "subscript"]
+- !private ["5Valet10IdentifierV", "deinit"]
+- !private ["5Valet10IdentifierV", "description"]
+- !private ["s25LosslessStringConvertibleP", "hasPrefix"]
+- !private ["s10MirrorPathP", "hasPrefix"]
+- !private ["So8NSCodingP", "hasPrefix"]
+- !private ["So9NSCopyingP", "hasPrefix"]
+- !private ["So21NSItemProviderReadingP", "hasPrefix"]
+- !private ["So21NSItemProviderWritingP", "hasPrefix"]
+- !private ["So16NSMutableCopyingP", "hasPrefix"]
+- !private ["So8NSObjectC", "hasPrefix"]
+- !private ["So8NSObjectP", "hasPrefix"]
+- !private ["So14NSSecureCodingP", "hasPrefix"]
+- !private ["So8NSStringC", "hasPrefix"]
+- !private ["Sm", "hasPrefix"]
+- !private ["SY", "description"]
+- !private ["SY", "secAccessControl"]
+- !private ["SY", "secAccessibilityAttribute"]
+- !private ["5Valet7SecItemC", "sharedAccessGroupPrefix"]
+- !private ["5Valet26SecureEnclaveAccessControlO", "deinit"]
+- !private ["5Valet26SecureEnclaveAccessControlO", "description"]
+- !private ["5Valet26SecureEnclaveAccessControlO", "secAccessControl"]
+- !private ["ST", "hasPrefix"]
+- !private ["ST", "subscript"]
+- ["5Valet7ServiceO", "=="]
+- ["5Valet7ServiceO", "AnyHashable"]
+- ["5Valet7ServiceO", "Bool"]
+- ["5Valet7ServiceO", "Configuration"]
+- !private ["5Valet7ServiceO", "ErrorHandler"]
+- ["5Valet7ServiceO", "Identifier"]
+- !private ["5Valet7ServiceO", "SecAccessControlCreateWithFlags"]
+- !private ["5Valet7ServiceO", "SecItem"]
+- ["5Valet7ServiceO", "Service"]
+- ["5Valet7ServiceO", "String"]
+- ["5Valet7ServiceO", "deinit"]
+- ["5Valet7ServiceO", "description"]
+- ["5Valet7ServiceO", "generateBaseQuery"]
+- !private ["5Valet7ServiceO", "kSecAttrAccessControl"]
+- !private ["5Valet7ServiceO", "kSecAttrAccessGroup"]
+- !private ["5Valet7ServiceO", "kSecAttrAccessible"]
+- !private ["5Valet7ServiceO", "kSecAttrAccessibleWhenPasscodeSetThisDeviceOnly"]
+- !private ["5Valet7ServiceO", "kSecAttrService"]
+- !private ["5Valet7ServiceO", "kSecAttrSynchronizable"]
+- !private ["5Valet7ServiceO", "kSecClass"]
+- !private ["5Valet7ServiceO", "kSecClassGenericPassword"]
+- !private ["5Valet7ServiceO", "kSecUseDataProtectionKeychain"]
+- !private ["5Valet7ServiceO", "secService"]
+- ["5Valet7ServiceO", "sharedAccessGroup"]
+- ["5Valet7ServiceO", "standard"]
+- !private ["SS", "hasPrefix"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["Sy", "hasPrefix"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "hasPrefix"]
+- !private ["s20TextOutputStreamableP", "hasPrefix"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "hasPrefix"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "hasPrefix"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "hasPrefix"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "hasPrefix"]
+- !private ["s19_HasContiguousBytesP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "hasPrefix"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "hasPrefix"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "hasPrefix"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "5Valet13AccessibilityO"
+- !private "SK"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "5Valet13ConfigurationO"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "s26DefaultStringInterpolationV"
+- !private "SD"
+- !private "SE"
+- "SQ"
+- !private "5Valet12ErrorHandlerC"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- !private "5Valet10IdentifierV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sm"
+- !private "SY"
+- !private "5Valet7SecItemC"
+- !private "5Valet26SecureEnclaveAccessControlO"
+- !private "ST"
+- "5Valet7ServiceO"
+- !private "SS"
+- !private "s27StringInterpolationProtocolP"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/Valet/Valet-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Valet/Sources/Valet/Valet.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Valet.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "62d329dfb48ba216a01ee5c9f7e3cc00"

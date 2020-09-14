@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		19F06CE1C8FDD48C2E7A937A /* SplashMainProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1DB14678D95D43B6A05350C /* SplashMainProtocols.swift */; };
 		2B806E1E4B877E6D8BB95043 /* SplashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C69CA11F3AE16D39439EDF2 /* SplashTests.swift */; };
-		3518310688E16667CA2574BD /* Pods_Splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B016CF412CA6EFD038C15C5 /* Pods_Splash.framework */; };
 		40445E1FB6F527625D90DC69 /* Splash.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2E268D1C7D55F408D4CE7A /* Splash.xcassets */; };
 		453D465FA398B8F4AD821D74 /* Splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C462627EAD5F3FEC34830717 /* Splash.framework */; };
-		4613104868F5F2FE88595F2A /* Pods_Splash_SplashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9235FE447753514BD2A540D8 /* Pods_Splash_SplashTests.framework */; };
 		4D33923A31367FBE0620E58B /* SplashMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB27873A1509005CC39BB179 /* SplashMainView.swift */; };
 		4D35F4B0F027212A4819FEA1 /* Splash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B7928113FC15760D7B75AF5 /* Splash.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		624ACC80693D6400E92E06C6 /* Domains.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FBE8194F4AB0A74C5619DC /* Domains.framework */; };
+		6BA1273F65C8988AD3DB4480 /* Pods_Splash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9015AD2663CED3B937E98E6C /* Pods_Splash.framework */; };
 		761D24554A00088B58A8D5D7 /* SplashWorker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1FFF33A79C1D5B0E88DC9 /* SplashWorker.framework */; };
 		852B70DD4F433E1612EDB6FE /* SplashMainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A39CDAC93DE2C8357E2AEB /* SplashMainRouter.swift */; };
 		8540E122FB13FD0933B6F2F3 /* Splash.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C462627EAD5F3FEC34830717 /* Splash.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -26,6 +25,7 @@
 		B4A083E1A6E020AB8E984E08 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82851BF89D17A74B325F071 /* Common.framework */; };
 		D4575C48270CC9160E4E8BB9 /* SplashLocalizedKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80F023F57B11A90C46AD5B /* SplashLocalizedKeys.swift */; };
 		E441A79EA5806FCA76E6AADB /* SplashConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1555DA513412E963FD908B /* SplashConstants.swift */; };
+		E788B283C682B5D31924CDBF /* Pods_Splash_SplashTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20C87859051347EA7E2643A /* Pods_Splash_SplashTests.framework */; };
 		EE0C2172D764CD452FDCD9C7 /* SplashMainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E114923FBC8C88EA86DAAC /* SplashMainInteractor.swift */; };
 		FD17003D5F8A3E3025DD50F6 /* SplashMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A004944D01D787A936EF736 /* SplashMainView.xib */; };
 /* End PBXBuildFile section */
@@ -55,44 +55,44 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04974CEB0583E16C9149DCAA /* Pods-Splash-SplashTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.sit.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.sit.xcconfig"; sourceTree = "<group>"; };
 		04A39CDAC93DE2C8357E2AEB /* SplashMainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMainRouter.swift; sourceTree = "<group>"; };
 		08FF46B5E27ABA16C295D163 /* dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = dev.xcconfig; sourceTree = "<group>"; };
-		0B016CF412CA6EFD038C15C5 /* Pods_Splash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		14834E68D708E4B3F3726AE2 /* Pods-Splash.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.pre-release.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.pre-release.xcconfig"; sourceTree = "<group>"; };
 		15297A15450D6BAB0C7811F3 /* SIT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SIT.xcconfig; sourceTree = "<group>"; };
-		1C7CE7020BA29DDA1638F2D6 /* Pods-Splash-SplashTests.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.sit.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.sit.xcconfig"; sourceTree = "<group>"; };
+		1DF312C5B4B50B0E053FE584 /* Pods-Splash-SplashTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.uat.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.uat.xcconfig"; sourceTree = "<group>"; };
+		2112BE51BF64BA670843848D /* Pods-Splash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.release.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.release.xcconfig"; sourceTree = "<group>"; };
 		30A1FFF33A79C1D5B0E88DC9 /* SplashWorker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SplashWorker.framework; path = "${BUILT_PRODUCTS_DIR}/SplashWorker.framework"; sourceTree = "<group>"; };
-		37478C38440767A05346BFE1 /* Pods-Splash-SplashTests.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.uat.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.uat.xcconfig"; sourceTree = "<group>"; };
 		3D874C35B6311A89D7513BA7 /* SplashConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashConfigurator.swift; sourceTree = "<group>"; };
 		47E114923FBC8C88EA86DAAC /* SplashMainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMainInteractor.swift; sourceTree = "<group>"; };
 		49F9CE4AB64AF79CF3BAE0BE /* SplashWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWireframe.swift; sourceTree = "<group>"; };
 		50ACAD3CCB70569AF3BE10F4 /* Pre-Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Pre-Production.xcconfig"; sourceTree = "<group>"; };
-		56BC789836EE6C90575476BB /* Pods-Splash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.release.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.release.xcconfig"; sourceTree = "<group>"; };
-		56DB6010F01B9255F9DBC6D2 /* Pods-Splash.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.sit.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.sit.xcconfig"; sourceTree = "<group>"; };
 		5B7928113FC15760D7B75AF5 /* Splash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Splash.h; sourceTree = "<group>"; };
+		61EF987588FEEABABD91AA30 /* Pods-Splash-SplashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.release.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.release.xcconfig"; sourceTree = "<group>"; };
+		67B5510788E8220AE883780B /* Pods-Splash.sit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.sit.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.sit.xcconfig"; sourceTree = "<group>"; };
+		6AEE5080B740B222E8A81122 /* Pods-Splash-SplashTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.pre-release.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.pre-release.xcconfig"; sourceTree = "<group>"; };
 		6C69CA11F3AE16D39439EDF2 /* SplashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashTests.swift; sourceTree = "<group>"; };
 		6CBD92A1C2DFA29F77D92EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		78FBE8194F4AB0A74C5619DC /* Domains.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Domains.framework; path = "${BUILT_PRODUCTS_DIR}/Domains.framework"; sourceTree = "<group>"; };
-		7CB7BF1F3D7810F9D43DF1A7 /* Pods-Splash.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.uat.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.uat.xcconfig"; sourceTree = "<group>"; };
 		88DEAF75B220727C06AF1F08 /* UAT.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = UAT.xcconfig; sourceTree = "<group>"; };
-		9235FE447753514BD2A540D8 /* Pods_Splash_SplashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splash_SplashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		941AF8C4762BADD6269309AE /* Pods-Splash-SplashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.debug.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9015AD2663CED3B937E98E6C /* Pods_Splash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98604FB123C3C77403D85DED /* SplashTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SplashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A004944D01D787A936EF736 /* SplashMainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashMainView.xib; sourceTree = "<group>"; };
+		A7A6B10B26CB7FC6C0A9B000 /* Pods-Splash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.debug.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.debug.xcconfig"; sourceTree = "<group>"; };
 		A82851BF89D17A74B325F071 /* Common.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Common.framework; path = "${BUILT_PRODUCTS_DIR}/Common.framework"; sourceTree = "<group>"; };
-		B8BFDC29C2D42597B99D1C76 /* Pods-Splash-SplashTests.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.pre-release.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.pre-release.xcconfig"; sourceTree = "<group>"; };
+		B27245F177E1C12283564553 /* Pods-Splash.uat.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.uat.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.uat.xcconfig"; sourceTree = "<group>"; };
 		BA2E268D1C7D55F408D4CE7A /* Splash.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Splash.xcassets; sourceTree = "<group>"; };
 		BFD0B7485D6800F062D5EC7E /* SplashMainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMainPresenter.swift; sourceTree = "<group>"; };
 		C1DB14678D95D43B6A05350C /* SplashMainProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMainProtocols.swift; sourceTree = "<group>"; };
 		C462627EAD5F3FEC34830717 /* Splash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Splash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FF50E360C95B97DC910CA1 /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		C71677CC064E6A931C90CB18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		CB17F83BA9FA46C397CCDBFF /* Pods-Splash-SplashTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.release.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB80F023F57B11A90C46AD5B /* SplashLocalizedKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashLocalizedKeys.swift; sourceTree = "<group>"; };
-		F1AE34EA635E58DED5B6ADAE /* Pods-Splash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.debug.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC4CEAB20F03CE6EF0913B1 /* Pods-Splash.pre-release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash.pre-release.xcconfig"; path = "Target Support Files/Pods-Splash/Pods-Splash.pre-release.xcconfig"; sourceTree = "<group>"; };
+		F20C87859051347EA7E2643A /* Pods_Splash_SplashTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Splash_SplashTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F885DE1296AFF9594CB87201 /* CommonUIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CommonUIKit.framework; path = "${BUILT_PRODUCTS_DIR}/CommonUIKit.framework"; sourceTree = "<group>"; };
 		FB27873A1509005CC39BB179 /* SplashMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashMainView.swift; sourceTree = "<group>"; };
 		FF1555DA513412E963FD908B /* SplashConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashConstants.swift; sourceTree = "<group>"; };
+		FFC2192514FCB8B7460A55BA /* Pods-Splash-SplashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Splash-SplashTests.debug.xcconfig"; path = "Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				624ACC80693D6400E92E06C6 /* Domains.framework in Frameworks */,
 				B326F40F707E9C516834D98E /* CommonUIKit.framework in Frameworks */,
 				761D24554A00088B58A8D5D7 /* SplashWorker.framework in Frameworks */,
-				3518310688E16667CA2574BD /* Pods_Splash.framework in Frameworks */,
+				6BA1273F65C8988AD3DB4480 /* Pods_Splash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,7 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				453D465FA398B8F4AD821D74 /* Splash.framework in Frameworks */,
-				4613104868F5F2FE88595F2A /* Pods_Splash_SplashTests.framework in Frameworks */,
+				E788B283C682B5D31924CDBF /* Pods_Splash_SplashTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,24 +147,6 @@
 				04E2B539B60F549987FA9D47 /* Main */,
 			);
 			path = Scene;
-			sourceTree = "<group>";
-		};
-		2911CEEB17F991702340BA26 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F1AE34EA635E58DED5B6ADAE /* Pods-Splash.debug.xcconfig */,
-				14834E68D708E4B3F3726AE2 /* Pods-Splash.pre-release.xcconfig */,
-				56BC789836EE6C90575476BB /* Pods-Splash.release.xcconfig */,
-				56DB6010F01B9255F9DBC6D2 /* Pods-Splash.sit.xcconfig */,
-				7CB7BF1F3D7810F9D43DF1A7 /* Pods-Splash.uat.xcconfig */,
-				941AF8C4762BADD6269309AE /* Pods-Splash-SplashTests.debug.xcconfig */,
-				B8BFDC29C2D42597B99D1C76 /* Pods-Splash-SplashTests.pre-release.xcconfig */,
-				CB17F83BA9FA46C397CCDBFF /* Pods-Splash-SplashTests.release.xcconfig */,
-				1C7CE7020BA29DDA1638F2D6 /* Pods-Splash-SplashTests.sit.xcconfig */,
-				37478C38440767A05346BFE1 /* Pods-Splash-SplashTests.uat.xcconfig */,
-			);
-			name = Pods;
-			path = ../../Pods;
 			sourceTree = "<group>";
 		};
 		322CD301F8AE37C0C5556542 /* AppConfig */ = {
@@ -203,6 +185,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		644D1A1EA151B4AB4C7F104D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7A6B10B26CB7FC6C0A9B000 /* Pods-Splash.debug.xcconfig */,
+				CDC4CEAB20F03CE6EF0913B1 /* Pods-Splash.pre-release.xcconfig */,
+				2112BE51BF64BA670843848D /* Pods-Splash.release.xcconfig */,
+				67B5510788E8220AE883780B /* Pods-Splash.sit.xcconfig */,
+				B27245F177E1C12283564553 /* Pods-Splash.uat.xcconfig */,
+				FFC2192514FCB8B7460A55BA /* Pods-Splash-SplashTests.debug.xcconfig */,
+				6AEE5080B740B222E8A81122 /* Pods-Splash-SplashTests.pre-release.xcconfig */,
+				61EF987588FEEABABD91AA30 /* Pods-Splash-SplashTests.release.xcconfig */,
+				04974CEB0583E16C9149DCAA /* Pods-Splash-SplashTests.sit.xcconfig */,
+				1DF312C5B4B50B0E053FE584 /* Pods-Splash-SplashTests.uat.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
 		6EED9F1B96B60941A59A0C4A = {
 			isa = PBXGroup;
 			children = (
@@ -211,7 +211,7 @@
 				E3714EAD26FE3AD30311068B /* SplashTests */,
 				8B7E1C2BC3D1FACB1B7E6E59 /* Frameworks */,
 				43101B3CE9E7A97A0264617F /* Products */,
-				2911CEEB17F991702340BA26 /* Pods */,
+				644D1A1EA151B4AB4C7F104D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -222,8 +222,8 @@
 				F885DE1296AFF9594CB87201 /* CommonUIKit.framework */,
 				78FBE8194F4AB0A74C5619DC /* Domains.framework */,
 				30A1FFF33A79C1D5B0E88DC9 /* SplashWorker.framework */,
-				0B016CF412CA6EFD038C15C5 /* Pods_Splash.framework */,
-				9235FE447753514BD2A540D8 /* Pods_Splash_SplashTests.framework */,
+				9015AD2663CED3B937E98E6C /* Pods_Splash.framework */,
+				F20C87859051347EA7E2643A /* Pods_Splash_SplashTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,11 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 34C092D37105899D205E3633 /* Build configuration list for PBXNativeTarget "SplashTests" */;
 			buildPhases = (
-				0EE319D6107CDD3A42F872ED /* [CP] Check Pods Manifest.lock */,
+				A6A001A38A46875EF3C537D1 /* [CP] Check Pods Manifest.lock */,
 				4795BB536E6603695076DB27 /* Sources */,
 				9E74D07ECE2DF44650FCD0E2 /* Frameworks */,
 				CDB6AC6C2EEE391650BE903E /* Embed Frameworks */,
-				02387F4424F15CDA04B73A5E /* [CP] Embed Pods Frameworks */,
+				33BF9FC7139333EFDFF31086 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,7 +292,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0481BE4BE54C21FFC5B657CD /* Build configuration list for PBXNativeTarget "Splash" */;
 			buildPhases = (
-				D584D340F304E23FCCD96E65 /* [CP] Check Pods Manifest.lock */,
+				EAC6A2D7446290A791091877 /* [CP] Check Pods Manifest.lock */,
 				1A3CCFC4C17F2A7555928844 /* Headers */,
 				82E2C85DB89694525E58131C /* Sources */,
 				0B72D3DFF26648AC210FBDD0 /* Resources */,
@@ -348,7 +348,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		02387F4424F15CDA04B73A5E /* [CP] Embed Pods Frameworks */ = {
+		33BF9FC7139333EFDFF31086 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -365,7 +365,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Splash-SplashTests/Pods-Splash-SplashTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		0EE319D6107CDD3A42F872ED /* [CP] Check Pods Manifest.lock */ = {
+		A6A001A38A46875EF3C537D1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -387,7 +387,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D584D340F304E23FCCD96E65 /* [CP] Check Pods Manifest.lock */ = {
+		EAC6A2D7446290A791091877 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -449,7 +449,7 @@
 /* Begin XCBuildConfiguration section */
 		11436815A78F3EC15B76FFC2 /* Pre-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8BFDC29C2D42597B99D1C76 /* Pods-Splash-SplashTests.pre-release.xcconfig */;
+			baseConfigurationReference = 6AEE5080B740B222E8A81122 /* Pods-Splash-SplashTests.pre-release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SplashTests/Info.plist;
@@ -465,7 +465,7 @@
 		};
 		22049ABABDDAA7E69E99155E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 941AF8C4762BADD6269309AE /* Pods-Splash-SplashTests.debug.xcconfig */;
+			baseConfigurationReference = FFC2192514FCB8B7460A55BA /* Pods-Splash-SplashTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SplashTests/Info.plist;
@@ -599,7 +599,7 @@
 		};
 		4369C58368C2920138A036FE /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C7CE7020BA29DDA1638F2D6 /* Pods-Splash-SplashTests.sit.xcconfig */;
+			baseConfigurationReference = 04974CEB0583E16C9149DCAA /* Pods-Splash-SplashTests.sit.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SplashTests/Info.plist;
@@ -615,7 +615,7 @@
 		};
 		5531C499397FB799D93D0B20 /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7CB7BF1F3D7810F9D43DF1A7 /* Pods-Splash.uat.xcconfig */;
+			baseConfigurationReference = B27245F177E1C12283564553 /* Pods-Splash.uat.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -642,7 +642,7 @@
 		};
 		5BEC0A53C0F05BB7641A6DED /* UAT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37478C38440767A05346BFE1 /* Pods-Splash-SplashTests.uat.xcconfig */;
+			baseConfigurationReference = 1DF312C5B4B50B0E053FE584 /* Pods-Splash-SplashTests.uat.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SplashTests/Info.plist;
@@ -721,7 +721,7 @@
 		};
 		AAA49EF81526283291E08BDD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1AE34EA635E58DED5B6ADAE /* Pods-Splash.debug.xcconfig */;
+			baseConfigurationReference = A7A6B10B26CB7FC6C0A9B000 /* Pods-Splash.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -803,7 +803,7 @@
 		};
 		C8D3B5DBA98EC3625854B3CC /* SIT */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56DB6010F01B9255F9DBC6D2 /* Pods-Splash.sit.xcconfig */;
+			baseConfigurationReference = 67B5510788E8220AE883780B /* Pods-Splash.sit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -830,7 +830,7 @@
 		};
 		CAEA9F55759E087E5395F057 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 56BC789836EE6C90575476BB /* Pods-Splash.release.xcconfig */;
+			baseConfigurationReference = 2112BE51BF64BA670843848D /* Pods-Splash.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;
@@ -857,7 +857,7 @@
 		};
 		D3B3BC38AB7D8ED1FFA5A6E2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB17F83BA9FA46C397CCDBFF /* Pods-Splash-SplashTests.release.xcconfig */;
+			baseConfigurationReference = 61EF987588FEEABABD91AA30 /* Pods-Splash-SplashTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = SplashTests/Info.plist;
@@ -873,7 +873,7 @@
 		};
 		F9AAF04431C1546876DDC791 /* Pre-Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14834E68D708E4B3F3726AE2 /* Pods-Splash.pre-release.xcconfig */;
+			baseConfigurationReference = CDC4CEAB20F03CE6EF0913B1 /* Pods-Splash.pre-release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CURRENT_PROJECT_VERSION = 1;

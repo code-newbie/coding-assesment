@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NFXSettingsController"
+provides-nominal:
+- "6netfox21NFXSettingsControllerC"
+provides-member:
+- ["6netfox21NFXSettingsControllerC", ""]
+provides-dynamic-lookup:
+- "filters"
+- "nfxURL"
+- "nfxVersionString"
+- "tableData"
+depends-top-level:
+- "Bool"
+- "FloatLiteralType"
+- "HTTPModelShortType"
+- "IntegerLiteralType"
+- "NFXGenericController"
+- "NFXSettingsController"
+- "StringLiteralType"
+- "nfxVersion"
+depends-member:
+- ["Sa", "init"]
+- ["SK", "init"]
+- ["s7CVarArgP", "Bool"]
+- ["s7CVarArgP", "HTTPModelShortType"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "nfxVersion"]
+- ["Sl", "init"]
+- ["10Foundation15ContiguousBytesP", "init"]
+- ["s28CustomDebugStringConvertibleP", "Bool"]
+- ["s28CustomDebugStringConvertibleP", "HTTPModelShortType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "nfxVersion"]
+- ["s17CustomReflectableP", "init"]
+- ["s23CustomStringConvertibleP", "Bool"]
+- ["s23CustomStringConvertibleP", "HTTPModelShortType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "nfxVersion"]
+- ["10Foundation12DataProtocolP", "init"]
+- ["Se", "init"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "init"]
+- ["SQ", "Bool"]
+- ["SQ", "HTTPModelShortType"]
+- ["SQ", ""]
+- ["SQ", "init"]
+- ["SQ", "nfxVersion"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "Bool"]
+- ["SH", "HTTPModelShortType"]
+- ["SH", ""]
+- ["SH", "init"]
+- ["SH", "nfxVersion"]
+- ["SM", "init"]
+- ["10Foundation19MutableDataProtocolP", "init"]
+- ["6netfox20NFXGenericControllerC", "Bool"]
+- ["6netfox20NFXGenericControllerC", "HTTPModelShortType"]
+- ["6netfox20NFXGenericControllerC", ""]
+- ["6netfox20NFXGenericControllerC", "filters"]
+- ["6netfox20NFXGenericControllerC", "init"]
+- ["6netfox20NFXGenericControllerC", "nfxURL"]
+- ["6netfox20NFXGenericControllerC", "nfxVersion"]
+- ["6netfox20NFXGenericControllerC", "nfxVersionString"]
+- ["6netfox20NFXGenericControllerC", "tableData"]
+- ["6netfox21NFXSettingsControllerC", "Bool"]
+- ["6netfox21NFXSettingsControllerC", "HTTPModelShortType"]
+- ["6netfox21NFXSettingsControllerC", "deinit"]
+- ["6netfox21NFXSettingsControllerC", "filters"]
+- ["6netfox21NFXSettingsControllerC", "init"]
+- ["6netfox21NFXSettingsControllerC", "nfxURL"]
+- ["6netfox21NFXSettingsControllerC", "nfxVersion"]
+- ["6netfox21NFXSettingsControllerC", "nfxVersionString"]
+- ["6netfox21NFXSettingsControllerC", "tableData"]
+- ["So8NSCodingP", "Bool"]
+- ["So8NSCodingP", "HTTPModelShortType"]
+- ["So8NSCodingP", ""]
+- ["So8NSCodingP", "nfxVersion"]
+- ["So26NSExtensionRequestHandlingP", "Bool"]
+- ["So26NSExtensionRequestHandlingP", "HTTPModelShortType"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So26NSExtensionRequestHandlingP", "nfxVersion"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "HTTPModelShortType"]
+- ["So8NSObjectC", "filters"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "nfxURL"]
+- ["So8NSObjectC", "nfxVersion"]
+- ["So8NSObjectC", "nfxVersionString"]
+- ["So8NSObjectC", "tableData"]
+- ["So8NSObjectP", "Bool"]
+- ["So8NSObjectP", "HTTPModelShortType"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "nfxVersion"]
+- ["Sk", "init"]
+- ["Sm", "init"]
+- ["ST", "init"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["So21UIAppearanceContainerP", "Bool"]
+- ["So21UIAppearanceContainerP", "HTTPModelShortType"]
+- ["So21UIAppearanceContainerP", ""]
+- ["So21UIAppearanceContainerP", "nfxVersion"]
+- ["So18UIContentContainerP", "Bool"]
+- ["So18UIContentContainerP", "HTTPModelShortType"]
+- ["So18UIContentContainerP", ""]
+- ["So18UIContentContainerP", "nfxVersion"]
+- ["So18UIFocusEnvironmentP", "Bool"]
+- ["So18UIFocusEnvironmentP", "HTTPModelShortType"]
+- ["So18UIFocusEnvironmentP", ""]
+- ["So18UIFocusEnvironmentP", "nfxVersion"]
+- ["So30UIPasteConfigurationSupportingP", "Bool"]
+- ["So30UIPasteConfigurationSupportingP", "HTTPModelShortType"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So30UIPasteConfigurationSupportingP", "nfxVersion"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "HTTPModelShortType"]
+- ["So11UIResponderC", "filters"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "nfxURL"]
+- ["So11UIResponderC", "nfxVersion"]
+- ["So11UIResponderC", "nfxVersionString"]
+- ["So11UIResponderC", "tableData"]
+- ["So30UIResponderStandardEditActionsP", "Bool"]
+- ["So30UIResponderStandardEditActionsP", "HTTPModelShortType"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So30UIResponderStandardEditActionsP", "nfxVersion"]
+- ["So16UIStateRestoringP", "Bool"]
+- ["So16UIStateRestoringP", "HTTPModelShortType"]
+- ["So16UIStateRestoringP", ""]
+- ["So16UIStateRestoringP", "nfxVersion"]
+- ["So18UITraitEnvironmentP", "Bool"]
+- ["So18UITraitEnvironmentP", "HTTPModelShortType"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So18UITraitEnvironmentP", "nfxVersion"]
+- ["So23UIUserActivityRestoringP", "Bool"]
+- ["So23UIUserActivityRestoringP", "HTTPModelShortType"]
+- ["So23UIUserActivityRestoringP", ""]
+- ["So23UIUserActivityRestoringP", "nfxVersion"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "HTTPModelShortType"]
+- ["So16UIViewControllerC", "filters"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "nfxURL"]
+- ["So16UIViewControllerC", "nfxVersion"]
+- ["So16UIViewControllerC", "nfxVersionString"]
+- ["So16UIViewControllerC", "tableData"]
+- ["s14_ArrayProtocolP", "init"]
+- ["s24_DestructorSafeContainerP", "init"]
+- ["s19_HasContiguousBytesP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Bool"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "HTTPModelShortType"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "nfxVersion"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Bool"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "HTTPModelShortType"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "nfxVersion"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "Sa"
+- "SK"
+- "s7CVarArgP"
+- "Sl"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation12DataProtocolP"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "SH"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "6netfox20NFXGenericControllerC"
+- "6netfox21NFXSettingsControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "Sk"
+- "Sm"
+- "ST"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "s14_ArrayProtocolP"
+- "s24_DestructorSafeContainerP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreImage.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/QuartzCore.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Metal.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/Pods/Target Support Files/netfox/netfox-umbrella.h"
+- "/Users/ilham/Desktop/coding-assesment/Pods/netfox/netfox/Core/NFXLoader.h"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/netfox.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/MessageUI.framework/Headers/MessageUI.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "6af68c54a42ceb3cb2385f3d7c46920c"

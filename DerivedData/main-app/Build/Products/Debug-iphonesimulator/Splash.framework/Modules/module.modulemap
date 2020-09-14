@@ -1,0 +1,11 @@
+framework module Splash {
+  umbrella header "Splash.h"
+
+  export *
+  module * { export * }
+}
+
+module Splash.Swift {
+    header "Splash-Swift.h"
+    requires objc
+}

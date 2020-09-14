@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "02256f095f3d7ece02e071e2f5ea0cd9"
+build_time: [1600068568, 437711000]
+inputs:
+  "/Users/ilham/Desktop/coding-assesment/Assembly/MainAssembly/MainAssembly/Class/MainAssembly.swift": [1599789284, 534920931]

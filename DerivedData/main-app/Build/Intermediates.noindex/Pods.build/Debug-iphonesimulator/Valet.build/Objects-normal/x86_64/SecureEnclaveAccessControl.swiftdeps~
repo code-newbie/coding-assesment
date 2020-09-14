@@ -1,0 +1,159 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SecureEnclaveAccessControl"
+provides-nominal:
+- "5Valet26SecureEnclaveAccessControlO"
+provides-member:
+- ["5Valet26SecureEnclaveAccessControlO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "CustomStringConvertible"
+- "Equatable"
+- !private "ErrorHandler"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "SecAccessControlCreateFlags"
+- "SecureEnclaveAccessControl"
+- "String"
+- !private "StringLiteralType"
+- !private "unsafeBitCast"
+- !private "~="
+depends-member:
+- ["s23CustomStringConvertibleP", "=="]
+- !private ["s23CustomStringConvertibleP", "ErrorHandler"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- ["s23CustomStringConvertibleP", "biometricAny"]
+- ["s23CustomStringConvertibleP", "biometricCurrentSet"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "devicePasscode"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "unsafeBitCast"]
+- ["s23CustomStringConvertibleP", "userPresence"]
+- ["SQ", "=="]
+- !private ["SQ", "ErrorHandler"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_rawHashValue"]
+- ["SQ", "biometricAny"]
+- ["SQ", "biometricCurrentSet"]
+- ["SQ", "description"]
+- ["SQ", "devicePasscode"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "unsafeBitCast"]
+- ["SQ", "userPresence"]
+- !private ["5Valet12ErrorHandlerC", "assertionFailure"]
+- !private ["s25ExpressibleByArrayLiteralP", "devicePasscode"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "userPresence"]
+- ["SH", "=="]
+- !private ["SH", "ErrorHandler"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_rawHashValue"]
+- ["SH", "biometricAny"]
+- ["SH", "biometricCurrentSet"]
+- ["SH", "description"]
+- ["SH", "devicePasscode"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["SH", "unsafeBitCast"]
+- ["SH", "userPresence"]
+- !private ["s9OptionSetP", "devicePasscode"]
+- !private ["s9OptionSetP", "init"]
+- !private ["s9OptionSetP", "userPresence"]
+- ["SY", "=="]
+- !private ["SY", "ErrorHandler"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_rawHashValue"]
+- ["SY", "biometricAny"]
+- ["SY", "biometricCurrentSet"]
+- ["SY", "description"]
+- ["SY", "devicePasscode"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "unsafeBitCast"]
+- ["SY", "userPresence"]
+- !private ["So27SecAccessControlCreateFlagsV", "devicePasscode"]
+- !private ["So27SecAccessControlCreateFlagsV", "init"]
+- !private ["So27SecAccessControlCreateFlagsV", "userPresence"]
+- ["5Valet26SecureEnclaveAccessControlO", "=="]
+- !private ["5Valet26SecureEnclaveAccessControlO", "ErrorHandler"]
+- ["5Valet26SecureEnclaveAccessControlO", "RawValue"]
+- ["5Valet26SecureEnclaveAccessControlO", "SecAccessControlCreateFlags"]
+- ["5Valet26SecureEnclaveAccessControlO", "SecureEnclaveAccessControl"]
+- ["5Valet26SecureEnclaveAccessControlO", "String"]
+- ["5Valet26SecureEnclaveAccessControlO", "_Default_RawValue"]
+- ["5Valet26SecureEnclaveAccessControlO", "_rawHashValue"]
+- ["5Valet26SecureEnclaveAccessControlO", "allValues"]
+- ["5Valet26SecureEnclaveAccessControlO", "biometricAny"]
+- ["5Valet26SecureEnclaveAccessControlO", "biometricCurrentSet"]
+- ["5Valet26SecureEnclaveAccessControlO", "deinit"]
+- ["5Valet26SecureEnclaveAccessControlO", "description"]
+- ["5Valet26SecureEnclaveAccessControlO", "devicePasscode"]
+- ["5Valet26SecureEnclaveAccessControlO", "hash"]
+- ["5Valet26SecureEnclaveAccessControlO", "hashValue"]
+- ["5Valet26SecureEnclaveAccessControlO", "init"]
+- ["5Valet26SecureEnclaveAccessControlO", "rawValue"]
+- ["5Valet26SecureEnclaveAccessControlO", "secAccessControl"]
+- !private ["5Valet26SecureEnclaveAccessControlO", "unsafeBitCast"]
+- ["5Valet26SecureEnclaveAccessControlO", "userPresence"]
+- !private ["s10SetAlgebraP", "devicePasscode"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "userPresence"]
+depends-nominal:
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "5Valet12ErrorHandlerC"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s9OptionSetP"
+- "SY"
+- !private "So27SecAccessControlCreateFlagsV"
+- "5Valet26SecureEnclaveAccessControlO"
+- !private "s10SetAlgebraP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Dispatch.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Darwin.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Foundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreFoundation.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/CoreGraphics.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Combine.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/ilham/Desktop/coding-assesment/DerivedData/main-app/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Valet.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/LocalAuthentication.framework/Headers/LocalAuthentication.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UserNotifications.framework/Headers/UserNotifications.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator13.7.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "b87c51b306121cba1fd85f856f0372bf"
