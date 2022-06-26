@@ -1,37 +1,115 @@
 <template>
-  <div class="hello">
-    <h1>{{ msg }}</h1>
-    <p>
-      For a guide and recipes on how to configure / customize this project,<br>
-      check out the
-      <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
-    </p>
-    <h3>Installed CLI Plugins</h3>
-    <ul>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
-      <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
-    </ul>
-    <h3>Essential Links</h3>
-    <ul>
-      <li><a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a></li>
-      <li><a href="https://forum.vuejs.org" target="_blank" rel="noopener">Forum</a></li>
-      <li><a href="https://chat.vuejs.org" target="_blank" rel="noopener">Community Chat</a></li>
-      <li><a href="https://twitter.com/vuejs" target="_blank" rel="noopener">Twitter</a></li>
-      <li><a href="https://news.vuejs.org" target="_blank" rel="noopener">News</a></li>
-    </ul>
-    <h3>Ecosystem</h3>
-    <ul>
-      <li><a href="https://router.vuejs.org" target="_blank" rel="noopener">vue-router</a></li>
-      <li><a href="https://vuex.vuejs.org" target="_blank" rel="noopener">vuex</a></li>
-      <li><a href="https://github.com/vuejs/vue-devtools#vue-devtools" target="_blank" rel="noopener">vue-devtools</a></li>
-      <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
-      <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
-    </ul>
-  </div>
+  <html>
+    <body>
+        <h1>Vending Machine</h1>
+        <div style="display: flex; justify-content:center; margin: auto; flex-wrap: wrap;">
+          <div style="width: calc(100% - 500px); display: flex; ">
+              <div v-for="item of itemList" :key="item.id"
+                style="border: solid 1px #9E9E9E; border-radius: 8px; padding 5px; width: calc(30% - 10px); margin: 0 5px; height: 250px">
+                <div style="height: calc(100% - 85px)">
+                  <img src="../assets/aqua.jpg" style="width: 100%; height: 100%"/>
+                </div>
+                <div style="height: 85px; padding: 0 5px 5px">
+                  <div>
+                    {{item.name}}
+                  </div>
+                  <div>
+                    Stock : {{item.stock}}
+                  </div>
+                  <div>Rp. {{item.price}}</div>
+                  <div>
+                    <button @click="buyItem(item)">
+                      Buy Item
+                    </button>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div style="width: 500px">
+            <div style="display: flex; align-items:center;
+            width: 500px; margin: auto; flex-wrap: wrap;">
+
+              <div style="min-width: calc(100% - 150px); margin: 20px 0">
+                <select v-model="moneyToInput" id="amountMoney" style="width: calc(100% - 20px); margin: 10px; height: 30px;">
+                  <option value="">Select Amount Money</option>
+                  <option value="2000">Rp. 2,000</option>
+                  <option value="5000">Rp. 5,000</option>
+                  <option value="10000">Rp. 10,000</option>
+                  <option value="20000">Rp. 20,000</option>
+                </select>
+              </div>
+              <div style="min-width: 150px; margin: 20px 0">
+                <button @click="addingBalance" style="background-color: green; width: 150px; outline: none; border: solid 1px green; border-radius: 8px; height: 30px; color: white">
+                    Input Money
+                </button>
+              </div>
+
+              <div style="min-width: 210px; margin: 20px 0">
+                  <span>Current Balance : </span>
+              </div>
+              <div style="min-width: calc(100% - 210px); margin: 20px 0">
+                  Rp. <span id="theBalance">0</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>
 </template>
 
 <script>
 export default {
+  data(){
+    return {
+      moneyToInput: "",
+      itemList: [{
+        id: 1,
+        name: 'Aqua',
+        url: './assets/aqua.jpg',
+        stock: 11,
+        price: '5,000'
+      }, {
+        id: 2,
+        name: 'Teh Botol',
+        url: './assets/teh-botol.jpg',
+        stock: 1,
+        price: '7,000'
+      }, {
+        id: 3,
+        name: 'Pocari Sweat',
+        url: './assets/pocari.jfif',
+        stock: 15,
+        price: '10,000'
+      }]
+    }
+  },
+  methods: {
+    addingBalance: () => {
+      let theMoney = parseInt(document.getElementById('amountMoney').value||'0');
+      let theBalance = parseInt(document.getElementById('theBalance').innerHTML.replace(/,/g, ''));
+      let theSum = theBalance + theMoney;
+      console.log(theMoney, theBalance, theSum);
+      document.getElementById('theBalance').innerHTML = theSum.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+      document.getElementById('amountMoney').value = '';
+    },
+    buyItem: (item) => {
+      let itemPrice = item.price, itemStock = item.stock;
+      if(!itemStock){
+        alert('Out of Stock!');
+      }else{
+        let theBalance = parseInt((document.getElementById('theBalance').innerHTML).replace(/,/g, ''));
+        let thePrice = parseInt(itemPrice.replace(/,/g, ''));
+        if(thePrice>theBalance){
+          alert('Insufficient Balance!');
+        }else{
+          alert('Please take your item');
+          document.getElementById('amountMoney').value = '';
+          document.getElementById('theBalance').innerHTML = '0';
+          item.stock--;
+        }
+      }
+    }
+  },
   name: 'HelloWorld',
   props: {
     msg: String
