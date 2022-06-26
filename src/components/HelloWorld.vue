@@ -6,8 +6,8 @@
           <div style="width: calc(100% - 500px); display: flex; ">
               <div v-for="item of itemList" :key="item.id"
                 style="border: solid 1px #9E9E9E; border-radius: 8px; padding 5px; width: calc(30% - 10px); margin: 0 5px; height: 250px">
-                <div style="height: calc(100% - 85px)">
-                  <img src="../assets/aqua.jpg" style="width: 100%; height: 100%"/>
+                <div style="height: calc(100% - 90px)">
+                  <img :src="item.url" style="width: 100%; height: 100%"/>
                 </div>
                 <div style="height: 85px; padding: 0 5px 5px">
                   <div>
@@ -65,19 +65,19 @@ export default {
       itemList: [{
         id: 1,
         name: 'Aqua',
-        url: './assets/aqua.jpg',
+        url: require('../assets/aqua.jpg'),
         stock: 11,
         price: '5,000'
       }, {
         id: 2,
         name: 'Teh Botol',
-        url: './assets/teh-botol.jpg',
+        url: require('../assets/teh-botol.jpg'),
         stock: 1,
         price: '7,000'
       }, {
         id: 3,
         name: 'Pocari Sweat',
-        url: './assets/pocari.jfif',
+        url: require('../assets/pocari-sweat.jpg'),
         stock: 15,
         price: '10,000'
       }]
