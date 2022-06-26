@@ -1,24 +1,4 @@
-# aiaproject
+# coding-assesment
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Please push the exercise that had been done to separate branch. 
+Branch naming convention can use following rules >> (KANDIDAT_NAME-INTERVIEW_DATE)
